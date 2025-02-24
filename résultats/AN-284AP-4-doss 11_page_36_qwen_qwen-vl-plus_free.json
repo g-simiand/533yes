@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "```\n[XXX]\n```",
+  "timestamp": "2025-02-21T13:35:09.632876",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 6,
+    "total_tokens": 1518
+  },
+  "latency": 1740141305
+}

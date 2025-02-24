@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "7. que faut il pour une bonne application de la loi ? Il faut\nune bonne organisation de l'esprit public, qui\ns'empare d'une doctrine judiciaire, bien connue, et\nle grand courage pour braver la loi, pourvoir aux intérêts\n~~es une chose~~ entreprendre l'action judiciaire, un travail sur un\nobjet qui est ~~toujours~~ par votre compte\nque vous en etes l'unique protecteur, a vous respectés la\nplus vive - de votre constitution, mais garder les importants\nde votre intérêt pour devoir s'attendre d'un événement\nimprévu qui vous oblige pour le perfectionnement\nd'l'hon. ~~mon~~ intérêt en employeur, a agir en faveur\ndes ~~bonnes~~ des torts des habitans de disposer\na la loi, mais, bons, vous disposez\nles 3e en fonction administrative, et en envers\ndes 1ers détails ; les travaux publics les vues\nde charité, les nouvelles représentations, enfin\ntout ce qui donne à ande le citoyen des\nles travaux, des des les punitions, des des hospites,\nà agrandir le prison, et à favoriser les [XXX] ...\n~~vous vous~~ les [XXX] vous n'avez pas encore indiqué, et\nbeaucoup pour tous les vœux auquel vous employés\nl'action adminis. vous, ets, vous aux ordres, l'histoire\net un objet une partie importante pour venir à vos [XXX]",
+  "timestamp": "2025-02-21T13:44:02.829258",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 322,
+    "total_tokens": 815
+  },
+  "latency": 1740141827
+}

@@ -1,0 +1,13 @@
+{
+  "model": "FoNDUE-GD_v2_fr",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "Mous soufignés, adbesons pleinement aux lrois\nast iles de le prisant pelaration\nM^e tous les patriotes yué Fauvont reçur des\nsignatures sur leur examptaire, sont pries de\nle\nlestifice veritabley, et d'envoyer l'examplaise\na l'un dn depoth suivant:",
+  "timestamp": "2025-02-21T15:35:24.714005",
+  "model_info": {
+    "path": "kraken_models\\FoNDUE-GD_v2_fr.mlmodel"
+  },
+  "usage": {},
+  "latency": 31.79727029800415
+}

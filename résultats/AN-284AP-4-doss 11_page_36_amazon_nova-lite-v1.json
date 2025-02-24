@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "```\n\n```",
+  "timestamp": "2025-02-21T16:24:03.606703",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00011501999999999999
+  },
+  "usage": {
+    "prompt_tokens": 1901,
+    "completion_tokens": 4,
+    "total_tokens": 1905
+  },
+  "latency": 1740151435
+}

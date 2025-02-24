@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "en cela, je ne saurois être de votre avis\net je croy que vous faites un peu trop\nabstraction de notre état actuel, et\ndes dangers que le menacent et toutes\nparti.\n\n1ère reflexion\n\ndes principes seuls, ou professer peû. on\npeut être aristocrate et les avouer. les\nconsequences memes ne me reffrayeront\npas dans telle ou telle bouche.\nmachiavel conseilleroit de professer\nla meilleur doctrine, et de promettre\ntout ce qu’on voudroit, à la condition\nsi le résultat de cette démarche\npourroit être division chez l’ennemi,\net accroissement de son propre force.\ndiviser ainsi les esprits, ou les envoyer\ntous forcément et de la doctrine\nen ses propres principes de la veille.\n\n2nde reflexion\n\nIl ne s’agit pas de principes, ni de\nconsequences, il ne question de morale\nmais machiavelisme incapable de produire",
+  "timestamp": "2025-02-21T14:19:50.031086",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 210,
+    "total_tokens": 703
+  },
+  "latency": 1740143977
+}

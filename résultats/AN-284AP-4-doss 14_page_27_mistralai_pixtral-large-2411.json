@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```\nPrécipitation\n\nS'il a de belles ~~l'opinion~~\n~~y a-t-il~~ une ~~l'opinion~~ d'établir\nune ~~Démocratie~~ en France\n~~seraient~~ l'opinion\ndominante ? S'il a de belles\n~~l'opinion~~ très ~~empoisonnée~~\ndans ~~humain~~ anarchie ~~dont~~\nla ~~Démocratie~~ de la culture\nde la ~~liberté~~, en\n~~s'attachant~~ la ~~mesure~~\nde la ~~Dépopulation~~ des ~~causes~~\nla ~~lutte~~ ~~infructueuse~~.\n```",
+  "timestamp": "2025-02-21T14:05:26.721766",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.008258
+  },
+  "usage": {
+    "prompt_tokens": 3625,
+    "completion_tokens": 168,
+    "total_tokens": 3793
+  },
+  "latency": 1740143113
+}

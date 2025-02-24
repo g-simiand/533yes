@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```\nPage 147\n\nSieurs amans que le Sieur François Baptiste\nBourdon de la Boularderie, Lieutenant\nCriminel en la Sénéchaussée de Rochefort,\na fait en vertu de la lettre de provision\ndu Roy, en date du 1er Juillet 1750, pour\nla dite charge de Lieutenant Criminel\nen la Sénéchaussée de Rochefort, et\na été reçu par le Sieur de la Boularderie\nle 1er Juillet 1750.\n\nExtrait des Registres de l'Amirauté de\nRochefort, du 1er Juillet 1750.\n\nExtrait des Registres de l'Amirauté de\nRochefort, du 1er Juillet 1750.\n\nExtrait des Registres de l'Amirauté de\nRochefort, du 1er Juillet 1750.\n\nMonsieur l'Intendant ayant appris que le Roy\na pourvu à la charge de Lieutenant Criminel\nen la Sénéchaussée de Rochefort, par le\nSieur François Baptiste Bourdon de la\nBoularderie, en vertu de la lettre de\nprovision du Roy, en date du 1er Juillet\n1750, a ordonné que le Sieur de la\nBoularderie sera reçu par le Sieur\nBourdon de la Boularderie, le 1er Juillet\n1750.\n\nNo 68\n```",
+  "timestamp": "2025-02-21T14:05:42.798532",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.007495
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 333,
+    "total_tokens": 833
+  },
+  "latency": 1740143133
+}

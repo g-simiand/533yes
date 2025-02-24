@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```markdown\n16.  \nAvoir Souffrir, adhérer, plier, aimer, aspirer  \nentierement, d'une parfaite fidélité à la vertu.  \n\n~~Tous les patriotes qui~~ auront reçu les  \nsignatures sur leurs réquisitions, sous prétexte de les  \ncertifier verbalement, en envoyer les exemplaires  \nà l'un des députés Suisses :\n```",
+  "timestamp": "2025-02-21T14:00:49.223860",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.0043075000000000006
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 84,
+    "total_tokens": 1471
+  },
+  "latency": 1740142842
+}

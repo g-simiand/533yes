@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "```\nje vous envoie le long d'une autre\npersonne deux petits oiseaux de\nla cage de petite intrigue, à petit usage\nde cage ou volière pour passer l'hyver\nen cet usage, ils ne sont pas trop\nje vous envoie un petit usage\nde cage de volière pour passer l'hyver\nje vous envoie deux petits oiseaux\nje vous en prie de croire que je\nsuis avec toute la considération\npossible, mon cher ami, votre\ntrès humble et très obéissant\nserviteur\n\nle citoyen envoyé de l'intrigue, je suis votre\ncher ami toujours\n```",
+  "timestamp": "2025-02-21T13:59:05.649345",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.00234
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 134,
+    "total_tokens": 634
+  },
+  "latency": 1740142739
+}

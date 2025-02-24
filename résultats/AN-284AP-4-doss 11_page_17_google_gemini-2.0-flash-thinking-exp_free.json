@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "+ vainement les bons jours a devoir.\nJ'espère pouvoir désormais calmer\nles refforts d. petite intrigues, d. petits moyens\nils les voyent my ouvris, pourquoi point\nen rester. ~~tant~~ non, jamais de frocs\nanterieurs, d. autres plus grands esprits s'en\ninterposent, sans vouloir rien en laissoin\nle triomphe de l'iniquité est trop bien assuré\nbeacoup. Je voudrais les affranchir\n'inquietude, il n'ia point de cause, puisqu'il\nn'est pas vray qu'ils soient enclins à\nrecevoir l'intrigue, ils n'avoient que\nl'air, voulant avoir l'air de la souffrir\n\nils croient approuver de l'intrigue, et ils n'en souffrent\nque de la leur façon.",
+  "timestamp": "2025-02-21T14:21:15.683117",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 195,
+    "total_tokens": 688
+  },
+  "latency": 1740144063
+}

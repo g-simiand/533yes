@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "Braisons\ns'il a le Dollars, l'opinion\nqu'il est impossible d'établir\nune democratie en france\nRedevienne l'opinion\nDominante : s'il a le Dollars\nLa nation ~~reste~~ reste exposée\nà une longue anarchie dans\nla destruction de la culture\net de la liberté, en\npas contignons les mesures\net la Depopulation des causes\nla faute infaillible.",
+  "timestamp": "2025-02-21T14:21:02.171404",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 95,
+    "total_tokens": 588
+  },
+  "latency": 1740144054
+}

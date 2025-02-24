@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```\nAbrisgner\n\nFait à Dullens, l'opinion qu'il en pourrait établir une sanction en forme de devant l'opinion Dominante. Il a la Dulles la nature même reste apportée à une longue avance dont la Demande de la calumnie et de la construction, par conséquent, mais en la disposition des événements la suite inflexible.\n```",
+  "timestamp": "2025-02-21T14:12:22.257120",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.0002139
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 80,
+    "total_tokens": 1186
+  },
+  "latency": 1740143533
+}

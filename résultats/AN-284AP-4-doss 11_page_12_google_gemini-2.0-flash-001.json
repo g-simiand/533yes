@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "2.\npreambate\n\nbuguadroph garantie nay mén dom. è ben milia antianob\nici j'ini besoin de voir tour à coup l'isablissement public\nNon day Grant Grows UNNON; il fatrovi eno Courbes de\nl'opocation, pour fordon transpillern à best traNay,\nà bus gelirinis particulis, il ber fatrovi deep forweitern de\nbonon posan, valore, maniden bor disablissement\nI ber fattorn des bons fory, in conbién por esteer Aparation\nde la volonté veland-cision es 17,\nGr ey itozes in sorrow's tour, (our town don de là)\nbs boven vorter, it, ils von cheng, a soun bong -\nsponenten pobityes\nes bons epcenter, il foun ginis bs choirjen, below\nbas vistes mediters\nbong bre prvice estes de locket-saligen se har for\nenisi le entr\nCongry l'oran\nil nor for\nfor veposentation,\n20\nvan soso depecution, 7\nConan\nson des Wagen zoi Powaisher & dep closes d'homes,\nM\nlivesour encar l'orgeon destiné à les entretien\n\nlethoring A\nlistav. Train\nfacilita ber forrentes\nl'istontion mittens cita es\n27.\nハワ\non des trever jus pestering devar sürpr\ne",
+  "timestamp": "2025-02-21T13:26:06.645845",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0004907
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 330,
+    "total_tokens": 3917
+  },
+  "latency": 1740140758
+}

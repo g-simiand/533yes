@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```\nEn Choi, j' ai lavoy etw d' votre, envy\nou j' croy juw vom faits, un pen trop\nabtraction de notre état actuel, le\ndoy demour que le mennence et touts\nprenty.\n\nV'affician\n\ndy principer loy, w leffoure pay on\npere ets aristocrate ets avoue. le\nconsequence mens ne me reffourvoir\ndy Jam telle es telle bouche\nmechanist consgillerive de profion\nla mettrer doctrin, in do pronters\ntour (e guens veu) in le woodton\ni. le frultar de itts dinore\nprouver ets division chz linveur,\nin are-offreneur in le progres fory\ndivian ausi: le intens, ou l' uncy\nd'vion e de Sun doctrin\ntroy pour limener e de le veille.\nin of # pronempts de le veille.\n\nARCHIVE\nNATIONALE\n\nW reffourion\n\nit w loper per de priaripps, in le\ncoury we it w question do invat\nnew machine brials (ypald) d. product\n```",
+  "timestamp": "2025-02-21T16:25:12.189855",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00018144
+  },
+  "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 289,
+    "total_tokens": 2157
+  },
+  "latency": 1740151499
+}

@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```markdown\n(6)\nfenter. Quelque pur qu'il fut, il entraîneroit trop d'explications, trop de diffeusion. Le ligne auquel les vrais Patriotes vont fe reconnoitre, doit être à la fois sûr, facile & prompt à faifir.\n\nIl y a peu de temps encore qu'au feuil nom de la liberté, la séparation aurait pu fe faire des bons & des mauvais Citoyens. Aujourd'hui, tous veulent l'invoquer. Ceux qui la haifient le plus affectent d'en parler avec amour. Il faut donc trouver ailleurs le caractère distinctif que nous chechons. Il n'en est pas de plus marqué & de plus certain que le fentiment ou la haine de l'égalité. C'est à l'égalité qu'il faut s'attacher ; car, fur ce point, les tartufes de la révolution n'ont pas encore fenti le besoin de fe déguifer tout-à-fait. Quoi ! les entendre même, ce principe perd tous les jours; il devient de plus en plus indécis. Quelle erreur ! & qu'il est nécessaire de la repouffer!\n\nTous ces faux amis de la Patrie qui demandent pour elle une demi-liberté, & pour eux des pré- gatives, font tout aussi aifes à reconnoitre au goût qu'ils ne peuvent diffimuler pour le fylème des deux Chambres, & pour je ne fais quel plan de contre fêtes à l'angoisse, qui n'est au fond qu'un fylème de corruption, un équilibre de cupidité & de fervitude.\n\n(1) quon ne dis donc pas que j'ai voulu bonner la constitution & des articles, il n'y a rien d'abfurd que que de dire, qu'on ait droit, quand on attribution par un pasto.\n```",
+  "timestamp": "2025-02-21T13:35:41.891994",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1502,
+    "completion_tokens": 418,
+    "total_tokens": 1920
+  },
+  "latency": 1740141335
+}

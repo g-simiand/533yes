@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```markdown\nMessieurs,\n\nLe moyen le plus sûr de maintenir l’union entre les Quatre-vingt  \ntrois parties de l’Empire Français, d’alimenter sans cesse leur patriotisme,  \nd’empêcher qu’aucun ne s’ébranle et ne mette qu’elle vienne de jour  \net des devoirs que la constitution leur impose, d’entretenir le zèle des Gardes  \nNationales et la fraternité des troupes de ligne est évidemment de renouveler  \nchaque année au 14 Juillet la fête de la patrie.\n\nCe renouvellement annuel d’une fédération générale me paraît dans  \nle système politique de l’empire Français une des lois constitutionnelles  \nles plus indispensables. Je vous conjure de bien la réfléchir, de bien  \nsaisir les immenses avantages et de vous y attacher comme au moyen  \nle plus sûr de rendre inattaquable à jamais notre constitution et toutes  \nnos libertés.\n\nJ’ajouterai, s’il est plus, la nécessité de ce projet une fois avouée, il  \nfaudrait qu’on ne présentât des obstacles insurmontables pour qu’il ne fût  \npas adopté.\n\nQuels pourraient être ces obstacles?  \nJe n’en connais qu’un : la dépense.  \nPremièrement, Messieurs, serait-ce une considération suffisante  \npour empêcher l’acte le plus important pour l’union et la  \n```",
+  "timestamp": "2025-02-21T14:01:10.300059",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.005725000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 296,
+    "total_tokens": 1402
+  },
+  "latency": 1740142856
+}

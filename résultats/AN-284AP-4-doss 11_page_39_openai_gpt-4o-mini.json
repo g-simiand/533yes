@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```\n12\n\nnous replonger dans la grotte d'andaparte des\nnos fautes à peine à cette heure pour\ndéclarer dans l'égard, il est donc\ninsupportable, l'engagement, je m'en\nà cette tour, je crois qu'il\nindivise quelque chose parce que je pourrais ignorer\nà côté d'cela, je pourrais même dire\ndoubler l'herbe. Je veux bien en croire\nsur la grosse vapeur qui s'élevait\nil faut donc pour garantir l'habitat\nà chacun, en tous lieux à l'égard\nles uns des autres dans une réalité\nimpossibilité de douter à l'égard.\nprésenter de cette sorte, sans\ndans l'égard, je l'achèverai d'un peu\nd'absence relative, d'irritabilité\navec nous même, je m'aperçois que\nje pourrais savoir à ce sujet, sans\nviolence pas, lui-même de tous\nnos désirs, nos misères\n9. d'alerte, mes grandes habilités...\nainsi, un autre principe donner nous\ncela, je voudrais dire toujours\ncelui-là, je voudrais, je ne sais\nl'appropriation de ce sujet social, je veux\n```",
+  "timestamp": "2025-02-21T14:12:09.368766",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.00037365
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 276,
+    "total_tokens": 1663
+  },
+  "latency": 1740143515
+}

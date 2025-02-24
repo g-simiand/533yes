@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```markdown\nGiraudon (caporal)\n\ndu 6e voltigeurs, condamné\nà un mois de prison\npour s'être trouvé ivre\ndans la caserne de la\ngendarmerie. Le 16 Juillet\nà onze heures après midi\nla Dimanche de la culture\nde la Condamnation en\n~~le~~ la Gendarmerie de la maison\nde la République de Rouen\n```",
+  "timestamp": "2025-02-21T13:58:58.779000",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.00194
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 94,
+    "total_tokens": 594
+  },
+  "latency": 1740142733
+}

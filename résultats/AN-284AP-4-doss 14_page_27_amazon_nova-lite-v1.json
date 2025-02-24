@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```\nGrands-parents\nJ'ida C Dollous, l'opinior\nyid or imputible dolablier\nune Inaccuratie en france\nreverant l'opinior\ndominante \"J'ida la Dollies\nlanation Long veste exposée\na an longue anarché Done\nla genealogion D. le Don\nac la lanvarre, en\nper conséquent he mes avan\nce la Depopular bon de canon\nla lauta infécultible.\n```",
+  "timestamp": "2025-02-21T16:24:57.299576",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00013865999999999998
+  },
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 119,
+    "total_tokens": 1954
+  },
+  "latency": 1740151488
+}

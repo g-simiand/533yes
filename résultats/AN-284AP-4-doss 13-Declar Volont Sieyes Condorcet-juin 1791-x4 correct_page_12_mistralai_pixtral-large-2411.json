@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```\n16\n\nAvoir soupçon, adhérer à aucun assemblée\nséditieuse, ni avoir aucune intelligence\n\n------------------------------------------------\n\nIl est donc les patriciens qui favorisent ces idées de\nréformes, mais leur sympathie, sous prétexte de les\njustifier, les fables, et détruire les principaux\net un des droits suprêmes.\n```",
+  "timestamp": "2025-02-21T14:05:13.806782",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.0067280000000000005
+  },
+  "usage": {
+    "prompt_tokens": 3049,
+    "completion_tokens": 105,
+    "total_tokens": 3154
+  },
+  "latency": 1740143107
+}

@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```markdown\nNaissance\n\nLe tems qui s'ecoule est favorable à l'examen de tout ce qui\npeut etre utile à l'Empire. La question des Eaux et forets\noccupe beaucoup les esprits. On sent que l'administration\nde ces biens doit etre soumise à des regles fixes, et que\nle bien public exige que l'on y apporte une attention\nparticuliere. Les abus qui se sont introduits dans cette\npartie de l'administration, depuis la Revolution, ont\nnecessairement amene des desordres. Il est temps de\nremedier à ces inconveniens.\n\nLe Ministre de l'Intérieur a presente au Conseil d'Etat\nun projet de loi sur l'administration des Eaux et forets.\nCe projet a ete discute avec soin, et l'on a reconnu\nqu'il renfermait des vues sages et bien combinées. Il\na ete adopte avec quelques modifications, et il sera\nbientot presente aux Corps legislatifs pour y etre\ndelibere.\n\nIl est a desirer que cette loi soit promptement mise à\nexecution. On ne peut trop insister sur l'importance\nde conserver et d'ameliorer les bois et forets, qui\nsont une des principales richesses de la France.\n```",
+  "timestamp": "2025-02-21T13:58:59.371791",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.00391
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 291,
+    "total_tokens": 791
+  },
+  "latency": 1740142730
+}

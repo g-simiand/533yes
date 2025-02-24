@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "```markdown\n1790\n\nIl faut des condit° en jugement par jury &c\n\npour q̃ le jury Soit requis dans les cas\n\npris pour la peine au moins de dix ans de travaux\n\n(voir questions de rigueur) q̃ les jurés soient\n\ndans le nombre de 12 au moins de tous les états\n\nde tous les pays d'élection de la commune\n\net qu'ils puissent avoir la connaissance expresse\n\nque vous n'êtes pas de la même famille ou\n\nd'une maison civile ou corneille ou\n\nd'une paroisse ou insignes familier ou\n\nd'un parent ou allié jusqu'au 4<sup>e</sup> degré inclusivement\n\net de la part de leur conjoint ou de leurs enfants\n\nou frères ou sœurs ou cousins ou cousines à charge de\n\ndécharge à leur gré &c\n\nnous vous avons requis de bien vouloir\n\nordonner ceci faites Thous ordonnons\n\nle présent écrit à ce qui de l'avenir vous\n\nvous viderez à une note d. conseil\n\n\nARCHIVES\nNATIONALES\n```",
+  "timestamp": "2025-02-21T13:41:49.597470",
+  "model_info": {
+    "id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 256,
+    "total_tokens": 1768
+  },
+  "latency": 1740141671
+}

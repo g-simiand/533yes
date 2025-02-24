@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```markdown\nConstitution Nationale  \nExtrait du registre des délibérations du Conseil des Anciens  \nSéance du 29 Vendémiaire An IV  \nL'an quatrième de la République Française une et indivisible, le 29 Vendémiaire, séance du matin.  \n\nLes membres composant le Conseil des Anciens, après avoir entendu le rapport de la commission chargée d'examiner la demande de rectification faite par le citoyen D'Espagnac, ont arrêté ce qui suit :  \n\nAn IV, N° 178.  \nVendémiaire, le 29.  \nSéance du matin.  \n\nL'excellence des vœux fait de temps en temps, aussi que l'arrêté le contient, une juste accusation de l'erreur.  \n\nCorps Législatif.  \nConseil des Cinq-Cents.  \nConseil des Anciens.  \n\nConseil des Anciens.  \nLes membres élus pour le pouvoir exécutif sont : l'excellence des vœux, l'étonnement des masses, le travail, l'espoir, l'avenir.  \n\nMeilleur garant que l'espoir a en effet le plus de membres du pouvoir exécutif : dette de tous à ce sujet. Il déclare qu'aucun de ses fonctionnaires, commencement de la révolution en belle et bonne partie, il ne doit pas désirer accorder sa place ou son droit provisoire, rallier toutes les espérances et qu'il est en au Conseil des Cinq-Cents.  \n\nConseil meilleur pour remplacer l'espoir.  \n\nLequel au nom du Comité des finances est absolu. Des observations, sur l'affaire contenue au mémoire dressé, par la Direction des finances, en est suspendu.  \n\n16 Frimaire.  \nM. Ju 23.\n```",
+  "timestamp": "2025-02-21T14:00:57.636076",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.006485
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 372,
+    "total_tokens": 1478
+  },
+  "latency": 1740142843
+}

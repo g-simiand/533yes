@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "```markdown\n+ continuer les leçons qu'on a désiré  \n~~[XXX]~~ faire des remarques plus étendues concernant  \nles étapes de petites histoires, de petites voyages,  \nde leur voyage au [XXX], pourquoi pas  \nun [XXX] sur un jeune homme  \nambitieux, se met grandement à la  \ntâche, il doit vouloir que la tâche  \nsoit [XXX] [XXX] [XXX] et qu'il soit guidé  \npar des principes invisibles et des [XXX]  \nbons. Il voudra se conformer aux  \nrègles et à un principe exact qui n'a  \njamais changé, une association en  \ngénéral d'idées, des mouvements de  \nloi, [XXX] [XXX] ignorée dans sa vie.  \n\net, croyons au pouvoir de l'intelligence, à la mission [XXX]  \nchez les éducateurs.\n```",
+  "timestamp": "2025-02-21T14:01:11.742670",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.004685
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 192,
+    "total_tokens": 1298
+  },
+  "latency": 1740142860
+}

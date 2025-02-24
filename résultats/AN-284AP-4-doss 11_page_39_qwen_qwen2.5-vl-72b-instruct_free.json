@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```\nnos voyageurs dans le goûte des voyages\nnos forêts à peine en sont-elles sorties\ns'éloignent des grandes routes pour\naller tour à tour, si l'on peut dire, visiter\nà côté de quelques-unes de ces petites villes\nd'obliques à l'endroit de leurs habitations\nen la région où leurs pas les ont conduits\nà travers des bois, des vallées, des montagnes\ndes habitations de véritables libertés\ndes loges d'établissements de tous genres\naucune maison commune à l'égard de tous\nd'habitations à l'égard de tous les\nsous le degré d'univers, une fois les\nmaîtres de la société, des législateurs\nde la loi, enfin, des juges, des\nfous d'opinions, des\ncelui de leurs goûts, de leurs\nd'opinions de leurs volontés, etc.\n```",
+  "timestamp": "2025-02-21T13:39:34.828528",
+  "model_info": {
+    "id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1502,
+    "completion_tokens": 223,
+    "total_tokens": 1725
+  },
+  "latency": 1740141542
+}

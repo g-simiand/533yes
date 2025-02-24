@@ -1,0 +1,13 @@
+{
+  "model": "Gallicorpora+_best",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "Ai eju, boblers pidi puuits auy luuy¬\ntdi d lee furut pu ilara ſee.\n4- fn 6λ.E.e jra daioun riOI 4\nLynfuan u dn npuapl qusy, dius fau d.\n4\nCti fet vis faſ, n, a’pnrya Iipimyyla.?\n ii da dmrîy ivαha:",
+  "timestamp": "2025-02-21T15:40:09.060457",
+  "model_info": {
+    "path": "kraken_models\\Gallicorpora+_best.mlmodel"
+  },
+  "usage": {},
+  "latency": 28.014387369155884
+}

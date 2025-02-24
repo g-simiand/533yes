@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "",
+  "timestamp": "2025-02-21T13:26:39.852294",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0003587
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 0,
+    "total_tokens": 3587
+  },
+  "latency": 1740140794
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "```\n\n\n```",
+  "timestamp": "2025-02-21T13:56:00.960593",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.052185
+  },
+  "usage": {
+    "prompt_tokens": 867,
+    "completion_tokens": 653,
+    "total_tokens": 1520
+  },
+  "latency": 1740142542
+}

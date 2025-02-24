@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "Convention Nationale\n1795. an III.\nfrachdor.\nSéance Du 2.\n19 août\nSéance Du 17.\n\nAn IV 1796.\nMoniteur Du 29.\nVendémiaire\nSéance Du 24.\n\nConseil des Anciens.\n10 Brumaire\nConseil des Cinq. cents\n11 Brumaire\n16 frimaire\nM. du 23.\n\nSéyes annonce que le Roi d'Espagne, a ratifié le\nTraité de paix. – Applaudissements, interhon.\nSéyes fait lecture de l'acte de ratification donnée\nau traité de paix, par le Roi d'Espagne.\n\n~~C~~\nLareveilliere – Lépeaux fait l'éloge de Séyes &\nainsi que Louvet & Conte. une feulle. accension\nde la Kovère.\n\nCorps Législatif. –\nConseil Des Cinq-Cents.\nConseil Des Anciens.\n\n– Les membres élus pour le pouvoir exécutif\nsont : Lareveilliere – Lépeaux, retourneur de la Mouton\nRessbell, Séyes, Marras.\n\nMessage portant que Séyes a refusé la place\nDe membre du pouvoir exécutif. = Lettre de Séyes\na ce sujet. – Il déclare qu'ayant été depuis le\nCommencement de la révolution, en butte à tous les\npartis, il ne croit pas devoir accepter une place\noù l'on doit pouvoir rallier toutes les confiances,\net qu'il reste au Conseil des Cinq-cents.\nCarnot est élu pour remplacer Séyes.\nSéyes au nom du Comité des finances,\nprésente des observations, sur le plan contenu\nau Mémoire, envoyé par le Directoire relatif =\npement. à un emprunt.",
+  "timestamp": "2025-02-21T13:25:24.994455",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0005195
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 402,
+    "total_tokens": 3989
+  },
+  "latency": 1740140717
+}

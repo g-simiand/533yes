@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "```markdown\npour Députation  \n1790  \n\nIl faut faire des conditions avantageuses pour fixer ces  \nprix. 1° que les jours soient exposés dans les  \nmontres que leur soit soumise. 2° un tiers  \nsoit fourni des jours en possession des marchands, un  \ntiers fourni coup de réquisition, sur un 3e tiers,  \n~~que~~ pourront employer une somme très considérable  \nen conclusion les experts.  \n\nIl faut pour les jours  \nétablir, hommes qui par leur commerce, ou  \ndes spéculations, ou par l'état de tous les états  \nsoient en situation de bien fixer. 2° leurs  \nétats, les experts se réuniront pour continuer  \nd'exécuter puisque nous les supposons experts  \net non influencés par idées de bons ou  \nmauvais prix. L'affaire sera de donner des  \njours sur les matières. Ceci se continue avec  \ndes jours fixes ou indifférents fournis par  \ndes propriétaires ou par des jours.  \n\nTout acquit à charge de  \ntout, et pour ce qui est des jours, ils proposeront  \nà délibérer. Si les opinions des experts  \nsont sur des opinions non concordantes  \nchacun non seulement se fixe et mais fait toutes  \nles preuves circa factum pour en donner  \nles preuves positives contre nous. Si l'assemblée  \nagit, qu'il soit plusieurs voix et chacun voulant  \ntout réduire à une stricte conscience.\n```",
+  "timestamp": "2025-02-21T14:00:55.828399",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.005865
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 310,
+    "total_tokens": 1416
+  },
+  "latency": 1740142843
+}

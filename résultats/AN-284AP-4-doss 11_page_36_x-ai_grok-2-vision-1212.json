@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "[XXX]",
+  "timestamp": "2025-02-21T13:58:43.485923",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.0010400000000000001
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 4,
+    "total_tokens": 504
+  },
+  "latency": 1740142717
+}

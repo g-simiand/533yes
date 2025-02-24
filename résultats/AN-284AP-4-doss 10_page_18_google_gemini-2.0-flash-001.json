@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "waida.. on lego deditiil.\nloyons bo logo faire une loi gute : tory\ncopy qui tindown Serowe prreig de mon ello\na wwww pour detailles der diff manner de\ntoes, l'iwejemann sie writer des chemine\nde as Fortes do Cring, Car vor effer as\nSowend yper por ,2 repis l'esperar els\ncos individuals qui le accompagner.\naisi doKN on geur dies quale lyr\na vorfabbene. Quests lac boi Jur bes\ncos individuals, dos tel er tes vivemen\nqui est errinte punich a manjegemeron,\nqu'elle entine. mais le und ergen a donne\na que le détaillane ,; J'bous son detail.\ncabi ci en le Suplemen en l'events,\npour porttent les marcbanche ſinquenn\nCrowowoten; wir be mend naturs\ndo foutoir. woffi fanuil en trouvon\npour chagne vent er detail un\nfotre cospor et Getart über garagoz\nGabjury. be reutars sour\nla rontapont des Getart\nda voisinage des potions individuals\ndas las noch à jger.",
+  "timestamp": "2025-02-21T13:25:40.794744",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0004675
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 272,
+    "total_tokens": 3859
+  },
+  "latency": 1740140734
+}

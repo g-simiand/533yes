@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```\nMessieurs,\n\nLe moyen le plus sûr de maintenir l'union entre les quatre-vingt trois parties de l'Empire Français, d'aliéner sans cesse leur patriotisme, d'empêcher qu'aucun ne s'écarterait et du reste qu'elles viennent de jurer et des devoirs que la constitution sans impôts, d'entretien le zèle des Gardes Nationales et la fraternité des troupes de ligne, est évidemment de renouveler chaque année au 14 Juillet la paix fédératif.\n\nCe renouvellement annuel d'une fédération générale me paraît dans la série politique de l'Empire Français une des lois constitutionnelles les plus indispensables. Je vous conjure de bien la réfléchir d'un bien taire les immenses avantages, et de vous y attacher comme au moyen le plus sûr de rendre inattaquable à jamais notre constitution et notre liberté.\n\nL'utilité, je dis plus, la nécessité de ce projet une fois avouée, il faudrait qu'on présenterait des obstacles insurmontables pour qu'il ne fût pas adopté.\n\nQuels pourraient être ces obstacles?\n\nJe ne connais qu'une dépendance.\n\nPremièrement, Messieurs, serait-ce une considération suffisante pour empêcher l'acte le plus important pour l'union et la\n```",
+  "timestamp": "2025-02-21T13:33:38.914023",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 319,
+    "total_tokens": 1831
+  },
+  "latency": 1740141212
+}

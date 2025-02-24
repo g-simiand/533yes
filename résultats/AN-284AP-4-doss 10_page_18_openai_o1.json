@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "```\ninjuste, ou bien malédroit\nTurgot [XXX] faire une loy grande, tres [XXX] toujours\n[XXX] [XXX] [XXX] pour [XXX] ou [XXX] a [XXX] [XXX]\n[XXX] Or [XXX] [XXX] [XXX] sur chemins\nde la Sorte de [XXX], [XXX] nos [XXX]\nNouveau [XXX] par [XXX], [XXX] frappés [XXX]\nces individus, qui [XXX] beaucoup\n[XXX] sous ou [XXX] [XXX] [XXX]\na considérer. C'est [XXX] [XXX] [XXX]\nces individuels. Pour [XXX] se [XXX] nouveau\n[XXX] qui [XXX] fournir [XXX] l'agrément [XXX]\n[XXX] avoir de [XXX] marges a vous\n[XXX], [XXX] [XXX] la [XXX]\n[XXX] et [XXX] [XXX] [XXX] pour [XXX]\nporter la marche [XXX] [XXX]\nConséquentes, c'est le [XXX] [XXX] [XXX]\nses fonctions [XXX] [XXX] [XXX]\n```",
+  "timestamp": "2025-02-21T13:58:12.453468",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.30522000000000005
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 4871,
+    "total_tokens": 5735
+  },
+  "latency": 1740142614
+}

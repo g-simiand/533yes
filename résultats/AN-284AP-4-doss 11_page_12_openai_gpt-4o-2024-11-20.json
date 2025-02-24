@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "```markdown\n2.  \nPréambule  \n\nLes grands projets ne peuvent réussir sans la multitude nationale  \nici plus besoin de vous tourner à coup d'illustres exemples.  \nVous avez grand [XXX] sous vos yeux. L'histoire des hommes est  \nl'exposition pour produire tranquillement les travaux,  \nà leur génie particulier, à leur faculté. Des travaux, des  \nbons jours, veulent, demandent  \nà des facultés de bons faits, ne cachons pas d'autres facultés  \ndes volontés malveillantes, sinon des [XXX].  \n\nCes cas exigent à fournir tous les travaux semblables  \nles hommes veulent, ils se sont choisis, pour des  \ngrandes facultés  \nles bons spectateurs.  \n\nLes objets notoires  \nainsi la série entière de besoins publics, se faisant par  \norganiser un tableau des besoins, pour en définir des  \ngrandes aptitudes, il nous faut un tour d'équité,  \n[XXX] pour représentation, comme pour aptitude.  \nComposer toujours par fournissant les deux classes d'hommes,  \nla bienveillance encore toujours entière à la substitution  \n[XXX] à popularité.  \n\nL'instruction civile facilite les facultés de projets.  \nL'instruction notoire cadre en 27.  \n\nSe dire, savoir, pas particulièrement souverain.  \n```",
+  "timestamp": "2025-02-21T14:00:54.656743",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.0055450000000000004
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 278,
+    "total_tokens": 1384
+  },
+  "latency": 1740142843
+}

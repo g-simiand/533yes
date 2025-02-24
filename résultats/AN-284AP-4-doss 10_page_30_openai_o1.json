@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```markdown\nMessieurs,\n\nLe moyen le plus Sûr de maintenir l’union entre les Quatre vingt\ntrois parties de l’Empire François, d’alimenter dans chacune leur patriotisme,\nd’empêcher qu’aucune ne s’éloignent et ne [XXX] qu’elles viennent de jurer\net des devoirs que la constitution leur impose, d’entretenir le zèle des Gardes\nNationales et la fraternité des troupes de ligne, est évidemment de renouveler\nchaque année au 14. Juillet la patrie festivité\n\nCe renouvellement annuel d’une fédération generale me parût dans\nla système politique de l’empire François une des loix constitutionnelles\nla plus indispensable ; je vous conjure de bien la fortifier, d’en bien\ntirer les immenses avantages et de vous y attacher comme au moyen\nle plus sûr de rendre inattaquable a jamais notre constitution et notre\nliberté.\n\nJ’établis, je dis plus, la necessité de ce projet une fois avouée, il\nfaudrait qu’on prétendît des obstacles insurmontables pour qu’il ne fût\npas adopté\n\nQuels pourraint être ces obstacles?\nJe n’en connois qu’un: la depense.\nPremièrement: Observons, sraî-t-il une considération? Suffisantes\npour empechér l’acte le plus important pour l’union et la\n```",
+  "timestamp": "2025-02-21T13:57:58.214350",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.29694000000000004
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 4733,
+    "total_tokens": 5597
+  },
+  "latency": 1740142603
+}

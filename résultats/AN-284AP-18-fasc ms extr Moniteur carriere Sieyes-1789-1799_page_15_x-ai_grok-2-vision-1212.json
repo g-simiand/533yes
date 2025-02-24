@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```markdown\nSt Jean de Maurienne le 1er 7bre 1789\n\nMessieurs et chers Confraires, Nous L'Intendant de la Province\nde cette Province, ayant été informé de l'existence de votre\nAssemblée de St Jean de Maurienne, et désirant de connoitre\nles motifs qui vous ont engagé à la former, et les objets\nqu'elle a en vûe, nous vous prions de nous faire passer\nà ce sujet, toutes les lumieres que vous pourrez nous donner\nsur ces deux points. Nous avons l'honneur d'être, Messieurs\net chers Confraires, Votre très humble et très obéissant\nServiteur\n\nL'Intendant\n\nNo 147 - Extrait des Registres de l'Assemblée de St Jean de Maurienne\n\nAujourd'hui 1er 7bre 1789, l'Assemblée Générale de la\nCommunauté de St Jean de Maurienne, s'est tenue en la maison\nde M. Bozon, et a été présidée par M. Bozon, et composée\ndes Membres suivans\n\nConseil Général de la Communauté\n\nConseil de St Jean de Maurienne\n\nConseil de St Pancrace\n\nConseil de St Colomban\n\nConseil de St Alban d'Hurtières\n\nConseil de St Avé\n\nConseil de St Julien\n\nConseil de St Martin sur la Chambre\n\nConseil de St Pierre de Soucy\n\nConseil de St Remi\n\nNo 148 - \n\nMessieurs, L'Assemblée Générale de la Communauté de St Jean\nde Maurienne, ayant pris connoissance de la lettre de\nM. l'Intendant, en date du 1er 7bre 1789, a arrêté ce qui\nsuit\n\n1er Que les motifs qui ont engagé lesdits sieurs à former\ncette Assemblée, sont les troubles et les désordres qui\nrègnent dans la Province, et la nécessité de prendre des\nmesures pour y remédier, et pour maintenir la tranquillité\npublique.\n\n2e Que les objets que cette Assemblée a en vûe, sont de\nveiller à la conservation de l'ordre, de la paix, et de la\nsûreté des personnes et des propriétés, et de concourir\navec les autorités constituées, pour le maintien de la\ntranquillité publique.\n\nSt Jean de Maurienne le 1er 7bre 1789\n\nLe Président, Bozon\n```",
+  "timestamp": "2025-02-21T13:58:49.153565",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.0066500000000000005
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 565,
+    "total_tokens": 1065
+  },
+  "latency": 1740142717
+}

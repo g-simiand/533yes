@@ -1,0 +1,13 @@
+{
+  "model": "catmus-print-fondue-large",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "trarmmrm\n~~~ ~~\n ~~ ~ ~~\n~~~~ ~~~ ~~ ~~~\n~ ~~~ ~~~~\nDomearnre\n~ ~ ~~~\n~ ~~ ~e ~~ ~e ~~\n~ ~~ ~ ~ ~~\n~~ ~~ ~~ ~~\n~ ~~ ~~~~~r ~\n~~~~~ ~~~ ~~~ ~~~\n~~ ~~ ~~ ~~~~ ~~ ~\n~ ~ e",
+  "timestamp": "2025-02-21T15:32:14.792646",
+  "model_info": {
+    "path": "kraken_models\\catmus-print-fondue-large.mlmodel"
+  },
+  "usage": {},
+  "latency": 28.8129301071167
+}

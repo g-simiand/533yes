@@ -1,0 +1,13 @@
+{
+  "model": "catmus-print-fondue-large",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "fleer domstju Aduitom piauu amtuy\ntt dy d-le gromptilaraie\n~ ~~ ~ ~b  pa na ~~\nGri. ~ da tpu Au e d~\ná\nart r t n ~hy lirra\n★ ~un ~e ~ ~",
+  "timestamp": "2025-02-21T15:31:45.972047",
+  "model_info": {
+    "path": "kraken_models\\catmus-print-fondue-large.mlmodel"
+  },
+  "usage": {},
+  "latency": 29.54222011566162
+}

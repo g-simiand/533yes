@@ -1,0 +1,13 @@
+{
+  "model": "catmus-print-fondue-large",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "~d ~u\n~a ~ du\n~ ~ ~~   ~ \n~~ ~~ ~~ ~~~~ ~ ~ ~ ~\n~ 4~ dom y~ ~ ~~ fe\n~41 AA\n~t ~ ~~ ~~~\nAt, 2.   m\n\n~~ ~~~~~~~~\n~~ ~~ ~\nM»\nIez\n  ~~\n~\n~~~  ~ ~ ~\n~~\n~7\nO\ne eutode, \n~~ ~\n A\n9,  ~ ~~ ~~\nvi Werer ~e  ul  ~ m\n~~ ~~~~~\n4 —\nd",
+  "timestamp": "2025-02-21T15:30:55.286890",
+  "model_info": {
+    "path": "kraken_models\\catmus-print-fondue-large.mlmodel"
+  },
+  "usage": {},
+  "latency": 45.619033336639404
+}

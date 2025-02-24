@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "```\n[XXX] [XXX] [XXX] [XXX] [XXX] qu'on a décri-\n[XXX] [XXX] pour [XXX] [XXX] [XXX] [XXX]\n[XXX] 1. petites intrigues, 2. petits voyages, [XXX]\n[XXX] [XXX] [XXX], pourquoy, pour [XXX]\n[XXX]\n[XXX]\n[XXX]\net [XXX] a [XXX] d'intrig[XXX], u ils [XXX]\n```",
+  "timestamp": "2025-02-21T13:58:28.670607",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.35430000000000006
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 5689,
+    "total_tokens": 6553
+  },
+  "latency": 1740142622
+}

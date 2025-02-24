@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```markdown\nAristogoras  \ndit à Darius, l'empereur,  \nqu'il est impossible d'établir  \nune démocratie en forme  \nde gouvernement solide et  \ndurable. L'opinion  \ndominante, dit-il, a le défaut  \nde n'avoir aucun reste appuyé  \nà une base immuable. Dans  \nla démocratie, la chaleur  \nde la multitude,  \nse de construira,  \npar conséquent, les maisons  \net la disproportion des esprits  \nla suite inévitable.\n```",
+  "timestamp": "2025-02-21T14:01:10.173469",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.0038650000000000004
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 110,
+    "total_tokens": 1216
+  },
+  "latency": 1740142859
+}

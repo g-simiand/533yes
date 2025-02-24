@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "Convention Nationale\n1794 an III.\nnivôse - frimaire\nSéance Du 2. -,\n19 8bre -\nSéance Du 10.\n\nS[XXX] annonces que le R[XXX] D’Espagne a ratifié l[XXX]\ntraité de paix - applaudissements inter[XXX].\net fait lecture de l’acte de ratification Donné\nau traité de paix, par le R[XXX] D’Espagne)\n\nan IV 1795.\nMoniteur. N° 29.\nVendémiaire\nSéance Du 2le.\n\nVarecellier - Dépreaux fait l’eloge de Treye S\nainsi que divers L. conte. une feuille. acclamation\nde La Rev[XXX].\n\nCorps Legislatif.\nConseil Des Cinq - Cents\nConseil Des Anciens.\n\nConseil Des Anciens -\n10 brumaire\nConseil Des Cinq. cents\n11 brumaire\n\nEt membres élus pour le pouvoir executif\nsont : Varecellier - Dépreaux, Letourneur de la Manche\nRewbell, Treye S, Barras.\nMessage portant que Treye S a refusé la place\nDe membre Du pouvoir executif. = lettre de Treye S\na ce sujet - Il déclare qu’ayant été Depuis le\nCommencement de la revolution, en butte a tout les\npartis, il ne croit pas devoir accepter une place\nou l’on Doit pouvoir balloter toutes les opinions\net qu’il Reste au Conseil Des Cinq - cents\nCarnot est élu pour remplacer Treye S.\nTreye S au nom Du Comité Des finances,\nprésente Des observations, Sur le plan contenu\nau memoire envoyé par le Directoire Relatif =\ngement. a un emprunt.\n\n16 frimaire\nM. Du 23 -",
+  "timestamp": "2025-02-21T13:43:57.693065",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 416,
+    "total_tokens": 909
+  },
+  "latency": 1740141827
+}

@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```\n1789\n\nEtats generaux\n\nSeance du 10 juin\n\nMonsieur le President de Paris\n\nA l'abbé Maury, un membre de la Députation de Paris\n\nC'est l'abbé Maury qui a l'honneur de s'entendre\n\navec les députés de la noblesse pour l'union de\n\nl'ordre privilégié à l'imprévisible de l'assemblée\n\nla vérification des pouvoirs à une seule voix\n\npour que celui de la représentation de la Nation\n\ndans la réunion des trois ordres forme la\n\ncollection complète de l'unité de l'assemblée\n\nplan d'émancipation d'après la déclaration\n\npar laquelle la Nation a décidé sur\n\ndispositions qu'il propose en conséquence de\n\nprocéder, sans délai à la vérification des\n\npouvoirs, et d'adopter aux deux ordres\n\nprivilégiés une dérive notification de\n\ncette élection en les invitant de se tenir\n\nle plus communément à cette motion et\n\nvivement à prendre à leurs observations\n\nde voir mesurer l'honneur de ma conviction de celui\n\nqui est avec le plus grand respect Monsieur votre très humble et très obéissant serviteur\n\nMaury\n\n10 juin (le soir)\n\namendement de la motion de Choiseul\n\npour les faire accompagner d'une adresse\n\nau Roi - Nomination des députés Le\n```",
+  "timestamp": "2025-02-21T13:36:39.927215",
+  "model_info": {
+    "id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 333,
+    "total_tokens": 1876
+  },
+  "latency": 1740141383
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```\nen cela, je n'ai jamais fait de votre avis, \net j'crois que vos faits un pur trop \nabstraits. Je n'suis certainement, \nde danger qui le menacent absolument \nprécis.\n\nV^r le Papon\n\nDe principe, ici, j'affirmerai que, en \npour vos aristocrates, vos avoués, \nconsignés même ne m'affectionnent \npas tant que toutes boucles \nmalheureusement considérées de professeurs \nles meilleurs soutiens, je ne promets \ntous le bien vouloir, je voudrais \nsi je trouvais cette dimension des divers, \npouvoir être division des groupes foy \nse rapprocher de l'unité, ou s'engager \ndevra ainsi le remettre, ou s'engager \ntrès facilement de ces docteurs \nen ces propos de la réalité.\n\nV^r le Papon\n\nIl ne s'agit pas de principes, ni de \nconseils, il ne pourrait de malades \nsans machines sociales égales à produire.\n```",
+  "timestamp": "2025-02-21T14:12:12.676620",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.00029909999999999995
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 222,
+    "total_tokens": 1328
+  },
+  "latency": 1740143515
+}

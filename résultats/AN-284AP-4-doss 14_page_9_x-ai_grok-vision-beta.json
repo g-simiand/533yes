@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "de clos il parait que vous avez payé\nau fief ou sur une fief ou par pay\nabonnement de votre bien actuel\ndépendant qui le rendent les fiefs\nperpet\n\nL'Appiin\n\nJe présume aussi que personne paye en\nla paroisse entière ou se trouve au\nfief ou bien que le bien appartient\npar dessus les bornes de la paroisse\nde manière qu'encore que les biens\nde la dite paroisse ne sont pas\nsuffisants pour payer la capitation\nde la dite paroisse il faut que ceux\nqui ont des biens dans la dite\nparoisse contribuent de ce qui leur\nrevient de la capitation de la dite\nparoisse\n\nL'Appiin\n\nJe suis d'avis que personne ne peut\ncontribuer à la capitation de la paroisse",
+  "timestamp": "2025-02-21T14:05:43.125198",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.005350000000000001
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 190,
+    "total_tokens": 690
+  },
+  "latency": 1740143135
+}

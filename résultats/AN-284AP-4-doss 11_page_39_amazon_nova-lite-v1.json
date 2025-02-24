@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```\n12\nmon reploger dan l' youth- 2nd-potation dou\nmon forton en pein (- late-breen-prun\nJalbour Dan apliz-us awas it n' down\nindispensable il l'analyser, my demander\nor note ton, i. four croire guin\nindividu qualiongs pention the libro,\na cots l' cehi, l'm. proumin impunition\nd'obtin i le lu.. loy-unter in cloin-\nin la rpouss w'peu pour ten la-libert\nif four our pour your ten la-libert\nJ. chaun, you tous lunner o'lizard\nIn un in antos Dan un victable\n: in-riblit in drivin a leli.. in\nimposibilité de notes liber on Jour\ngranter des notes liber on Jour\nJun longe l'blibifion Jour for\nJ'inspection relative. irons instable\naueno movemen Ding-vinted in\npouvoir /deus, a in agod, Si l'un\nbien-thin in go, les infference on typs\nJun be imputive win pour inisted\nmainten la pounted, Jun l'y-per-\nARCHIVES\nintention la-lui, Jun granter liberist..\nNATIONALES\nuni- in 777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777 - The generated text has been blocked by our content filters.",
+  "timestamp": "2025-02-21T16:24:20.821144",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00011604
+  },
+  "usage": {
+    "prompt_tokens": 1934,
+    "completion_tokens": 0,
+    "total_tokens": 1934
+  },
+  "latency": 1740151445
+}

@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```markdown\n12\nnos replager dans le gouffre des despotismes d'où\nnos forçons à peine. (– Existe bien, je crois\nd'élever dans quelques ames il n'en doute\nindispensable de l'analyser; nos donations\nà notre tour, si l'on crois qu'un\nindividu quelconque puisse être libre,\nà côté de celui qui pourroit impunémen\ndésobéir à la loi : l'injustice est clair-\nen la repousse et pour pas être douteux,\nil faut donc pour pour tous tant l'absolut\nd. chacun, pour tous vivre à l'égard\ndes uns des autres dans une véritable\nimpossibilité de désobéir à la loi. La\ngarantie de cette liberté sur dans\nd'un ~~temps~~ l'établissement d'une forme\nd'éperation relative ? irresistible\naucun mouvement d'ingénieux ou\npouvoir s'élever, à un égard, si l'un\nv'oublie in pas, les différences de temps.\nsous le despotisme, une force irresistible\nmaintient là pourtant, les injus-\n9. de la loi, elle garantit la liberté...\nainsi : bien ~~un~~ pour ~~pour~~ en\nforce d'éperation d'un irresistible\n\nmais des autres principes doivent faire\nCelui là 1° que la loi soit toujours\nl'approbation de la volonté sociale, 2° que\n```",
+  "timestamp": "2025-02-21T13:26:48.638425",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0004879
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 323,
+    "total_tokens": 3910
+  },
+  "latency": 1740140800
+}

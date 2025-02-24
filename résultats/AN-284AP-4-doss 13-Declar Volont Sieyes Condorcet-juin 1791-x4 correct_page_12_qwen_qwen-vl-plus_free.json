@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```\n16. Pour Souffrin, adhérer pleinement aux articles de la présente déclaration.\n\n10° tous les patriotes qui - auront reçu des signatures, sur leurs opérations, sous pries de la justice véritable, en d'annoyer l'opépantaise à l'un des dépôt suivants :\n\n```",
+  "timestamp": "2025-02-21T13:35:34.425497",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1504,
+    "completion_tokens": 75,
+    "total_tokens": 1579
+  },
+  "latency": 1740141331
+}

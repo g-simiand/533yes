@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "Messieurs,\n\nLa moyen le plus sûr de maintenir l'union entre les Quatre-vingt\ntrois parties de l'Empire Français, d'alimenter sans cesse leur patriotisme,\nd'empêcher qu'aucun ne s'écartent et de porter qu'elles viennent de jurer\net des devoirs que la constitution leurs impose, d'entretenir le zèle des Gardes\nNationales et la fraternité des troupes de ligne, est évidemment de renouvellér\nchaque année au 14. Juillet le pacte fédératif.\n\nCe renouvellement annuel d'une fédération générale me paraît dans\nle Sistème politique de l'Empire Français une des loix Constitutionnelles\nles plus indispensables. Je vous conjure de bien la réfléchir, d'en bien\nSaisir les immenses avantages, et de vous y attacher comme au moyen\nle plus sûr de rendre inattaquable à jamais notre constitution et notre\nliberté.\n\nL'utilité, je dis plus, la nécessité de ce projet une fois accordée, il\nfaudrait qu'on présentât des obstacles insurmontables pour qu'il ne fût\npas adopté.\nQuels pourraient être ces obstacles?\nJe n'en connais qu'une. La dépense.\nPremièrement, Messieurs, serait ce une considération suffisante\npour empêcher l'acte le plus important pour l'union et la",
+  "timestamp": "2025-02-21T14:20:36.149715",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 298,
+    "total_tokens": 791
+  },
+  "latency": 1740144024
+}

@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```\nAprès avoir, l'opinion, qu'il est impossible d'établir une association en France devant l'opinion dominante. Il a le doute que la nation reste exposée à une longue anarachie dont la démolition de la culture et de l'ordre, en partant avec le moyen de la population des cours, la lutte infaillible.\n```",
+  "timestamp": "2025-02-21T13:35:47.818728",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 85,
+    "total_tokens": 1597
+  },
+  "latency": 1740141343
+}

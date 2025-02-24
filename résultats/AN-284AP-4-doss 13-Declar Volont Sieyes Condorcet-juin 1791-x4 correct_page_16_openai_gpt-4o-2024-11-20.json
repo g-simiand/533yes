@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```markdown\n(6)\n\nsenter. Quelque pur qu’il fût, il entraîneroit  \ntrop d’explications, trop de discussion. Le signe  \nauquel les vrais Patriotes vont se reconnoître,  \ndoit être à la fois sûr, facile & prompt à saisir.  \n\nIl y a peu de temps encore qu’au seul nom de  \nla liberté, la séparation auroit pu se faire des bons  \n& des mauvais Citoyens. Aujourd’hui, tous  \nveulent l’invoquer. Ceux qui la haïssent le plus  \naffectent d’en parler avec amour. Il faut donc  \ntrouver ailleurs le caractère distinctif que nous  \ncherchons. Il n’en est pas de plus marqué & de  \nplus certain que le sentiment ou la haine de  \nl’égalité. C’est à l’égalité qu’il faut s’attacher ; car,  \nsur ce point, les tartufes de la révolution n’ont  \npas encore senti le besoin de se déguiser tout-à-fait.  \nQuoi ! ils l’entendent même, ce principe perd tous  \nles jours ; il devient de plus en plus indécis. Quelle  \nerreur & qu’il est nécessaire de la repousser !  \n\nTous ces faux amis de la Patrie qui demandent  \npour elle une demi-liberté, & pour eux des pré-  \nrogatives, sont tout aussi aisés à reconnoître au  \ngoût qu’ils ne peuvent dissimuler pour le système  \ndes deux Chambres, & pour je ne sais quel plan  \nde contre-forces à l’angloise, qui n’est au fond  \nqu’un système de corruption, un équilibre de  \ncupidité & de servitude.\n\n(7)\n\nOn voit combien il importe au succès de la  \nrévolution & à l’établissement de la Constitution,  \nque les Députés qui vont nous remplacer soient  \npris parmi les Citoyens seulement qui nous soupçon-  \nne peut atteindre sur ces deux points fondamen-  \ntaux : égalité des droits ; unité de Chambre.  \n\nOn propose donc à tous les Patriotes la signature  \nvolontaire d’une déclaration faite dans cet esprit, &  \nqui puisse enfin nous éclairer sur ceux qui méritent  \nnotre confiance. Il est incontestable que tous ceux  \nqui signeront volontairement cette déclaration, se  \nsépareront par cet acte seul de tout parti opposé  \nà la liberté & à l’égalité, & qu’ils ne pourront se  \nréunir ensuite à nos ennemis sans les désho-  \nnorer même parmi eux. Tel est l’avantage que  \nles engagements libres doivent avoir sur les ser-  \nments forcés.\n\n---\n\n(1) [Je vous en dis donc que j’ai voulu  \nconserver la constitution. Trop articulée,  \nil m’en a coûté, mais vous êtes des  \nfripons, vous le serez toujours, quand on retouchera  \npar parties.]\n```",
+  "timestamp": "2025-02-21T14:00:59.065395",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.0096375
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 617,
+    "total_tokens": 2004
+  },
+  "latency": 1740142843
+}

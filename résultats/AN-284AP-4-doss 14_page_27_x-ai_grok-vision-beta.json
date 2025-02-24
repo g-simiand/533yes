@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```\nGiraumont, le 10 Juillet 1789\n\nMonsieur,\n\nJe me trouve dans le cas\nde vous demander en grace\nde vouloir bien me faire\nparvenir par la poste\nla somme de 500 livres\npour les besoins de ma\nfemme qui est en couche\ndepuis le 15 du mois de\nJuin dernier. Je vous en\nserai infiniment obligé\n```",
+  "timestamp": "2025-02-21T14:05:51.669923",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.003895
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 93,
+    "total_tokens": 593
+  },
+  "latency": 1740143143
+}

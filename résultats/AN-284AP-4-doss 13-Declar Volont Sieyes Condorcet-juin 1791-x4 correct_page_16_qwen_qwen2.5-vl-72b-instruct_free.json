@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "(6)\n\nfentere. Quelque pur qu'il fût, il entraîneroit trop d'explications, trop de difcuffion. Le figne auquel les vrais Patriotes vont fe reconnoître, doit être à la fois sûr, facile & prompt à faire.\n\nIl y a peu de temps encore qu'au feul nom de la liberté, la féparation auroit pu fe faire des bons & des mauvais Citoyens. Aujourd'hui, tous veulent l'invoquer. Ceux qui la haïffent le plus affectent d'en parler avec amour. Il faut donc trouver ailleurs le caractère diftinctif que nous cherchons. Il n'en eft pas de plus marqué & de plus certain que le fentiment ou la haine de l'égalité. C'eft à l'égalité qu'il faut s'attacher; car, fur ce point, les tartufes de la révolution n'ont pas encore fenti le befoin de fe déguifer tout-à-fait. Quoi! s'ils entendent même, ce principe perd tous les jours; il devient de plus en plus indécis. Quelle erreur! & qu'il eft néceffaire de la repouffer!\n\nTous ces faux amis de la Patrie qui demandent pour elle une demi-liberté, & pour eux des prérogatives, font tout auflî aifés à reconnoître au goût qu'ils ne peuvent diflimuler pour le fystême des deux Chambres, & pour je ne fais quel plan de contre-fortes à l'angloife, qui n'eft au fond qu'un fystême de corruption, un équilibre de cupidité & de fervitude.\n\n(7)\n\nOn voit combien il importe au fuccès de la révolution & à l'établiffement de la Conftitution, que les Députés qui vont nous remplacer foient pris parmi les Citoyens feulement que nul foupçon ne peut atteindre fur ces deux points fondamentaux: égalité des droits; unité de Chambre.\n\nOn propofe donc à tous les Patriotes la fignature volontaire d'une déclaration faite dans cet efprit, & qui puiffe enfin nous éclairer fur ceux qui méritent notre confiance. Il eft incontestable que tous ceux qui figneront volontairement cette déclaration, fe fêpareront par cet acte feul de tout parti oppofé à la liberté & à l'égalité, & qu'ils ne pourroient fe réunir enfuite à nos ennemis fans fe déshonorer même parmi eux. Tel eft l'avantage que les engagemens libres doivent avoir fur les ferments forcés.",
+  "timestamp": "2025-02-21T13:40:07.055770",
+  "model_info": {
+    "id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1502,
+    "completion_tokens": 612,
+    "total_tokens": 2114
+  },
+  "latency": 1740141565
+}

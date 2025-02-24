@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```markdown\nRévolution de l'esprit\nhumain, par un ~~XXX~~\nhomme de passion.\nVolume 2e.\n\nà Londres\nchez Du ~~XXX~~\n\n~~XXX~~ amour que le Roi ~~XXX~~ d'Angleterre, a laissé à\nsa fille, princesse ~~XXX~~ d'Écosse, victime victorieuse\nde la Révolution française. ~~XXX~~\n\nCe n'est qu'après l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de",
+  "timestamp": "2025-02-21T14:05:20.483009",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.00903
+  },
+  "usage": {
+    "prompt_tokens": 3561,
+    "completion_tokens": 318,
+    "total_tokens": 3879
+  },
+  "latency": 1740143106
+}

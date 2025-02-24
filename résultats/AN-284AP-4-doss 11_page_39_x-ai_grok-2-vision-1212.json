@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```\nmon empereur & mon frere ou daignerez\nvous envoyer à quiordon le batiment\nd'où sortira un guerrier nay d'un nuage\ninvincible & de lumiere? en vain\nje vous tends mes bras pour vous\ninviter jeunegloire guerriere des cieux\nà cet d. l'oeil... l'imagination ne voit\nde lui que l'eclat. l'ardeur qui l'anime\nn'a rien d'humain pour qui vous est cher\nil le sera. que deux fois un & vingt\nmoyens de l'atteindre en soient\nemployés & cette ardeur en soit\ngarantie. elle est l'effet de mon\nfoi en l'empereur & roi.\n\nJe soussigné, l'ayant reçu\nconforme / desr. a signé le 10 7bre\nde la République, vu les motifs\nexprimés ci-dessus, je l'envoie\nà l'instant au ministre de la guerre\npour etre mis à la disposition de\nl'etat, en vertu de l'ordre de\nl'empereur & roi. signé\nparis, le 10 7bre 1811. signé\nclerc. je soussigné, en\nvertu de l'ordre de l'empereur & roi\n```",
+  "timestamp": "2025-02-21T13:58:52.441972",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.003940000000000001
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 294,
+    "total_tokens": 794
+  },
+  "latency": 1740142724
+}

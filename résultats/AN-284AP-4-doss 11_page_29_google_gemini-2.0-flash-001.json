@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "7. que l'on il pour non bonne application de la loi ? il faut\nnon bonne organisation es Le grand pouvoir public, que\nl'on se dient : des graves injustices. Sous comar les\nle grand courage par lesquels la loi pourvoit sur individus\nes une chose\nun travail sur un\n~~qui~~ antringen l'action judiciaire,\nque vous en etés ? le moins par votre conduite\nde 2d sur l'action protectrice, a nous le prester la\nplus ~~non~~ de votre constitution, mais qu'elle est importante\nne vous n'entor pas devoir s'attendre devoir instruire\nprodiging qui ont pas oljer pour le perfectionnement de\nl'hom. non immoral et employées, et que en fondant\no. bonne heure dans touts for habetent, de disposer\no. la loi vous, bons, vous dispose\nbez 3e en l'action administrative, et en (mes)\ndos for details ; les travaux public, les vues\ndo choret, les surveillans degerantes, enfin\ntout ce qui donne à ander le utoper des\nfor trouver, for des for puniffans, des for vengeles,\nà yprendre la peine, et à trouver la count...\nvous n'aurez pas mieux pour un mieux indigen, et\nbeaucoup par tous les moyens employées\nl'action adomove vous, vous, vous aussi orgensé l'istrumen\net un oljé une partie effectuer pour devoir à vos Hery",
+  "timestamp": "2025-02-21T13:26:34.109828",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0004911
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 331,
+    "total_tokens": 3918
+  },
+  "latency": 1740140784
+}

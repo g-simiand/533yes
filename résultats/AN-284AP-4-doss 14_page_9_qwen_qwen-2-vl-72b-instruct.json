@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-2-vl-72b-instruct",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```markdown\nen cela, je ne saurais être de votre avis\ncar je crois que vous faites un peu trop\nabstraction de notre état actuel, et\ndes dangers qui le menacent absolument\npeut.\n\n1° Réflexion\n\nde principes, il ne saurait pas être question,\ncar nous sommes en pleine crise. La\nconsequence même ne me rassurerait\npas dans cette situation. —\nmachinavel conseiller de professeur\nde meilleure doctrine et de projets\nde meilleurs ordres, à la condition\nque le génie voulût,\nsi la réalité de cette démonstration\npourrait être division chez plusieurs\npour opérer de la manière dont\nil accroît l'efficacité de la doctrine,\nd'où il en résulte que la doctrine\ntrop facilement et de la doctrine\nen est la preuve de la réalité.\n\n2° Réflexion\n\nil ne saurait pas être de principes,\nni de conséquences, il ne question de morale\nni de machine sociale (capable de produire\n```",
+  "timestamp": "2025-02-21T14:09:23.916329",
+  "model_info": {
+    "id": "qwen/qwen-2-vl-72b-instruct",
+    "pricing": [
+      4e-07,
+      4e-07
+    ],
+    "total_cost": 0.00020639999999999998
+  },
+  "usage": {
+    "prompt_tokens": 273,
+    "completion_tokens": 243,
+    "total_tokens": 516
+  },
+  "latency": 1740143352
+}

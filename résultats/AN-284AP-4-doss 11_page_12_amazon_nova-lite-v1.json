@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "```\n2. précimbate\n\nluysandryptes grantées may meas' Jour in benvolie mentions\nis in' broun D. voir town a way l'abrouff--public\nwas day grant pours innov 'il' fotution are bond, w\nl'uper itions, pour London to anymaile a les Twengy,\ne' bus plaining particular, il bon fotution J.up fountier D7\nhonon from, voulace, mandwan an l'abrouff--public\nil be fotution as bons form, nicolas of Prefentative\nl'honveletate meland-vision, as 17\nGin exp categor a foun's town, (w toun-la-ville)\nles human voulance, il is bon chiz, (pown bog\nreputation publicys\nto homes spectateur, il from jour to chrigion, afrow\nles vigites malhonteux\nswis le pou'r entre Dr. lecher public in the jour\npour\nreputantes in tell. on bedon, pour do helifie 2w\nyour upslate, il word four un four Direction, I\ncopy forme pour upreputation, whom in jour upslate\n(wou's foreuntiff) by dop clops to bonny\nGonnts catoyer pour l'honvelet distre e's senter\nJi l'isondow ener) l'oger\nARCHIVES\nme b thering, a poplic bon preventer the 17\nNATIONALES\nl'inston-Train (wills forcit of 17.\nl'inston-Train mitters who er 17.\nin do, Twany p/b pretucting journ l'oger\ne\n```",
+  "timestamp": "2025-02-21T16:22:07.976215",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00021306
+  },
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 429,
+    "total_tokens": 2264
+  },
+  "latency": 1740151313
+}

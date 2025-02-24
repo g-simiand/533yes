@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "2. weng, de moins\nmoins ~~preſent~~ de vengr\nvecounsel des droits,\nnouvelle épisteme,\nmais, ou ~~kuuden~~ preſque d'avantage for le temps\nd'un ~~ecarte~~ le retour, elle s'in attache\nobjets, elle ~~a~~ computter\nà lavajon, welles\nà connettre for droits,\ns'in efforce\n~~worte~~ ~~for~~ ~~le~~ ~~episi~~ ~~Ligi~~\nles Deigt ~~worte~~ des\nà lejonissamen par l'établissement d'une\nl'envoye Sivan constatabase\nconstitation durable & ainsi le platseglin\nDuvalls, matey wei,\nà l'intet de la pulotin\npar l'histoire\naccurate à sentour de ny\nl'histoire ~~popul~~ à plus dans les ~~viens~~ ~~privates~~\noster be warten zu derpoin\nwrainer haine.\npour les autres peuples ?\npour les autres peuples ?\ni'influer sur le sort en Europe, er\npar elle, sur les destinées du monde. #\n# pour for leipo\nquelles seront les bons ~~de~~ ~~sortes~~\nune imagination sur\nsur la suite des ~~wireen~~\nautres ~~de~~ ~~volutions~~ ~~brillamment~~\nde votre vivtes\n",
+  "timestamp": "2025-02-21T13:26:24.266760",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0004795
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 302,
+    "total_tokens": 3889
+  },
+  "latency": 1740140776
+}

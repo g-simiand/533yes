@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```markdown\nde cela je ne sçaurois rien dire, voy\nau f. prec. pour un mot faux, neanmoins\nabstraction faite de cetten erreur\nje pense que la lecture actuelle de\nl'original\n\nL'Apollon\n\nJe principalle objet de l'Apollon est\nde donner des avis sur les monumens de\nl'antiquité aussi bien que sur les ouvrages\nfrançois tant anciens que modernes. on\ny donnera aussi des nouvelles\nlitteraires, des extraits de livres\nnouveaux, des dissertations sur\ndifferents sujets, des eclaircissemens\nsur des points de l'histoire, de la\nchronologie, de la geographie, de la\nmythologie, de la genealogie, de la\npoesie, de la musique, de la peinture\net de l'architecture. on y donnera\naussi des pieces de poësie, des\nnouvelles, des contes, des fables\net des chansons. on y donnera\naussi des extraits de pieces de\ntheatre, des critiques de pieces\nnouvelles, des eclaircissemens sur\ndes points de l'histoire du theatre\net de la musique. on y donnera\naussi des nouvelles de la cour\net de la ville, des extraits de\nlettres de differentes personnes\net de differents pays. on y donnera\naussi des extraits de pieces de\ntheatre, des critiques de pieces\nnouvelles, des eclaircissemens sur\ndes points de l'histoire du theatre\net de la musique. on y donnera\naussi des nouvelles de la cour\net de la ville, des extraits de\nlettres de differentes personnes\net de differents pays.\n\nL'Apollon\n```",
+  "timestamp": "2025-02-21T13:58:52.177294",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.0049
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 390,
+    "total_tokens": 890
+  },
+  "latency": 1740142722
+}

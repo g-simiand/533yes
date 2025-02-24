@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "16\n\nMonsr. Symphorien, abbéon glissime, ayant\nfait les fonctions de l'ordination\n\nIl faut le pacifier qu'il l'annonce reçu par\nl'inspection des deux symptômes, qui sont de\nl'article de l'ordination de l'ordination\nde l'un des sujets de l'ordination",
+  "timestamp": "2025-02-21T14:05:37.525366",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.003715
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 81,
+    "total_tokens": 581
+  },
+  "latency": 1740143133
+}

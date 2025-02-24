@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "```markdown\na.\n\nPréambule\n\nLesquand[XXX] garanties [XXX] nous sous la humidité naturel[XXX]\nici plus besoin de vos [XXX] a corp Helv[XXX] impossible\nvous de grand [XXX] forts [XXX] l’aff[XXX] des [XXX]\nl’exposition [XXX] pour [XXX] la tranquillité, les travaux,\nà nos [XXX] potentiels, & [XXX] [XXX]\nbonne grace, vouloir, maintenir\nil se falloir de bons faits, ne cautions pour [XXX] l’apparence\napparente prototypes [XXX] pour [XXX] la changer, [XXX]\nles beaux spectacles [XXX] [XXX] [XXX]\nles esprits matures [XXX] [XXX] [XXX] [XXX] [XXX]\nil nous faire un [XXX] d’équation [XXX]\nCogit [XXX] pour représentation, connu en pours [XXX]\nA prendre category pourfournir [XXX] des étapes [XXX],\nde l’issuance encor [XXX] entrée à la substitution\n[XXX] [XXX] popularité [XXX] [XXX]\nl’illustration civils facilité des [XXX] en 17\nl’illustration métiers cadre en [XXX]\net du [XXX] [XXX] particulièrement souvent [XXX]\n```",
+  "timestamp": "2025-02-21T13:56:59.061678",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.34536000000000006
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 5540,
+    "total_tokens": 6404
+  },
+  "latency": 1740142541
+}

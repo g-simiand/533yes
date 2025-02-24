@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```\nA Monsieur,\n\nLe moyen le plus sûr de maintenir l'Union entre les quatre-vingt\ntrois parties de l'Empire Français, d'alimenter Sous cette leur patriotisme,\nl'Empereur, est annun ne- l'égard de leurs ennemis et de prêter qu'elles viennent de faires\net des devoirs que la constitution leur impose, d'entretenir le zèle des Gardes\nNationales et la fraternité des troupes de ligne, et évidemment de renouveller\nchaque année au 14. Juillet l'esperte féderalité\n\nCe renouvellement annuel d'une fêveration générale me parait dans\nle Systeme politique de l'Empire Français une des loix Constitutionnelles\nles plus indispensables je vous conjure. De bien-la-recherche. Deux bien\nFaisir les immenses avantages, et de vous y attacher comme au moyen\nle plus sûr de rendre inattaquable a jamais notre Constitution et notre\nliberté.\n\nL'unité, je dis plus, la reversite de ce projet me fours avouée, il\npandroit qu'on prédentent des obstacles insurmontables pour qu'il ne fut\npas adopté\n\nQuels pourraient être ces obstacles ?\n\nJe n'en connais que m. la-Depense\n\nPremièrement, Monsieur, serait-ce une considération Insuffisantes\npour empêcher l'exe le plus important pour l'Union et la\n```",
+  "timestamp": "2025-02-21T16:21:51.314318",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00019439999999999998
+  },
+  "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 343,
+    "total_tokens": 2211
+  },
+  "latency": 1740151299
+}

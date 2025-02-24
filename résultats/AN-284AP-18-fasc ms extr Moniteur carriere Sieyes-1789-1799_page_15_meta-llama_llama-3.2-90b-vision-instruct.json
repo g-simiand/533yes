@@ -1,0 +1,22 @@
+{
+  "model": "meta-llama/llama-3.2-90b-vision-instruct",
+  "editeur": "meta-llama",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "Je suis désolé, mais je n'ai pas reçu l'image du manuscrit à transcrire. Pourriez-vous me fournir l'image du manuscrit du XVIIIe siècle en français que vous souhaitez que je transcrive ?",
+  "timestamp": "2025-02-21T14:08:57.824359",
+  "model_info": {
+    "id": "meta-llama/llama-3.2-90b-vision-instruct",
+    "pricing": [
+      8e-07,
+      1.6e-06
+    ],
+    "total_cost": 0.005448000000000001
+  },
+  "usage": {
+    "prompt_tokens": 6700,
+    "completion_tokens": 55,
+    "total_tokens": 351
+  },
+  "latency": 1740143334
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```markdown\n~~Arangement~~  \nFît à Dollons, l'opineur,  \nqu'il on imputés d'établir  \nune associaté en femme  \nredouant. L'opinion  \nDominante: S'Il a la Dollés  \nla nature [XXX] reste exposée  \nà une longue anarchie. Dans  \nla Demolition De la culture  \net [XXX] l'industrie, se  \n[XXX] la disproportion des canaux  \nla suite infaillible.\n```",
+  "timestamp": "2025-02-21T13:58:35.482549",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.47346000000000005
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 7675,
+    "total_tokens": 8539
+  },
+  "latency": 1740142620
+}

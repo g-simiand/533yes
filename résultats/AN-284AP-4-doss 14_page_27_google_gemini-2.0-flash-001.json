@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "Grassmen\nS'il a le dollons, l'oponcor\nqu'il est impossible d'établir\nune dacociatie en france\nredevrane l'opinion\ndominante - S'il a le delhis\nlanation and reste exposée\nà an ungur anarchie Dow\nla diminellon de la culture.\nee de l'andartis, en\npas contaguer la mes en\nla de population dev ennen\nla sorte iufcullible.",
+  "timestamp": "2025-02-21T13:27:06.977732",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.00040029999999999997
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 104,
+    "total_tokens": 3691
+  },
+  "latency": 1740140822
+}

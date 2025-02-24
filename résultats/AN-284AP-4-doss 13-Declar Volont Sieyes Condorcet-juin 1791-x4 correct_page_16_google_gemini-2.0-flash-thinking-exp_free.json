@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```markdown\n(6)\nfenter.  Quelque\ntrop d’explication,\nauquel les vrais Patriotes\ndoit être à la fois sûr,\nIl y a peu de temps encore\nla liberté, la ſéparation\n& des mauvais Citoyens.\nveulent l’invoquer. Ceux\naffectent d’en parler avec\ntrouver ailleurs le caractère\ncherchons. Il n’en est pas\nplus certain que le sentiment\nl’égalité C’eſt à l’égalité\nſur ce point, les tartufes\npas encore ſenti ! beſoin\nQuoi ! à les entendre même,\nles jours ; il devient de\nerreur ! & qu’il eſt néceſſaire\nTous ces faux amis de\npour elle une demi-liberté,\nr gatives, font tout auſſi\ng.ſt qu’ils ne peuvent diſſimuler\ndes deux Chambres, & pour\nde contre-forces à l’angloiſe,\nqu’un ſyſtême de corruption,\ncupidité & de ſervitude.\n```\n```markdown\n( 7 )\nOn voit combien il importe au ſuccès de la\nrévolution & à l’établiſſement de la Conſtitution,\nque les Députés qui vont nous remplacer ſoient\npris parmi les Citoyens ſeulement que nul ſoupçon\nne peut atteindre ſur ces deux points fondamen-\ntaux : égalité des droits ; unité de Chambre.\nOn propoſe donc à tous les Patriotes la ſignature\nvolontaire d’une déclaration faite dans cet eſprit, &\nqui puiſſe enfin nous éclairer ſur ceux qui méritent\nnotre confiance. Il eſt inconteſtable que tous ceux\nqui ligneront volontairement cette déclaration, ſe\nſépareront par cet acte ſeul de tout parti oppoſé\nà la liberté & à l’égalité, & qu’ils ne pourroient\nſe réunir enſuite à nos ennemis ſans ſe déſho-\nnorer même parmi eux. Tel eſt l’avantage que\nles engagemens libres doivent avoir ſur les fer-\nmens forcés.\n```\n```markdown\n(1)  ~~quon ne diſe donc pas que j’ai voulu~~\nborner la constitution !  ~~trop articley.~~\nil n’y a rien d’abſolu, ~~quon n’oſe dire,~~\n~~et quon ne ſache trouver~~ quand on eſt buthan\npas en partie.\n```",
+  "timestamp": "2025-02-21T14:19:36.463572",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 578,
+    "total_tokens": 1071
+  },
+  "latency": 1740143958
+}

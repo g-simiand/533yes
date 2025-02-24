@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\n1789  \nÉtat général  \nSéance du 10 juin  \nArrest nommé Députés du Sénat.  \n\nObjet  \n\nUn tableau annonce un moteur important d’un membre de la Députation de Paris.  \nC’est l’abbé Sieyes. L’Assemblée l’envoya aux ordres de ses Comités.  \nSieyes, étranger de conduite avant de siéger, ordres protégés, l’impossibilité d’ombres, justification des pouvoirs, et un autre juge ému que celui de l’appréhension de la Nation.  \nDans la réunion, il est créé un forum.  \nCollection des simples formalités, et arrêtés au plan. L’omission d’après la déclaration par laquelle la Noblesse a exclu les Députations, il propose en conséquence privée, tant par la notification des pouvoirs, et d’attendre aux Décrets, de protéger une dernière vérification.  \nCette élection en est arrivée à ce point, à ce ballot commun.  \nCette motion est vivement appuyée sur les observations d’autres membres, dirigées encore en substitution de la vérification à celle de l’ommission.  \n\nFin de la séance du  \n10 juin (soir).  \n```",
+  "timestamp": "2025-02-21T14:01:10.695348",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.0052925
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 252,
+    "total_tokens": 1361
+  },
+  "latency": 1740142855
+}

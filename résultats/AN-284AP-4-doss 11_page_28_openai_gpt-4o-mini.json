@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "```\n2.\n\n~~moy~~ moi, je m'~~en~~ apprête à v~~oy~~ager sur ~~m~~es ~~m~~oyens ~~de~~ ~~la~~ ~~société~~ ~~nouvelle~~ ~~républicaine~~ \n\n~~ce~~ ~~qui~~ ~~m~~'~~attire~~ ~~dans~~ ~~ce~~ ~~voyage~~ ~~est~~ ~~la~~ ~~possibilité~~ ~~de~~ ~~connaître~~ ~~des~~ ~~gens~~ ~~de~~ ~~tous~~ ~~les~~ ~~horizons~~ \n\n~~et~~ ~~de~~ ~~m~~'~~enrichir~~ ~~de~~ ~~leurs~~ ~~expériences~~ \n\n~~Je~~ ~~suis~~ ~~en~~ ~~train~~ ~~de~~ ~~réfléchir~~ ~~à~~ ~~la~~ ~~manière~~ ~~de~~ ~~m~~'~~y~~ ~~prendre~~ \n\n~~pour~~ ~~les~~ ~~autres~~ ~~qui~~ ~~sont~~ ~~dans~~ ~~la~~ ~~même~~ ~~situation~~ \n\nIl ~~peut~~ ~~être~~ ~~lu~~ ~~comme~~ ~~une~~ ~~inquiétude~~ ~~pour~~ ~~les~~ ~~esprits~~ ~~des~~ ~~gens~~ \n\n~~Je~~ ~~pense~~ ~~que~~ ~~c'est~~ ~~un~~ ~~moyen~~ ~~de~~ ~~s'~~ ~~élever~~ ~~et~~ ~~de~~ ~~s'~~ ~~enrichir~~ \n\n~~Je~~ ~~vous~~ ~~ferai~~ ~~part~~ ~~de~~ ~~mes~~ ~~réflexions~~ ~~à~~ ~~ce~~ ~~sujet~~ \n\n~~Je~~ ~~vous~~ ~~embrasse~~ \n```",
+  "timestamp": "2025-02-21T14:11:57.349817",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.0003825
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 361,
+    "total_tokens": 1467
+  },
+  "latency": 1740143505
+}

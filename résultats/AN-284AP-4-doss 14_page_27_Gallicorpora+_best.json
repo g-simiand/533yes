@@ -1,0 +1,13 @@
+{
+  "model": "Gallicorpora+_best",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "GMohavæ\n& oen e meer\nle doe lme Adi Dacuε4.\nda pne oon e di pat pounre\nIei’erinA Cο en ε0\nDomenante\nRVa d volt\nla aa f punp Ve, le enonc¬\n aae ſnoc dna veRe Doruo\n(a dems pudens pn ſe cu lu\n de (CuuaνOvE 6\nAe Cn le nue d aues ds a\n le depusſe ſen due onma¬\nle da te cuſete dee 6 e.",
+  "timestamp": "2025-02-21T15:40:39.345540",
+  "model_info": {
+    "path": "kraken_models\\Gallicorpora+_best.mlmodel"
+  },
+  "usage": {},
+  "latency": 30.27225923538208
+}

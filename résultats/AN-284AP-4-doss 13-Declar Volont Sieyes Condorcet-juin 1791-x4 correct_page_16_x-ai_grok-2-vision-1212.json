@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```markdown\n( 4 )\n\nfaçon. Quoique par elle, il n'enroit\ntrop loin les bornes de la soumission\nque les Peuples doivent à leurs\nloix, elle n'a pas, elle ne peut pas la\nvioler. L'autorité n'est pas de son\nessence. Gouverner, c'est faire\n& non pas faire faire. Animer & non\npas mouvoir. La loix est plus que la\nforce, c'est l'opinion qui la rend\nplus efficace que la contrainte, & la\nloix ou les loix de la revelation n'ont\npas plus de force que les loix civiles.\nCe n'est pas la revelation qui\ndonne aux loix de la nature une\nnouvelle force, c'est la nature qui\ndonne à la revelation une nouvelle\nefficacité. La religion ne peut rien\najouter à la loix naturelle, elle ne\npeut que la confirmer, & l'expliquer\nd'une maniere plus intelligible, & plus\ntouchante. La religion, qui est fondée\nsur la liberté, & sur la raison.\n\n( 5 )\n\nCe que nous disons de la Conduite\ndes loix civiles, nous le disons aussi\ndes loix de la revelation. C'est\npour cela que nous ne devons pas\ntrouver étrange que la revelation\nait été donnée dans un tems où\nelle étoit nécessaire. Il n'y a\nrien de plus conforme à la raison\nque de croire que Dieu a voulu\nque les hommes fussent éclairés\npar des loix divines, & que ces\nloix divines fussent données dans\nun tems où les hommes en\navoient le plus grand besoin.\n```",
+  "timestamp": "2025-02-21T13:58:49.025017",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.004710000000000001
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 371,
+    "total_tokens": 871
+  },
+  "latency": 1740142717
+}

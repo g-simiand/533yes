@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\n1789.\nEtats generaux\nSéance du 10 juin\nSieyes nommé Député de Paris.\n\nObjet\n\nM. de Fréteau annonce une motion importante\nD'un membre de la Députation de Paris.\nC'est l'abbé Sieyes. = l'Assemblée témoigne\nun grand désir de l'entendre. =\nSieyes rétracte les ordres privilégiés,\nordres privilégiés, l'impossibilité de soumettre\nla vérification des pouvoirs à un autre juge\n=ment que celui des représentants de la Nation,\ndont la réunion des trois ordres forme la\nCollection complète, l'inutilité de s'arrêter au\nplan de conciliation d'après la Déclaration\npar laquelle la Noblesse en a éludé l'effet\nDispositions : il propose en conséquence de\nprocéder, sans délai, à la vérification des\npouvoirs, et d'adresser aux deux ordres\nprivilégiés une dernière Notification de\nCette Résolution en les invitant à se réunir\nà la salle commune. = Cette motion est\nvivement applaudie. = Sur les observations\nde trois membres, Sieyes consent à\nSubstituer le mot invitation à celui de\nSommation.\n\nSuite de la séance. Du Délibération, et admission du pouvoir\n10 juin (le soir) amendement à la motion de Sieyes et,\npour les faire accompagner d'une adresse\nau Roi. - Nomination des Députés Le.\n```",
+  "timestamp": "2025-02-21T14:20:23.553081",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 330,
+    "total_tokens": 823
+  },
+  "latency": 1740144013
+}

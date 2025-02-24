@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```markdown\n12\n\n~~vous reployez dans le goût d'une part~~ vous  \nvous portez à faire le tout comme pour  \nchoisir sans égard aux autres il est donc  \nimpossible de l'assigner à une tendance  \nà notre tour, si l'on croit qu'un  \nindividu quelconque puisse être libre  \nà côté de celui qui pourrait imposer  \nsa volonté à celui-là, la question se doit  \nsur la grosse manière que nos volontés  \nse fixent donc pour former l'habitat  \nde chacun, ou tous vivans à l'égard  \nles uns des autres dans une véritable  \nimpossibilité de dérober à celui-là la  \ngarantie de notre liberté sans donner  \ndans l'usage d'absorber une force  \nd'opposition relative. Si l'on institue  \naucun mouvement d'injustice sur  \npouvoir libre, à ce point si l'on  \nviolait pas les moyens du trop  \nnos directions, une force invisible  \nmaintient la volonté des régions  \nd'arbres, une garantie de liberté...  \nainsi, une ~~trop~~ grande force de  \nforce d'opposition bien invisible  \nmais de toute origine divine pour  \ncelle-là, si quelque loi toujours  \nl'opposition est volonté fixée, qu'une  \n```",
+  "timestamp": "2025-02-21T14:01:05.163508",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.006177500000000001
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 271,
+    "total_tokens": 1658
+  },
+  "latency": 1740142854
+}

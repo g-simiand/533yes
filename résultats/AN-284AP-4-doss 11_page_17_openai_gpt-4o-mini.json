@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "```\n+ continuer à l'ouvrier à décer-\n+ ner pour savoir plus exactement\n+ ce qu'il s'agit de cette histoire, je pense qu'il\n+ se doit vraiment, pourquoy pour-\n+ rait-on s'en passer? je ne sais pas\n+ si c'est un vrai motif d'adhésion, je ne peux pas dire\n+ que je vous donne à l'égard de ce que je\n+ vous propose ici, et vous en trouverez\n+ d'autres. Je pense que c'est une manière\n+ d'exprimer quelque chose, une occasion de\n+ se rendre, d'initier, de mener à bien\n+ les autres, ou d'autres choses, je ne sais pas\n+ si vous en avez déjà eu l'idée, mais\n+ je vous en dirai davantage.\n+ \n+ il, croyez, a promis d'intérêts, et de misérables\n+ autres [XXX]\n```",
+  "timestamp": "2025-02-21T14:12:23.444936",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.00028649999999999997
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 201,
+    "total_tokens": 1307
+  },
+  "latency": 1740143533
+}

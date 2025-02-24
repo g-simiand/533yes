@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\n1792\n\nEtat general\ndes grains\nvins &c\n\nVos membles. La fabrication de Bièvre,\nde cette Eau de vie de Pontarlier, &c.\nétant établie dans cette maison, il\nserait nécessaire de connoitre le nombre\nd'habitans qui y sont occupés, & de\nsavoir si cette fabrication est en état\nde fournir aux besoins de la maison\nde Bièvre, & de celle de Pontarlier, ou\nsi elle ne fournit que pour une partie\nde la consommation de la maison de\nBièvre, & de celle de Pontarlier. Il\nserait aussi nécessaire de connoitre\nle nombre des ouvriers qui y sont\nemployés, & de savoir si ces ouvriers\nsont en état de fournir à la consommation\nde la maison de Bièvre, & de celle de\nPontarlier. Il serait aussi nécessaire\nde connoitre le nombre des ouvriers\nqui y sont employés, & de savoir si\nces ouvriers sont en état de fournir\nà la consommation de la maison de\nBièvre, & de celle de Pontarlier. Il\nserait aussi nécessaire de connoitre\nle nombre des ouvriers qui y sont\nemployés, & de savoir si ces ouvriers\nsont en état de fournir à la consommation\nde la maison de Bièvre, & de celle de\nPontarlier.\n```",
+  "timestamp": "2025-02-21T13:58:58.475669",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.00409
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 309,
+    "total_tokens": 809
+  },
+  "latency": 1740142729
+}

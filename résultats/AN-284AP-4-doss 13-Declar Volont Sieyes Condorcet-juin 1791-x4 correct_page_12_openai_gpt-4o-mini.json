@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```\n16.\n\nAves Souffrirs, adhibion, p[é]tiu[m] asp[er]tus, art[ic]ly d[ela] p[ro]v[inc]t[io]n p[hil]aratin.\n\n~~Et~~ tous les patriciés qui ~~auront~~ receu les Signatures, sur leurs resp[ons]tations, ~~sauvez~~ de les ~~certifiés~~ ver[t]ably, en ~~s'envoyer~~ ~~dépens~~ à leurs des dépôts Suivants :\n```",
+  "timestamp": "2025-02-21T14:11:54.415854",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.00028425
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 127,
+    "total_tokens": 1514
+  },
+  "latency": 1740143505
+}

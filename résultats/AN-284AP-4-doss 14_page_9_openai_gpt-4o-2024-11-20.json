@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```markdown\nen cela, j’ai jamais fait de votre avis  \noù je crois que vous faites un peu trop  \nabstraction de notre intérêt, de  \ndes dangers qui le menacent de toutes  \nparts.  \n\n~~Mr Papin~~  \n\nDes principes, soit, je professe peu, ou  \npeu très aristocrate sur les anciens. Ils  \nconsigneraient même ne me suffiraient  \n~~pas tous~~ en toutes occasions. Je préfère  \nmaltraiter considérablement des professions  \nde meilleurs docteurs, je me promets  \ntout le bien possible, ~~je voudrais~~  \n~~je voudrais~~  \nSi les troubles de cette diversité  \npouvaient être divisés chez l’homme,  \n~~en arrangement des progrès~~ ~~fort~~  \n~~devant ainsi la moitié, ou l’unique~~  \n~~très facilement de des docteurs~~  \n~~en des prompts de la veille~~  \n\n~~Mr Papin~~  \n\nIl ne s’agit pas de principes, ni de  \nconvictions, il ne s’agit de morale  \nmais machine sociale capable de pouvoir  \n```\n",
+  "timestamp": "2025-02-21T14:01:01.175974",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.005025
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 226,
+    "total_tokens": 1332
+  },
+  "latency": 1740142849
+}

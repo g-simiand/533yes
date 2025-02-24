@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```\n1789\n\nETATS GENERAUX\n\nFrançoise 10 juin\n\nChagot messire, Député de Paris.\n\nLe travail annexe, une motion importante\n\nd'un membre de la Députation de Paris.\n\nC'est l'abbé Siegel. = l'Allemagne étrangère\n\nun grand éclat de l'entendu.\n\nSiegel est celui qui conduit, et cela est\n\nobédie prévus. l'imputabilité de l'amende\n\nle vérification des pouvoirs à un autre\n\nsont que celui des représentants de la Nation\n\npour la réunion des trois ordres formé la\n\nCollection complète et inutile de l'assemblée au\n\nplan 2 conciliation d'après la déclaration\n\npar laquelle le Madelina a été élu chef\n\nde la députation; il propose en conséquence de\n\nprocéder, tant celui à la vérification des\n\npouvoirs, et d'adresser aux deux ordres\n\nprivilégiés une dernière notification de\n\nCette élection, en se référant à ce texte\n\nà la lettre commune. = Cette motion est\n\nvivement appliquée. = tous les observateurs\n\nde trois membres, Siegel conteste et\n\nsubstituer le mot invitation à celui de\n\nl'invitation.\n\nSur la lecture de l'admission et l'admission\n\ndu premier amendement à la motion de Siegel,\n\npour les faire accompagner dans l'adéquation\n\nau Roi. - Nomination des députés Le.\n```",
+  "timestamp": "2025-02-21T13:32:48.348552",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1543,
+    "completion_tokens": 348,
+    "total_tokens": 1891
+  },
+  "latency": 1740141162
+}

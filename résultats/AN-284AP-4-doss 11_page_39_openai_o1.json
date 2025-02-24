@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```markdown\n12\n\nvous employez dans la [XXX] d’arguments [XXX] vos [XXX] à faire [XXX] de tout [XXX]  \nl’impossible l’analogie [XXX] [XXX] me [XXX] à toute [XXX] je crois qu’un [XXX]  \nreduire quelques [XXX] pour [XXX] livres  \nà côté de cela [XXX] [XXX] pouvoir imposer  \n[XXX] à [XXX] [XXX] clore  \nsur la grosse [XXX] pour [XXX] [XXX]  \nil faut donc pour [XXX] [XXX] d’habileté  \nà chacun [XXX] tous [XXX] à fond  \nles uns des autres [XXX] une invariable  \nimpossibilité se [XXX] à celui [XXX]  \n[XXX] de notre liberté [XXX] dans [XXX] l’[XXX] d’un [XXX]  \n[XXX] ~~[XXX]~~ relatif ? [XXX] ? aristotet [XXX]  \naucun mouvement [XXX] [XXX]  \npouvoir [XXX] à ce [XXX] si l’on  \nvoulait [XXX] lui [XXX] en affaires de trop  \n[XXX] douterons, un [XXX] invariable  \nmaintenir la [XXX] des [XXX] [XXX]  \n[XXX], ma gravité d’habileté…  \nainsi, un [XXX] me parut pour des [XXX]  \n[XXX] [XXX] ? [XXX] invariable  \n```",
+  "timestamp": "2025-02-21T13:57:18.684371",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.26371500000000003
+  },
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 4109,
+    "total_tokens": 5254
+  },
+  "latency": 1740142579
+}

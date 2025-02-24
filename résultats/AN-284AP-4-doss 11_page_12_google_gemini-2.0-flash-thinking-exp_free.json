@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "2. preambule\n\nles magistrats garants des ~~vieux~~ mœurs doivent, et le milieu actuel,\nici j'en ai besoin de voir tour à coup s'établir ~~problé~~\nun des grands points soumis ; il faut avoir les lumières de\nl'expérience, pour pouvoir transmettre à leurs neveux,\net à leurs petits neveux, il leur faut un coup favorable, des\nbonnes mœurs, vertueuses, modérées, ~~les~~ des mœurs vraiment\nil les faut avoir des bons faits, ~~m~~ combinés pour offrir l'heureuse\net bien voulant malheureuse décision des 17.\nCar les citoyens à force de tems, car l'invasion de la\ndes bonnes mœurs, il est un chés, un jour les\nreprésenter publiquement\nles tristes malheurs, il faut qu'ils les chérissent, qu'ils soient\nles tristes malheurs de la société publique, il faut les faire pour\nreprésenter, en telle sorte, ~~endroit~~ pour des motifs de\nbonne égalité, il ne faut faire une fausse équation, il\nfaut ~~copier~~ borner leur représentation, comme un jour égalité,\ncar jamais les citoyens qui peuvent Cy des etats d'hommes,\nde livrer son encore abroger les traits et les entretenir\n~~par le temoignage~~ à la posterité\nl'instruction civile facilite la ~~parenté~~ pureté des 17.\nl'instruction mettra cela en 27.\net les travaux ~~plus~~ posterieurs doivent abroger\ne",
+  "timestamp": "2025-02-21T14:19:17.300394",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 355,
+    "total_tokens": 848
+  },
+  "latency": 1740143945
+}

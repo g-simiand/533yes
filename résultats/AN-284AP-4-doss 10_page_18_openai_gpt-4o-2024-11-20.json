@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "```markdown\ninspirés ou bien malédiction.  \nPourquoi les lois feraient une loi grande, très  \nlongue, toujours obscure pour les uns, utile  \net nuisible pour les autres, et  \nà jamais ? Que deviendrait le commerce  \nsans l'inspiration des intérêts des hommes  \nde ces sortes de choses, ceux des autres  \nn'ayant que pour unique bonheur de  \nces individus qui transpirent les plus  \nadmis sous un pouvoir supérieur  \nà considérer. Peut-être même  \nces individus, par état, ne tireraient  \npoint de société pour l'agrément  \nparticulier, mais de la société à eux  \nseuls, et non plus en société, et sans  \npour porter les malheurs, pour  \nconsommateurs, car les biens naturels  \nsont fournis aux familles nombreuses  \npour chaque centaine en destinant une  \npetite portion de fortune individuelle.  \nCela leur est, par surcroît, pour  \nles avantages des commerces [XXX]  \ndu voisinage des portions individuelles  \ndes lois à [XXX].\n```",
+  "timestamp": "2025-02-21T14:01:09.804015",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.005015
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 225,
+    "total_tokens": 1331
+  },
+  "latency": 1740142858
+}

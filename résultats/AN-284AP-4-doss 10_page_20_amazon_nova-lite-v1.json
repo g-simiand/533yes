@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "```\n1790\n\nJ'ai fourni Drop conditions enr'pigneme pour jour ou\njuris 1° pour le, jour Since appreh our (on\nmantiers 2° pour hour, si l'emmigie 1° le, un ting\nprit pour in pour an prof sion Dr. Dremandeur, un\ntiny pension coup Du Difélieur, se un 30 time,\n(our pension supriles une Division tray travailes\n2° courie, b. spirit) j'ou (somme to your\nVidin, honney appr. On burs courpeur, et\ndisip he desi, usum On jointe 2° I few\ndetour by writing, s On continue, continue\nqueler (pens 2, s'our s'm courpeur, l'\neclaire presque user Dr Superiors sperif, 1\ngme now in'd'officiers Journes is Dorvilles Dr\nSingle fair, y. D-f-f-i-c-i-e-r-s, un courpeur we\nS'hou be water Sivil, un courpeur, ou\n:-justhis our inféride's founteligus, ou\ngrand s'tre-pute very Long power, i' vers 2'me\nbouter Dr prescrit J'ouve s'agrup en charge re\ne' Debourg, s'our s'ours un courpeur\ndans l'four 2, s'our s'ours une courpeur\nd'ont's now S'ou't, in Dyair F way pour togals\nl'chit's once fasteur thonder ord'your\nb- presint Co'stra) home 1'm be Puleverable\nproblèmes i'n'pleisaur D, voit a, beurs, would\nARCHIVES\npay 2' il in'p'le's'aur D. courpeur\nNATIONALES\ntoue V'deur a une forter D. courpeur\n```",
+  "timestamp": "2025-02-21T16:21:36.494502",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00023135999999999995
+  },
+  "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 497,
+    "total_tokens": 2365
+  },
+  "latency": 1740151281
+}

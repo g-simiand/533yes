@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "```\nPardon. our loys recheind\nl'uypne le byn faire were li: yrote. tour\ncoup yp's trowdown s'avou preimp d'a maning the\na women pour distribled be Jiff warning on\nfrest, l'insignation he wrister Jos chesuer\n2 Gs Jotka do C'in't, card wer off\nl'avoued yp's your, bee compres\ncan individults yp's be compren le by\nmien Jour on your due yp's be\na contrellement yp's Sac be. J'es be\ncan individults be tel, retil women\nyp's rewate, fouing, a unjoyement,\nque's rewate be ind enypt a 'vons\nyp's roate within, won's be, F'ow re detail.\na yp's bad, Twillame, F'ow re writer\nalors c's, re hypleus re writer,\nyp's pottet T'on work hed f's progrewe\nConsumption, can be wem nature\ndo fouther wolf f'amil un t's\nyp's pottet wents in detail un\nyp's thought wents to y'lo purby\nf's potte worfs be y'p'sant now\nyp's Go b'ing be rewter J'one\nbewate prew, Dr's C'omenner f'p's\nIn yp's profesion in J'isd'm'th\nIn yp's way, do's profesion\nIn yp's by a l'over\n\nARCHIVES\nNATIONALES\n```",
+  "timestamp": "2025-02-21T16:21:19.764125",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00021234
+  },
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 426,
+    "total_tokens": 2261
+  },
+  "latency": 1740151266
+}

@@ -1,0 +1,13 @@
+{
+  "model": "ManuMcFondue",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "Reos Loufigur, adbesons ple aeunen aux liviy\nast y dates gusirt pet larater\n4. tos les gubiotes qre Lauron rncer dle\nsigneturn dur leur cxcuslare, Sont prs de\nle\nastifiil vertabb,, a denmoger lexemplaise\nalon en depols sivayt.",
+  "timestamp": "2025-02-21T16:13:24.551250",
+  "model_info": {
+    "path": "kraken_models\\ManuMcFondue.mlmodel"
+  },
+  "usage": {},
+  "latency": 30.326017379760742
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "Il n'y a aucun texte visible sur cette image.",
+  "timestamp": "2025-02-21T14:00:53.411274",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.0028925
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 12,
+    "total_tokens": 1121
+  },
+  "latency": 1740142842
+}

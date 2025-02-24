@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-2024-11-20",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "```markdown\n2.  \n~~moyen de mieux comprendre~~ ~~ou voyager sur une mer agitée~~  \n~~rencontrer les droits~~ ~~ou de les protéger~~  \n~~nouvelle expérience~~  \n\n~~moyen où alors~~ ~~moyen de voyager sur des mers~~  \n~~grandes ou petites, et de s'y attacher~~  \n~~à connaître toutes les lois naturelles~~  \n~~pour établir une constitution favorable à tous les peuples~~  \n~~et institutions sociales~~ ~~par le sentiment humain~~  \n~~accumulé par tous dans les sociétés~~ ~~toutes~~  \n~~l'humanité entière~~ ~~et par la science~~  \n~~pour établir une constitution favorable~~ ~~et institutions sociales~~  \n~~stabilité des constitutions~~ ~~et institutions sociales~~  \n\nPour les autres, il s'agit de votre propre  \ninfluence sur les forces invisibles, en  \npour aller sur les doctrines humaines  \npour aller sur les constitutions favorables  \nquels sont les moyens de toutes ces destinées  \n~~toutes~~ des lois, des actes, des volontés, immuables ou variables  \nactes et volontés humaines, toujours  \nde votre volonté propre, toujours  \nvous-même toujours humain.\n```",
+  "timestamp": "2025-02-21T14:01:00.148429",
+  "model_info": {
+    "id": "openai/gpt-4o-2024-11-20",
+    "pricing": [
+      2.5e-06,
+      1e-05
+    ],
+    "total_cost": 0.005305000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 254,
+    "total_tokens": 1360
+  },
+  "latency": 1740142843
+}

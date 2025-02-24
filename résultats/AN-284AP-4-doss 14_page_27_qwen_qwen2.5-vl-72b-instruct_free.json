@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen2.5-vl-72b-instruct:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```\nAgrégation\nl'a le dolours Lopinion\nqu'il est impossible d'établir\nune démocratie en France\ndevant l'opinion\ndominante l'a le dolours\nla nation [XXX] reste exposée\nà une longue anarchie dont\nla diminution de la culture\net de l'industrie, en\nparticulier la mesure\nde la disposition devancée\nla suite infallible.\n```",
+  "timestamp": "2025-02-21T13:39:39.553738",
+  "model_info": {
+    "id": "qwen/qwen2.5-vl-72b-instruct:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 103,
+    "total_tokens": 1615
+  },
+  "latency": 1740141565
+}

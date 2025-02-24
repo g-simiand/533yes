@@ -1,0 +1,13 @@
+{
+  "model": "McCATMuS_nfd_nofix_V1",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "Mary Sonssignés, adbesons plvement aux lroi\nenste cly de les prisenrt ptilavatorr\nM^re tous les patrictes y^re + auvoin recer dles\nsighatuon sur leus epuegtaute, sout pries de\nl\ntestifail orcitubles, ee dencoyes l'eceuplaise\n tien tes drpêts suivapt :",
+  "timestamp": "2025-02-21T16:17:23.701230",
+  "model_info": {
+    "path": "kraken_models\\McCATMuS_nfd_nofix_V1.mlmodel"
+  },
+  "usage": {},
+  "latency": 28.19069480895996
+}

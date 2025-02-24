@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "```\nje ne puis que vous remercier de la\nbonté que vous avez eue de vous\noccuper de mon affaire. Je suis\ntrès sensible à l'intérêt que vous\navez bien voulu y prendre, et je\nvous en remercie de tout mon cœur.\nJe suis bien aise que vous ayez\ntrouvé le moyen de vous en tirer\nsans compromettre votre santé.\nJe vous envoie la quittance de la\nsomme que vous avez bien voulu\nme prêter. Je vous remercie encore\nune fois de tout mon cœur, et je\nvous prie de croire à mes\nsentiments d'amitié très sincère.\nJe suis bien aise que vous ayez\ntrouvé le moyen de vous en tirer\nsans compromettre votre santé.\nJe vous envoie la quittance de la\nsomme que vous avez bien voulu\nme prêter. Je vous remercie encore\nune fois de tout mon cœur, et je\nvous prie de croire à mes\nsentiments d'amitié très sincère.\n```",
+  "timestamp": "2025-02-21T14:05:41.785621",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.0058
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 220,
+    "total_tokens": 720
+  },
+  "latency": 1740143134
+}

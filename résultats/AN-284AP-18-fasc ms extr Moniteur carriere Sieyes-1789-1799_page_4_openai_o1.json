@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\n1789  \nEtat généraux  \nSéance du 10 juin  \nArrest nommé Député [XXX]  \nExtrait Du Moniteur  \n\nObjet  \n\nLe tableau annonce un [XXX] imposital  \nd’un ensemble. De la Députation de Paris.  \nCett l’abbé Sieyes! à l’Assemblée [XXX]  \nau grand [XXX] des [XXX].  \nHier, l’abbé de conduire avant de [XXX]  \nordre [XXX], l’impossibilité d’hommes,  \nla justification des pouvoirs, & en autre juge  \nSieur qui observe l’appréhension De la Nation  \ndans la reunion, le soir [XXX] forum  \nCollection des [XXX], formalités, & c  \nD’après la déclaration  \npar laquelle la ~~Notables~~ Noblesse se reunit. Les  \ndéputations, il propose en conséquence  \n[XXX], tard, [XXX], de Notification. De  \npouvoir, et d’attendre au Clergé, de  \n[XXX] un dernier Notification ?  \nCette délibération se [XXX], l’arrêtant & le  \n& le result, commun : Cette motion est  \nvivement appuyée. Sur les observations  \nd’ [XXX] membres, se joint encore la  \nsubstitution de Mr [XXX] à celui de  \nl’emmotion ?  \n\nSuite de la Séance du  \n10 juin (Soir)  \n\nDirection, & Démission. De premiere,  \namenée par la motion d’ [XXX]  \npour se faire accompagner d’un arreté  \nau Roi. La nomination de le bail de [XXX]  \n```",
+  "timestamp": "2025-02-21T13:57:41.420291",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.287445
+  },
+  "usage": {
+    "prompt_tokens": 867,
+    "completion_tokens": 4574,
+    "total_tokens": 5441
+  },
+  "latency": 1740142594
+}

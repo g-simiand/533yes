@@ -1,0 +1,22 @@
+{
+  "model": "meta-llama/llama-3.2-90b-vision-instruct",
+  "editeur": "meta-llama",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "Je suis désolé, mais je n'ai pas reçu l'image du manuscrit à transcrire. Pourriez-vous me la fournir afin que je puisse commencer la transcription ?",
+  "timestamp": "2025-02-21T14:09:02.929742",
+  "model_info": {
+    "id": "meta-llama/llama-3.2-90b-vision-instruct",
+    "pricing": [
+      8e-07,
+      1.6e-06
+    ],
+    "total_cost": 0.0054272
+  },
+  "usage": {
+    "prompt_tokens": 6700,
+    "completion_tokens": 42,
+    "total_tokens": 338
+  },
+  "latency": 1740143339
+}

@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```\n(6) fenter. Quelque pur qu'il fut, il entraîneroit\ntrop d'explications, qu'il de difficultion. Le figne\nauquel les vrais Patriotes vont fe reconnoître,\ndoit être à la fois sûr, facile & prompt à faire.\nIl y a peu de temps encore qu'au feul nom de\nla liberté, la séparation auroit pu fe faire des bons\n& des mauvais Citoyens. Aujourd'hui, le plus\nveulent l'inventer. Ceux qui la haïffent le\naffétent d'en parler avec amour. Il faut donc\ntrouver ailleurs le caractère diftinctif que nous\ncherchons. Il n'en êt pas plus marqué & de\nplus certain que le fentîment ou, la haine de\nl'égalité. C'est à l'égalité qu'il faut s'attacher ; car,\nfur ce point, les tartufes, les tartufes la révolution n'ont\npas encore fini, befoin de fe déguifer tout-à-fait.\nQuoi ! les entendre néme, ce principe perd tous\nles jours; il devient de plus en plus indécis. Quelle\nerreur ! & qu'il êt néceffaire de la repoufler !\n\nTous ces faux amis de la Patrie qui demandent\npour elle une demi-liberté, & pour eux des pré-\nrogatives, font tout aufi aisés à reconnoître au\ngoût qu'ils ne peuvent difimuler pour le fyftème,\ndes deux Chambres, & pour je ne fais quel plan\nde contre-forces à l'angloife, qui n'êt au fond\nqu'un fyftème de corruption, un équilibre de\ncupidité & de fervitude.\n\n(1) your no Jif Jour per que je veulan\nborned In constitution, J'sup antity\nil ayc vion J'alfpirir, ywan on of 262\nurgun on fafre voir, yreand on zytabuhin\npod men parto.\n\n(7)\nOn voit combien il importe au fuccès de la\nrévolution & à l'établissement de la Conftitution,\nque les Députés qui vont nous remplacer feoient\npris parmi les Citoyens feuillement que nul foupçon\nne peut atteindre fur ces deux points fondamen-\ntaux: égalité des droits, unité de Chambre.\n\nOn propose donc à tous les Patriotes la fignature\nvolontaire d'une déclaration faite dans cet efprit, & \nqui puifle enfin nous éclairer fur ceux qui méritent\nnotre confiance. Il est incontestable que tous ceux\nqui figneront cette déclaration, fe\nfépareront par cet acte feul de tout parti opposé\nà la liberté & à l'égalité, & qu'ils ne pourroient\nfe réunir enfuite à nos ennemis fans fe désho-\nnorer même parmi eux. Tel êt l'avantage que\nles engentréens libres doivent avoir fur les fer-\nmens forcés.\n\nARCHIVES\nNATIONALES\n\nA 4\n\n```",
+  "timestamp": "2025-02-21T16:24:47.159777",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00029706
+  },
+  "usage": {
+    "prompt_tokens": 1955,
+    "completion_tokens": 749,
+    "total_tokens": 2704
+  },
+  "latency": 1740151470
+}

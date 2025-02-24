@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```markdown\nen Celai, j'ai Jamais [XXX] de votre amy\nou j' croy que vous faites un par trop\nabstractions de notes s' intellectuel, de\nde dangers qui la menacent de toutes\n[XXX]\n\nN. Pepin\n\nde principes [XXX], je [XXX] pas, on\npeut être aristotate en les [XXX]. Ils\n[XXX] même ne me suffirroient\n~~[XXX] [XXX] [XXX] [XXX]~~\nmaintenant [XXX] de [XXX], je des promets\nle meilleur docteurs, je des promets\ntous le [XXX], je [XXX] [XXX]\nSi la [XXX] de cette dimanche,\npourriez [XXX] division des [XXX],\nen arrangement de [XXX] propos foy\nou j' envoy la minutes, ou j' envoy\ntres facilement re de vos docteurs\nen [XXX] prompt de la veille:\n\nN. Pepin\n\nil ne s'agit pas de principes, ni ils\nconsignez, il ne [XXX] de marché\nma machine Societé capable de pouvoir\n```",
+  "timestamp": "2025-02-21T13:57:18.627155",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.37002
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 5951,
+    "total_tokens": 6815
+  },
+  "latency": 1740142562
+}

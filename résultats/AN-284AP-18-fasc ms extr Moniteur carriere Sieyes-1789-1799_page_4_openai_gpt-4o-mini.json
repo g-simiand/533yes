@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```\n1789.\n\nEtat général\n\nSéance du 10 juin\n\nAyeul nommé Député de Paris.\n\n~~Il~~ Révérend, annonçons un moteur impétueux\nà notre assemblée. Cet l'abbé ~~~loyer~~~\nun grand de les Sentences. \n~~A~~ Sièger, établis de conduire avant le décret\nordre pratiques, ~~l'in~~ possibilité de bon sens\n~~et~~ l'édification des ~~p~~ procureurs, à un autre\n~~de~~ lieu que celui de l'assemblée de la Platon\n~~dans~~ la réunion, ~~l'~~ ici codé forme.\nCollection ~~d~~ exemples, ~~Finit~~ et a été\nplan. L'assemblée d'après la déclaration\npar laquelle la Nation a élu les\nDispositions à prendre en congruence\nprécise, ~~l'~~ l'Ordre, de la notification des\npouvoirs, et d'~~a~~gendre au décret de\nprolonger un ~~deux~~ vérification.\nCette élection en se rendant de l'~~é~~droit\nà le ~~v~~val, commun. Cette motion et\névénements afférents, ~~don~~ les observations\nde trois membres, ~~proposent~~ de substituer la\n~~m~~ l'initiation à l'~~calu~~ de\n~~commen~~ commençons.\n\n~~Discussions~~ et décisions de premiers\n~~amend~~ amendement à la motion de l'abbé\npour ~~je~~ faire accompagner ~~D~~ de la\n~~R~~ Nomination de ~~l'~~ baux de l'~~a~~\n```",
+  "timestamp": "2025-02-21T14:12:12.461363",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.00038475
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 364,
+    "total_tokens": 1473
+  },
+  "latency": 1740143518
+}

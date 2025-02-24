@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```\n16.\n\nPour Soufigues, auquel phisieument arp long\nartiely dates pourint philar atavi\n\nN. ton les patriotes y'on - amoum rean, ils\nsignatures, lus leus spenplases, Jour pries, de by\nbutifie veritablely, in d'amour lipenplais\na lun de exploy Suivans : - - -\n```",
+  "timestamp": "2025-02-21T16:24:28.575668",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00014825999999999997
+  },
+  "usage": {
+    "prompt_tokens": 2051,
+    "completion_tokens": 105,
+    "total_tokens": 2156
+  },
+  "latency": 1740151461
+}

@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```\n16\n\nMons. Soupizon, avocat, gendarme, chirurgien\nsortit de la maison d'Opitalisation.\n\nIl étoit le praticien qui l'avoit reçu, ayant\n~~senti~~ les deux symptômes, il jugea le\ncas très suspect de petite vérole, il l'a\nconduit à l'hôpital St. Louis.\n```",
+  "timestamp": "2025-02-21T13:58:41.374988",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.00184
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 84,
+    "total_tokens": 584
+  },
+  "latency": 1740142717
+}

@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "```\n+ vainement to luy jour a devoir\n(requin pension Deuand'hous s'tends colendre\nto s'toffry D. petite 'intrigue, D. protets voys\nit be ingen mycomuid, perceptes Pour\nin sin rester. t'm iyness buffor\nd'alovaison, D. attre-prefums afin Joy\nintrigue, Jan cont-gir a leffor\nin toypled D' winisving stoy our w'finis\nbeaver. It un-dir b return m\n'yippe, It a point D. caus, p'r aygin\nin-gen whos gens forn ecuortime in\ngoverns, itto-yign, 17 manewent\nis, uncline outib iyme bon-ofin\n\nit, croyons amouveur d'intrigue, it its mi-con-four\nwith Delendayow\n```",
+  "timestamp": "2025-02-21T16:22:22.302176",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00016745999999999997
+  },
+  "usage": {
+    "prompt_tokens": 1835,
+    "completion_tokens": 239,
+    "total_tokens": 2074
+  },
+  "latency": 1740151330
+}

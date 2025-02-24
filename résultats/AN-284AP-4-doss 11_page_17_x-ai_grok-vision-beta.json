@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "```\nje viens de louer une a decor\nje vous envoie le plan de la\npièce qui est petite, il y a une\nporte sur le devant, une grande\nfenêtre, une cheminée, une glace\nau dessus, une porte à gauche\net une à droite, une autre\nporte au fond qui donne sur\nl'escalier, il y a un petit\nescalier qui mène à la\ncuisine, il y a une petite\npièce à côté de la cuisine\noù il y a un lit, il y a une\npetite cour derrière la\nmaison, il y a une petite\nporte qui donne sur la cour\nil y a une petite cour\ndevant la maison, il y a une\npetite porte qui donne sur\nla rue\n```",
+  "timestamp": "2025-02-21T14:05:58.900597",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.0050349999999999995
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 169,
+    "total_tokens": 669
+  },
+  "latency": 1740143152
+}

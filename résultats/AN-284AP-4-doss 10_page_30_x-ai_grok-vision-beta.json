@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "**Assurance**\n\nLa cour royale ayant pris la connaissance par les exploitations\ndu 12 du courant, que le sieur [XXX] auroit été condamné\npar jugement du tribunal de commerce de [XXX] en date du 10\ndu même mois, à payer à la dame veuve [XXX] la somme de [XXX]\nfrancs pour principal, intérêts et frais de procès, et que le\ndit jugement a été déclaré exécutoire nonobstant opposition\net sans caution, attendu que le sieur [XXX] n'a point de\ndomicile fixe, et qu'il est en fuite, a ordonné que le présent\njugement sera exécuté par corps, et a condamné le sieur [XXX]\naux frais de l'exploit.\n\nLe procureur du roi, vu lesdites exploitations, a requis par\nexploit du 13 du courant, que le sieur [XXX] soit condamné\nà payer à la dame veuve [XXX] la somme de [XXX] francs\npour principal, intérêts et frais de procès, et a ordonné que\nle présent jugement sera exécuté par corps, et a condamné le\nsieur [XXX] aux frais de l'exploit.\n\nLe sieur [XXX] a été pris, et lesdites exploitations lui ont été\nsignifiées, et a été condamné à payer à la dame veuve [XXX]\nla somme de [XXX] francs pour principal, intérêts et frais\nde procès, et a ordonné que le présent jugement sera exécuté\npar corps, et a condamné le sieur [XXX] aux frais de l'exploit.\n\n**Vu le contumax, en cas de rébellion,**\n\nLe sieur [XXX] a été pris, et lesdites exploitations lui ont été\nsignifiées, et a été condamné à payer à la dame veuve [XXX]\nla somme de [XXX] francs pour principal, intérêts et frais\nde procès, et a ordonné que le présent jugement sera exécuté\npar corps, et a condamné le sieur [XXX] aux frais de l'exploit.\n\n**Reconnaissance de la main, et de la signature,**\n\nJe soussigné, [XXX], reconnais que la présente transcription\nest conforme à l'original, et que je l'ai faite de ma propre\nmain, et que je l'ai signée.\n\n[Signature]",
+  "timestamp": "2025-02-21T14:06:06.352557",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.010195000000000001
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 513,
+    "total_tokens": 1013
+  },
+  "latency": 1740143142
+}

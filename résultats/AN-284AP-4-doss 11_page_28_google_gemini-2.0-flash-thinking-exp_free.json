@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "2.  maug, de moins, elle a veugr So. interet, garde\nreconnoit les Droits,  m. d. le progress des\nnouvelle espritueux,  reconnait les droits, que\n~~avoit ou~~  avoient  professé d'avantage les temps\ntendent à les etablir, apres bien des siecles de victoires, et elle s'ir attache\ndroits, elle le conçoit &  reconnoit les droits,  d'en effacer\n~~la raison, toutes~~  la raison, toutes  par cette blessure d'une\n~~morte forme esprit, d'où~~  morte forme esprit, d'où  vraisbles & ainsi la philosophie\nles droits avoient des  s'introduire  à l'occasion pas de l'imiter aveugl\nl'usage d'une constitution  de Dieu,  à l'occasion  pas de l'imiter aveugl\ndirecte, motes, ~~voyez~~  à la lumiere  à l'occasion  pas de l'imiter aveugl\n& toutes les autres  reconnoit à son tour de voir tous vivants les\npar cette raison, elle  l'histoire rapporte qu'on doit les regarder sans interet, pour\noffre de les accepter par  d'autres principes,  qu'on doit les regarder sans interet, pour\nl'etablissement d'une constitution  tout [XXX]  qu'on doit les regarder sans interet, pour\nraisonner juste.  pour les autres peuples.  qu'on doit les regarder sans interet, pour\n influencé  sur le sort d'un peuple, en\n par elle,  sur les destins du monde.  #\n# pour les luipes  quelles sont les bornes des droits des sujets\nd'une constitution  est  attentat  ou  innocenté  ou  licent\nsur les fruits des victoires  d'une constitution  est  attentat  ou  innocenté  ou  licent\napres la premiere  d. votre  volonté  [XXX]  l'epoque d'un\n[XXX]  [XXX]  [XXX]  [XXX]  [XXX]\n[XXX]  [XXX]  [XXX]  [XXX]  [XXX]\n[XXX]  [XXX]  [XXX]  [XXX]  [XXX]",
+  "timestamp": "2025-02-21T14:18:50.061660",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 536,
+    "total_tokens": 1029
+  },
+  "latency": 1740143912
+}

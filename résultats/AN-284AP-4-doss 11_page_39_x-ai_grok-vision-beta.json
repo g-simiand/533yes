@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-vision-beta",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```\n12\n\non envoyer les jeunes gens\npour faire un cours de mathématiques\ndans un pension en Angleterre\nil y auroit de grands avantages\npour eux, ils apprendroient\nà parler l'anglois, ils verroient\nles mœurs, les usages de cette\nnation, ils y feroient des\nconnaissances, ils y prendroient\ndes habitudes de liberté, de\nprobité, de loyauté, de franchise\nqui sont les vertus nationales\nde ce peuple, ils y apprendroient\naussi à se passer de tout ce qui\nn'est pas nécessaire, à se contenter\nde peu, à se suffire à eux-mêmes,\nà se passer de domestiques, à\nfaire eux-mêmes leur lit, à\nse lever de bonne heure, à\nse coucher de même, à ne pas\nse laisser aller à la paresse,\nà ne pas se livrer à l'oisiveté,\nà ne pas se laisser aller à la\ndébauche, à ne pas se livrer\naux vices, à ne pas se laisser\naller à la corruption, à ne pas\nse livrer à la dissipation, à\nne pas se laisser aller à la\nlicence, à ne pas se livrer\naux excès, à ne pas se laisser\naller à la débauche, à ne pas\nse livrer à l'ivrognerie, à\nne pas se laisser aller à la\nluxure, à ne pas se livrer\naux plaisirs, à ne pas se laisser\naller à la mollesse, à ne pas\nse livrer à l'oisiveté, à\nne pas se laisser aller à la\nparesse, à ne pas se livrer\naux vices, à ne pas se laisser\naller à la corruption, à ne pas\nse livrer à la dissipation, à\nne pas se laisser aller à la\nlicence, à ne pas se livrer\naux excès, à ne pas se laisser\naller à la débauche, à ne pas\nse livrer à l'ivrognerie, à\nne pas se laisser aller à la\nluxure, à ne pas se livrer\naux plaisirs, à ne pas se laisser\naller à la mollesse, à ne pas\nse livrer à l'oisiveté, à\nne pas se laisser aller à la\nparesse, à ne pas se livrer\naux vices, à ne pas se laisser\naller à la corruption, à ne pas\nse livrer à la dissipation, à\nne pas se laisser aller à la\nlicence, à ne pas se livrer\naux excès, à ne pas se laisser\naller à la débauche, à ne pas\nse livrer à l'ivrognerie, à\n",
+  "timestamp": "2025-02-21T14:05:54.452767",
+  "model_info": {
+    "id": "x-ai/grok-vision-beta",
+    "pricing": [
+      5e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011515000000000001
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 601,
+    "total_tokens": 1101
+  },
+  "latency": 1740143138
+}

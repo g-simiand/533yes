@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "12\n\non employer dans le gouffre des depostions d'où\nnos fortunes ê prirent.  (c'est bien pour\nlever dans quelques années il n'en devint\nindispensable à l'analyste.  my demandes\nà notre tour, Si l'on croiroit qu'un\nindividu quelconque pût être libre\nà côté de celui qui pourroit imposer\nd'obéir à la loi.  l'ingestion ou clair-\nté la réponse ne peut pas être douteuse,\nil faut donc pour pour tous tems la liberté\nde chacun, que tous doivent à l'égard\nles uns des autres dans une véritable\nimpossibilité de désobéir à la loi.  La\ngarantie de cette liberté ne peut\nêtre que l'établissement d'un forme\nséparation relative ou irresistible\naucune mouvement d'injustice ne\npourroit l'ébranler, à cet égard, si l'on\nvouloit en porter la différence des temps\ndans les dépositions, une forme irresistible\nmaintient la constance, les loix\nde la loi, elle garantit la liberté...\n~~en un mot~~  ~~il n'y a point d'autre~~ que la\nforme séparation irresistible\nmais d'autres principes doivent fonder\ncelui là, 1° que la loi soit toûjours\nl'expression de la volonté sociale, 2° qu'il",
+  "timestamp": "2025-02-21T14:20:12.006330",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 314,
+    "total_tokens": 807
+  },
+  "latency": 1740143991
+}

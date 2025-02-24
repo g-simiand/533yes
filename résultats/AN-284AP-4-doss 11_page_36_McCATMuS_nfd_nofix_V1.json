@@ -1,0 +1,13 @@
+{
+  "model": "McCATMuS_nfd_nofix_V1",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "",
+  "timestamp": "2025-02-21T16:16:55.497550",
+  "model_info": {
+    "path": "kraken_models\\McCATMuS_nfd_nofix_V1.mlmodel"
+  },
+  "usage": {},
+  "latency": 20.061058044433594
+}

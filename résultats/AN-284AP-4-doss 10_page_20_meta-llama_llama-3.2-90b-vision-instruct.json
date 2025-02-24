@@ -1,0 +1,22 @@
+{
+  "model": "meta-llama/llama-3.2-90b-vision-instruct",
+  "editeur": "meta-llama",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "Je ne peux pas fournir de transcription car l'image n'est pas disponible.",
+  "timestamp": "2025-02-21T14:08:56.158041",
+  "model_info": {
+    "id": "meta-llama/llama-3.2-90b-vision-instruct",
+    "pricing": [
+      8e-07,
+      1.6e-06
+    ],
+    "total_cost": 0.0053872
+  },
+  "usage": {
+    "prompt_tokens": 6700,
+    "completion_tokens": 17,
+    "total_tokens": 313
+  },
+  "latency": 1740143333
+}

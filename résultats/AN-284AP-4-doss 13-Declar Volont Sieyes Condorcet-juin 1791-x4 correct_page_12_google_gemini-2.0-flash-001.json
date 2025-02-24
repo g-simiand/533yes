@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "16.\nNous Soufizer, and belon privremen arplong\narticly deles priſent philavatain.\n\nN°. tous les patriotes qui Fauvron recu dey\nSignatures Sur leur exemplaire, Tous priés de les\njustifié veritabley, et d'envoyer l'exemplaire\nà l'un des dépôts Suivant:",
+  "timestamp": "2025-02-21T13:26:53.166072",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0003903
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 79,
+    "total_tokens": 3666
+  },
+  "latency": 1740140809
+}

@@ -1,0 +1,22 @@
+{
+  "model": "amazon/nova-lite-v1",
+  "editeur": "amazon",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "```\n7. ynofaw il pour non humen application delenlo:, iffem\nun bonue orgenisation is le grand planning problem, que\npimpe simi: do jouris judicion born woman us\nh grand connay for bignuls le le: promis up individus\nis unt hoff\nlabyro antiving s'arther invisiant, un toward his un\nitc, living pr votor want\nGm vou- en itc, l'arlen prontitution, a how leperation to\nlo-2? on l'arlen constitution, more, gratux for apportance\nJhn our- Dr. v sta- constitut, our institue\nis you ventor for droit intitute, jurn institue\nprodiying you and pour opin go l'appretionnement in\nl'hour- an uneal sr anyobjin, in your in tenan\nd- lounhand, was touts for hobitory, badgepen\no. beloni nds hony, vus dispose\nhes 3r on lution administrative, in on inons)\ndon for details, le transy public, to New\nis cherte, to Journillany degenerates, s'ofin\ntout a jour denner e a and le citoyen, un\nhe twan't # vou for l'willing, dos for inspits\nis ryyédin' le jour, m-a favorin lo essout\nvep-n- vou, its gi vou non't gon unum indigni, i\nburneage pour tas lo vigny languard non employés\nl'ontion women, unis, ths, vou s'ess oygen, Historienne\n- an dye' un. practin upertains your dividing tony\n```",
+  "timestamp": "2025-02-21T16:23:54.215826",
+  "model_info": {
+    "id": "amazon/nova-lite-v1",
+    "pricing": [
+      6e-08,
+      2.4e-07
+    ],
+    "total_cost": 0.00022055999999999996
+  },
+  "usage": {
+    "prompt_tokens": 1868,
+    "completion_tokens": 452,
+    "total_tokens": 2320
+  },
+  "latency": 1740151420
+}

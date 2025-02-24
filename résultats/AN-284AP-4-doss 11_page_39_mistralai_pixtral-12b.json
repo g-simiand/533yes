@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-12b",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "",
+  "timestamp": "2025-02-21T14:10:29.849451",
+  "model_info": {
+    "id": "mistralai/pixtral-12b",
+    "pricing": [
+      1e-07,
+      1e-07
+    ],
+    "total_cost": 0.0001686
+  },
+  "usage": {
+    "prompt_tokens": 1686,
+    "completion_tokens": 0,
+    "total_tokens": 1686
+  },
+  "latency": 1740143427
+}

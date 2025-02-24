@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "Jussu d'Appertin\n\n1790.\n\nJ'ay fait deux conditions ~~en jugement~~ pour faire vne\njustice 1° que le juré puisse opposer dans les\nminutes que lors sir Soumise. 2° le un tiers\npris parmi les jurés en proffession de marchands, un\ntiers parmi ceux des differends, et un 3e tiers,\n(pour personne suspectes une division trop travelles\nen concilier les esprits,) qui paroit les yeux\nd'Hébé. honneur après par leur conscience, au\nbout de la discussion le 10e, de tous les etats,\nde tous les métiers de lad. ville. 2° Je fais\nqu'elles jures d'aider sa conscience, conscience\néclairée, prieront tous les juges opposés, s'il\ny a vne contradiction, ~~pour~~ l'idée de les borner aux\nsimple fait, G. difficile, tourner les difficultés des\nd'vne loi metier civil. sa conscience, ou\ninjustice pres ou inspirés fanatiques, ou\npour prejugés mauvais, ~~toute~~ ~~preuve~~ ( ~~vne~~ ) vne juste\ndoute les preuves soient equivoques, à charge de\nse decharger, tous les preuves ils jugeront\nsans le fond de leur conscience. vne conscience\néclairée, vne justice en droit et vray pour toute\nles genres circonstances. choisir et disposer\nproblemes coalisés, ~~coûteux~~ vraye justice Ptolomée\npaf, or il en plaisant d. voir les hommes, vouloir\ntous vivre à une porte de conscience !",
+  "timestamp": "2025-02-21T14:19:04.049701",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 369,
+    "total_tokens": 862
+  },
+  "latency": 1740143931
+}

@@ -1,0 +1,13 @@
+{
+  "model": "lectaurep_base",
+  "editeur": "kraken",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "Aioy Sougigue, adhisoos ple aemen arxloy\nanstiily deluz porsuert pet elavalivre.\nM^e Son les patiotes gre auvome vicir dles\nSignatreson Sur lenx apruplayse, Sons poies du\nl\nEstifit onsitably, at dnvogur Sixamptaise\nà Pan dis deprêts Sugoet..",
+  "timestamp": "2025-02-21T15:43:55.940047",
+  "model_info": {
+    "path": "kraken_models\\lectaurep_base.mlmodel"
+  },
+  "usage": {},
+  "latency": 27.045267343521118
+}

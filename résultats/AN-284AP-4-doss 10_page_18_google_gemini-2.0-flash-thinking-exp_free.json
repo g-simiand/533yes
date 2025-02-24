@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-thinking-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "```markdown\nParis 1er. 8bre. 1788.\nMessieurs, ou bien Messieurs\nLes propos de la loyer font une loi juste : tous\nceux qui travaillent beaucoup peuvent demander celle\net meme pour détaillés les diff.t.s ouvrages de\nl'art, l'imagination, les envies des chacun\nde les Sortes de Corps, / car c'est un effet de\nl'hazard, que par ex.e, 1.er, 2.e, 3.e, 4.e, 5.e, 6.e, 7.e, 8.e, 9.e, 10.e, 11.e, 12.e, 13.e, 14.e, 15.e, 16.e, 17.e, 18.e, 19.e, 20.e, 21.e, 22.e, 23.e, 24.e, 25.e, 26.e, 27.e, 28.e, 29.e, 30.e, 31.e,\ndes individus, qui les composent.\nAinsi donc on peut d'icy appeler le loyer\na veritablement qu'estoit Sacré lui, sur les\ndes individus, Sur tel, or tel raisonnement\nqui est suscité, formé, a un jugement,\nparticulier, mais le bon esprit a donné\na la detailleure d'y bien ses détails.\ncelui ci, on le deplorera en liberté\npour porter la marchandise jusqu'aux\nConsomateurs ; car le bon sens naturel\ndes fraters, enfin familial en trouvera\npour chaque vente en détail une\npetite corps de [XXX] il les [XXX]\nde le prix.\nLa contrainte des Communes [XXX]\ndu voisinage des professions individuelles\nles loyer à juger.\n```",
+  "timestamp": "2025-02-21T14:20:52.840578",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-thinking-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 493,
+    "completion_tokens": 455,
+    "total_tokens": 948
+  },
+  "latency": 1740144037
+}

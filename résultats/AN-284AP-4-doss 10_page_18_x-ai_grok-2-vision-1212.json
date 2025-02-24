@@ -1,0 +1,22 @@
+{
+  "model": "x-ai/grok-2-vision-1212",
+  "editeur": "x-ai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "```\nporf°. nos juges du district\n\nBuffon de bigne face une pét. par\nlaquelle il demande une prorogation\nd'un mois pour établir ses titres sur\nles biens qu'il possède dans la\nparoisse de Boiny (?) et sur\nles autres qu'il exploite depuis\nplusieurs années. Il ajoute que\nles difficultés qu'il éprouve\npour obtenir ces titres proviennent\nde ce que les biens en question\nsont indivis ou proviennent de\nsuccessions non partagées. Il se\nplaint de ce que les juges de\ndistrict n'ont pas voulu lui\naccorder cette prorogation sous\nprétexte qu'il n'a pas produit\nles titres qu'il prétend avoir\net qu'il n'a pas justifié\nqu'il est propriétaire des biens\nqu'il exploite. Le bureau est\nd'avis de lui accorder la\nprorogation demandée pour\nlui laisser le temps de\nproduire les titres nécessaires\net de justifier de sa\npropriété.\n```",
+  "timestamp": "2025-02-21T13:59:03.330744",
+  "model_info": {
+    "id": "x-ai/grok-2-vision-1212",
+    "pricing": [
+      2e-06,
+      1e-05
+    ],
+    "total_cost": 0.0032500000000000003
+  },
+  "usage": {
+    "prompt_tokens": 500,
+    "completion_tokens": 225,
+    "total_tokens": 725
+  },
+  "latency": 1740142733
+}

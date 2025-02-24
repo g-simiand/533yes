@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-001",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "+ veinemer les luns quoi a deeer.\n~{requin} posive~ du monde l'hors situer calculer\nles effets d. petits intrigues, d. petits moyens\nils leur moyen moyen soumis, puisqu'ils l'ont\neu en vertes. ~~err.~~ von ignoré les forces\nalentours, d. utés puissans après l'in\ntrigue, dar covert qui à le soin\nde l'objet de l'individu, etoy vous or finis\nbeaux. Il vundir les effets en\n'iquiste, il n'ia point de cause, puisqu'il\nn'impos what qu'ils pour emoutins et\nretourner, l'intrigue, les manœuvry en\nl'air, oublions aussi, ignoré les ressoin\n\nils croyeur amponnois de l'intrigue, en its méconnoissent\nalar de la rayton",
+  "timestamp": "2025-02-21T13:26:15.543323",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-001",
+    "pricing": [
+      1e-07,
+      4e-07
+    ],
+    "total_cost": 0.0004407
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 205,
+    "total_tokens": 3792
+  },
+  "latency": 1740140767
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "```markdown\n16.\n\nApres [XXX], [XXX], [XXX] aplying [XXX] [XXX] pour [XXX] phil[XXX]ation\n\nN° tous les patriotes qui [XXX] recu [XXX] Signatures, Sur leurs reputations, [XXX] de la [XXX], [XXX] [XXX], [XXX] l'exemplaire à bien des [XXX] [XXX]:\n```",
+  "timestamp": "2025-02-21T13:57:05.839598",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.407175
+  },
+  "usage": {
+    "prompt_tokens": 1145,
+    "completion_tokens": 6500,
+    "total_tokens": 7645
+  },
+  "latency": 1740142542
+}

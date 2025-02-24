@@ -1,0 +1,22 @@
+{
+  "model": "qwen/qwen-vl-plus:free",
+  "editeur": "qwen",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```markdown\nen alor, je ne sauray etre de votre ami\nor je crois que vous faites un peu trop\nabstraction de votre etat actuel et\nde devenir qui le menacera de tous\npart.\n\nV. R. P.\n\nde principes, leur ne suffisent pas. on\npeut etre aristocrate et les avoirs. la\nconsequence meme ne me refuseroit\npas dans telle es telle bouche.\n\nmachinant conseillerie de professeur\nde meilleure doctrine et de projets\ntoujours voudras, a la condition\nsi la regueur de cette demarche\npourrait etre division chez l'heure,\nil accroirait de la propre force.\ndivinait ainsi le maitre, ou il envisage\ntrop facilement de de doctrine\nen ses personnages de la veille.\n\nV. R. P.\n\nil ne s'agit pas de principes, ni de\nconsequences, il ne question de maitre\ndans machine sociale (capable de produire\n```",
+  "timestamp": "2025-02-21T13:35:54.285157",
+  "model_info": {
+    "id": "qwen/qwen-vl-plus:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 1512,
+    "completion_tokens": 238,
+    "total_tokens": 1750
+  },
+  "latency": 1740141349
+}

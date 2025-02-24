@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```\n[XXX] Nationale [XXX] [XXX]\n[XXX] [XXX]\n[XXX] [XXX]\n[XXX] du [XXX]\n\nAuquel sommes que le [XXX] Tronqua da satisfait,\ncharité, foy, ~~affirmation nouvelle~~ [XXX]\nL'objet d'a table lettre d'acte de rectification donnée\nau [XXX] de Scip. par le Roy d'Espagne.\n\nAn IV 1796\nmercredi Le 29\nVendémiaire\nJean Den. [XXX]\n\ns'arexcellences-repeaux fait ~~le stang~~ le Siege I\naussi que saver L. tendu. ma feuth secondation\nde [XXX] LeVe?\n\nCorps Législatif\nConseil Des Cinq-Cents\nConseil Des Anciens\n\nCes membres élus pour le pouvoir exécutif\nson 1°. s'arexcellences-repeaux, 2°. [XXX] de la Mouthe,\n3°. Roswell, 4°. Sieyes, 5°. [XXX], [XXX] Seyes, France!\n\nMeilleurs Généraux que Sieyes a eté fait de pluse\nde membres du pouvoir exécutif = dette. de temps\nac. sujét - Il déclara l'exemple de [XXX] [XXX]\nCommancement de la revolution, un belte a tout le\npartis, il ne voit pas raison acceder a place\nson Doi provisier rallier toutes les conficances\net qu'il etté au Conseil [XXX] & Cam. c'est\n[XXX] meilleur pour Remplacer Sieyes\n\nSieyes au nom du Comite. de finances\nabsolut. des observacions, [XXX] [XXX] contenant\nAu Memoire, derige? a la Directoire [XXX] [XXX],\n[XXX], un Surplu [XXX]\n\n16 frimaire\nM. Ju 23\n```",
+  "timestamp": "2025-02-21T13:56:33.067601",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.24942
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 3941,
+    "total_tokens": 4805
+  },
+  "latency": 1740142543
+}

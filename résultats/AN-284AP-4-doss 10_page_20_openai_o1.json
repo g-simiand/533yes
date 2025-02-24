@@ -1,0 +1,22 @@
+{
+  "model": "openai/o1",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "```\njour [XXX]\n1790.\n\nJ’[XXX] faire deux conditions [XXX] par [XXX] ou\n1° que la [XXX] Soit [XXX] dont [XXX]\nmanieres [XXX] [XXX] soumises plus un [XXX]\npuis pour [XXX] en proposition ordinairement, un\ntrès grand coup de refusions, se un [XXX]\n[XXX] pourrois [XXX] me [XXX] [XXX] try [XXX]\nconclu: le rapport [XXX] [XXX] pour [XXX]\nAttendu, honneur qui par [XXX] convenances, en\ntrop [XXX] [XXX] se [XXX] de tout la etat\net [XXX] la [XXX] de la [XXX] [XXX]\n[XXX] me [XXX], la [XXX] se [XXX]\n[XXX] pour [XXX] la [XXX] continue [XXX]\ndeclairé puisqu’on voit le toujours reporté\nayant en l’intention par [XXX] des bons au\n[XXX] [XXX] [XXX] [XXX] [XXX] [XXX] [XXX]\n```",
+  "timestamp": "2025-02-21T13:57:01.926686",
+  "model_info": {
+    "id": "openai/o1",
+    "pricing": [
+      1.5e-05,
+      6e-05
+    ],
+    "total_cost": 0.40080000000000005
+  },
+  "usage": {
+    "prompt_tokens": 864,
+    "completion_tokens": 6464,
+    "total_tokens": 7328
+  },
+  "latency": 1740142543
+}

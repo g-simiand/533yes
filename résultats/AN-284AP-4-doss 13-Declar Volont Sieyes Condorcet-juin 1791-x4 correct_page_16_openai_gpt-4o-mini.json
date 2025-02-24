@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```\n(6)\nsenter. Quelque pur qu'il fût, il entraîneroit\ntrop d'explications, trop de discussion. Le signe\nauquel les vrais Patriotes vont se reconnaître,\ndoit être à la fois sûr, facile & prompt à faïre.\nIl y a peu de temps encore qu'il eût ton de\nla liberté, la séparation auroit pu se faire des bons\n& des mauvais Citoyens. Aujourd'hui, tous\nveulent l'invoquer. Ceux qui la haïssent le plus\naffectent d'en parler avec amour. Il faut donc\ntrouver ailleurs le caractère distinctif que nous\ncherchons. Il n'en est pas de plus marqué & de\nplus certain que le sentiment ou la haine de\nl'égalité. C'est à l'égalité qu'il faut s'attacher ; car,\nsur ce point, les tarfudes de la révolution n'ont\npas encore fait le besoin de se déguiser tout-à-fait.\nQuoi ! ils l'entendront même, ce principe perd tous\nles jours ; il deviennent de plus en plus indécis. Quelle\nerreur est qu'il ne s'exclure de le repousser !\n\nTous ces faux amis de la Patrie qui demandent\npour elle une demi-liberté, & pour eux des pré-\ngriefs, font tout aussi aisés à reconnaître au\ngât qu'ils ne peuvent dissimuler pour le système\ndes deux Chambres, & pour je ne sais quel plan\nde consoffé à l'argloife, qui n'est au fond\nqu'un système de corruption, un équilibre de\ncupidité & de servitude.\n\n(7)\nOn voit combien il importe au succès de la\nrévolution & à l'établissement de la Constitution,\nque les Députés qui vont nous remplacer soient\npris parmi les Citoyens seulement que nous soupçon\nne peut atteindre que ces deux points fondamen-\ntaux : égalité des droits ; unité de Chambre.\n\nOn propose donc à tous les Patriotes la signature\nvolontaire d'une déclaration faite dans cet esprit, & \nqui puisse enfin nous éclairer ceux qui méritent\nnotre confiance. Il est incontestable que tous ceux\nqui signeront volontairement cette déclaration, se\nsépareront par cet acte seul de tout parti opposé\nà la liberté & à l'égalité, & qu'ils ne pourraient\ndonner même parmi eux. Tel est l'avantage que\nles engagements libres doivent avoir sur les fermes\nmens forcés.\n```",
+  "timestamp": "2025-02-21T14:12:01.789372",
+  "model_info": {
+    "id": "openai/gpt-4o-mini",
+    "pricing": [
+      1.5e-07,
+      6e-07
+    ],
+    "total_cost": 0.00053085
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 538,
+    "total_tokens": 1925
+  },
+  "latency": 1740143504
+}
