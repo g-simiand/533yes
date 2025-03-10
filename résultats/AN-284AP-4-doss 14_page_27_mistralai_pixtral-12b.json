@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-12b",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "```markdown\nGrassonnet\nIl a le dos long & epais\n& son empennage d'ecarté\nune Decouverte en France\nInterne. Deschamps\nDemainée. Il a le Dos long\n(autre nature) rote empesé\nd'un oiseau americain dont\nla Domestication de la culture\net de l'exportation en\nparticulier la mesura\net la disposition des cannes\nla terre unfeconde88888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888",
+  "timestamp": "2025-03-10T10:49:52.057388",
+  "model_info": {
+    "id": "mistralai/pixtral-12b",
+    "pricing": [
+      1e-07,
+      1e-07
+    ],
+    "total_cost": 0.00039
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 307,
+    "total_tokens": 3900
+  },
+  "latency": 1741600185
+}

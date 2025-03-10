@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```\n1789                                Extrait du Mercure\nEtats généraux\n                Séance du 10 juin\n\nProjet présenté par un Député de Paris.      M. Malouet annonce une motion importante\n                                            d'un membre de la Députation de Paris.\n                                            C'est l'abbé Sieyès. - L'Assemblée témoigne\n                                            un grand désir de l'entendre. -\n                                            Sieyès établit la conduite excessive des deux\n                                            ordres privilégiés l'impossibilité de soumettre\n                                            la vérification des pouvoirs à un autre juge-\n                                            -ment que celui des représentants de la Nation,\n                                            dont la réunion des trois ordres forme la\n                                            collection complète; l'inutilité de s'arrêter au\n                                            plan de conciliation d'après la Déclaration\n                                            par laquelle le Roi tient en suspens les\n                                            Dispositions; il propose en conséquence de\n                                            procéder, sans délai, à la vérification des\n                                            pouvoirs, et de déclarer aux deux ordres\n                                            privilégiés une dernière notification de\n                                            cette résolution en les invitant à se réunir\n                                            à la Salle commune. - Cette motion est\n                                            vivement applaudie. - Sur les observations\n                                            de trois membres, Sieyès consent à\n                                            substituer le mot invitation à celui de\n                                            sommation -\n\nSuite de la Séance du    Discussion et admission de plusieurs\n10 juin (le soir)        amendements à la motion de Sieyès,\n                         pour la faire accompagner d'une adresse\n                         au Roi. - Nomination des Députés La-\n```",
+  "timestamp": "2025-03-10T12:50:36.897042",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.012456
+  },
+  "usage": {
+    "prompt_tokens": 1837,
+    "completion_tokens": 463,
+    "total_tokens": 2300
+  },
+  "latency": 1741607426
+}

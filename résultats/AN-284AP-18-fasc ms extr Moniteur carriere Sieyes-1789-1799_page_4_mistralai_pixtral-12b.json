@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-12b",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\n1789.\n\nEtat general\n\nd'une lettre en 1666\n\nà Mgr l'Abbé de Retz.\n\nA reçu l'honneur une mission très importante d'un membre de la Députation de Paris. Cet Abbé de Retz, =1= de l'Ordre de Saint Augustin, qui avait été cité par l'Abbé de Montfaucon, pour avoir établi une méthode très exacte de conduire les études ordinaires prescrites, l'Embelleblette de l'histoire, la perfection des versiers, et un autre pour montrer que celuy qui représentait la Nature, dans la leçon du livre de la Genèse, et qu'il avait donné forme pour Collection complète, imprimée, d'après les planches de la Constitution, d'après la Décoration, par laquelle la Nature est élue, les Distributions il perdit, en conséquence de procès, tant devant la versification, et d'Ordonner aux sieurs, privilégiez une versification, De l'Établissement, en fait d'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en fait de l'Emploi, en",
+  "timestamp": "2025-03-10T10:38:11.479046",
+  "model_info": {
+    "id": "mistralai/pixtral-12b",
+    "pricing": [
+      1e-07,
+      1e-07
+    ],
+    "total_cost": 0.0004982
+  },
+  "usage": {
+    "prompt_tokens": 3465,
+    "completion_tokens": 1517,
+    "total_tokens": 4982
+  },
+  "latency": 1741599465
+}

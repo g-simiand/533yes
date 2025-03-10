@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "Croisement\n\nS'il a la sottise, l'opiniâtreté\nqu'il est impossible d'établir\nune démocratie en france\nen écartant l'aristocratie\ndominante : S'il a la sottise,\nla nation ~~[XXX]~~ reste exposée\nà une longue anarchie dont\nla diminution de la culture\net de l'industrie, et\npar conséquent la misère\net la dépopulation seront\nla suite infaillible.",
+  "timestamp": "2025-03-10T12:59:57.986756",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.007596
+  },
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 137,
+    "total_tokens": 1984
+  },
+  "latency": 1741607992
+}

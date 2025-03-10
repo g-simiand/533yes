@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "7.\n\nque j'avois si pour une bonne application de la loi ; j'étois\nune bonne organisation des travaux publics publics, que\n~~j'avois desiré de pouvoir indiquer~~ dans comme les\ntravaux conçus par lesquels la loi pourvoit aux individus\net aux choses.\n    les gens ~~[XXX]~~ judicieux, non seulement les gens\nque vous en été frappés par votre comté\n    de 3e sur l'election ~~[XXX]~~ protestante, a plus forte raison les\npersonnes de votre contrée, mais encore les import",
+  "timestamp": "2025-03-10T12:56:56.779131",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.005559000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 1,
+    "total_tokens": 1849
+  },
+  "latency": 1741607810
+}

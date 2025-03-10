@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "2.\n\nmotif de recours ~~illisible~~ de venger les droits, ~~garde~~ \nviolation des droits, ~~[XXX]~~ de la propriété des\nnouvelles espèces,\n\nmotif, ou ~~[XXX]~~ propriété de venger les droits,\nfondée sur ce que les droits existent, et elle sera attendue\navant, elle ~~[XXX]~~ à conserver les droits qu'à les ~~[XXX]~~.\n~~[XXX]~~ l'organisation par l'établissement d'une\n~~[XXX]~~ (constitution nouvelle) et aussi les philosophes\n~~[XXX]~~ l'examen des ~~[XXX]~~ n'avoient pas de constitution\n~~[XXX]~~\n~~[XXX]~~ accoutumé à tout de venger ~~[XXX]~~\n~~[XXX]~~ plus dangereuse ~~[XXX]~~ ~~[XXX]~~\ndanger d'enseigner aux hommes à ~~[XXX]~~ pour prévenir, ~~[XXX]~~\n~~[XXX]~~ pour les autres peuples ; ~~[XXX]~~ ~~[XXX]~~\ninfluence sur le sort de l'Europe, et\npar elle, sur les destinées du monde. #\n\n# ~~[XXX]~~ les lieux ~~[XXX]~~ ~~[XXX]~~ des droits\n~~[XXX]~~ incompatible ou inconnu\n~~[XXX]~~ sur les faits des sciences\n~~[XXX]~~ de votre ~~[XXX]~~ ~~[XXX]~~ des\n~~[XXX]~~ de pure harmonie.\n~~[XXX]~~ : quelle...",
+  "timestamp": "2025-03-10T12:56:20.606385",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.012249
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 447,
+    "total_tokens": 2295
+  },
+  "latency": 1741607768
+}

@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "er cela, j'ai souvent été à noter avec\nce je crois que vous faites une profonde\nabstraction de notre état actuel, et\ndes dangers qui le menacent de toutes\nparts.\n\n2e reflexion\n\ndes principes dont on s'affectionne peu. on\npeut être aristocrate et les avouer. les\nconsequences même ne me repousseraient\npas dans telle ou telle bouche. —\nmaintenant considerons de propager\nla meilleure doctrine, et des prosélites\ntant ce qu'on ~~voudra~~ voudra, à la condition\n1°. de s'assurer de cette démarche,\npourroit être d'usage chez l'ennemi,\net accroissement de sa propre force.\ndevenir ainsi le maitre, ou le conçoit\ntrop facilement et de la doctrine\net des ~~[XXX]~~ prosélites de la veille.\n\n3e reflexion\n\nil ne s'agit pas de principes, ni de\nconsequences, il est question et voila\nune machine facile capable de produire",
+  "timestamp": "2025-03-10T13:00:26.459060",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.009489000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 263,
+    "total_tokens": 2111
+  },
+  "latency": 1741608017
+}

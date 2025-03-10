@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "Je fume deux conditions en payement par corps, l'une\nportant l'autre, pour être exécuté dans les\nmatières qui leur est domaine. Je l'ai très\npris parmi les gens en profession de demandeurs, un\ntiers parmi ceux de défendeurs, et un 3e tiers, -\n(pour pouvoir accueillir une division sage travaillée\net conciliée des esprits) pris parmi les gens\nd'étude, hommes qui par leurs connaissances ont\ndroit d'en raisonner les prix, et tous les états\ndoivent les motifs de la justice. - Je il faut\nprendre, (pour donner en conscience), conscience\néclairée presque vers les supposons experts, et\nque nous n'adoptons pas l'idée de les borner aux\nsimples faits, difficiles souvent de dominer des\ndans les matières civiles. en conscience ne\nsignifie pas un inspirés fanatiques, ou\npour pareillement leurs pouvoirs (: mais que\ntoutes les raisons doivent exprimer ce charge et\nen décharge) ; tous ces pouvoirs des experts\ndans le fond de leur conscience, une conscience\néclairée, non seulement en droit mais par toutes\nles raisons d'état factum. Chacun de déposer si\nvraiment évalués comme vous jurez le fidèlement\npar et il est prétendant de vous de livrer, vouloir\ntous réduits à une forte de conscience.",
+  "timestamp": "2025-03-10T12:52:39.844826",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011181
+  },
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 376,
+    "total_tokens": 2223
+  },
+  "latency": 1741607543
+}

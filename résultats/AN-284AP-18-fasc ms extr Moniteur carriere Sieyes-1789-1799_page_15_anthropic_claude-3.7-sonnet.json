@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```\n13 Brumaire an III.\nSéance du matin\nPrésident Prieur\nSécrétaires du jour\nLakanal\nSéance du 13.\n\nSieyès annonce que le Roi d'Espagne a ratifié le\ntraité de paix — Applaudissements, insertion —.\n\nSieyès a fait lecture de l'acte de ratification donné\nau traité de Paix par le Roi d'Espagne —\n\nan IV 1795. —\nmercredi 18 9bre\nPrésident Rewbell\nSéance du 18. —\n\nLarévellière-Lépeaux fait l'éloge de Sieyès\nainsi que Rewbell. L'assemblée mue feuille acclamation\nde Vive.\n\nCorps Législatif. —\nConseil des Cinq-Cents.\nConseil des Anciens.\n\nConseil des Anciens — Les membres élus pour le pouvoir exécutif\n1er Brumaire sont : Larévellière-Lépeaux, Letourneur de la Manche,\nRewbell, Sieyès, Barras.\n\nConseil des Cinq-Cents\n11 Brumaire Message portant que Sieyès a refusé la place\nde membre du pouvoir exécutif. = Lettr. de Sieyès\nà ce sujet — Il déclare qu'ayant été depuis le\ncommencement de la révolution en butte à tous les\npartis, il ne croit pas devoir accepter une place\noù l'on doit parvenir à allier toutes les opinions\net qu'il l'écrit au Conseil des Cinq-cents.\nCarnot est élu pour remplacer Sieyès.\n\n16 frimaire\nM. du 23 —\n\nSieyès au nom du Comité des finances\nprésente des observations, sur le plan contenu\nau Mémoire envoyé par le Directoire relativement à un emprunt —\n```",
+  "timestamp": "2025-03-10T12:49:49.095212",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.013073999999999999
+  },
+  "usage": {
+    "prompt_tokens": 1838,
+    "completion_tokens": 504,
+    "total_tokens": 2342
+  },
+  "latency": 1741607375
+}

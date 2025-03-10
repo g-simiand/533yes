@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "a.                                 préambule\n\nImportance garantie néanmoins dans la constitution nationale,\nil faut avoir de voir tenir à coup d'établissement public\ndes six grands points suivans ; il faudra en bordes de\nl'éducation, pour l'ordre transportable à des travaux,\nà des plaisirs particuliers, il les faudra des fondateurs des\nbonnes mœurs, voulans néanmoins que l'établissement\nil les faudra des bons feux, nécessaires pour opérer l'éducation\net la nécessité et la décision des 1er,\nque ces citoyens à former, tenir, ces tenir de la loi,\nles hommes voulans de la voir choix, et pour les\nopérations publiques\ndes hommes exécutifs, il faut garder les charges, défendre\nles sujets militaires\navoir la police entière de l'établissement publique et faire pour\nopérantes ; en telle sorte néanmoins, pour l'édifice du\ngouvernement égalitaire, il nous faut une force d'exécution, y\nloger l'ordre par organisation, comme un gouvernement, y\ncommander citoyens qui formeront les deux corps d'hommes,\nde l'économie encore l'ordre entier à les entretiens\n~~de l'ordre~~ de ~~[XXX]~~ ~~[XXX]~~\nl'instruction civile ~~[XXX]~~ la garantie des 1er\nl'instruction militaire celle des 2e.\net des travaux publics particuliers comme l'usage",
+  "timestamp": "2025-03-10T12:54:05.947633",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011469
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 395,
+    "total_tokens": 2243
+  },
+  "latency": 1741607632
+}

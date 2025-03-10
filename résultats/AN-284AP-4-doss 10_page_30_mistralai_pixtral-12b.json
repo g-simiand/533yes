@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-12b",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```\nQ Memoire\n\nLa moyen le plus sur de mantenir l'union entre les Etats Royal\ntres parties de l'Empire Francois, d'abimer les ces leur patriotiques\ndempriés qui aneuvrent ne dependent et de pate qu'elles viennent d'egarer\net des ores que la constitution moins impores d'entetion la quelle des Gardes\nNationales et la franchise des troupes de ligne, est aujourd'hui renouvellé\nchaque an le 14. juillet les parties fédératif\n\nCe renouvellment annuel D'mes fédérations generalise sur parait et\nla confiance politique de l'empire Francois, une fois Constitutionnelles\nles plus indispensables: je vous confier de bien la réflexion que bien\nsaisir les immedies avantages, et il vous y attacher comme au moyen\nle plus sur de maintenir l'union inattaquable a jamais notre constitution et notre\nliberté.\n\nAujoud'hui, je dis que, la nouvelle de ce projet une fois anordier, et\nfandrait qu'on presentat des obstacles insurmontables pour qu'une fois\npar adopter\n\nOnels pourraient etre ces obstacles?\nJe ne conmais qu'une: la despotes.\n\nPremierement l'absurde, l'irrationelle une consideration suffisante\npour supprimer l'acte le plus important pour l'union et la\n```",
+  "timestamp": "2025-03-10T10:40:20.616558",
+  "model_info": {
+    "id": "mistralai/pixtral-12b",
+    "pricing": [
+      1e-07,
+      1e-07
+    ],
+    "total_cost": 0.0003905
+  },
+  "usage": {
+    "prompt_tokens": 3593,
+    "completion_tokens": 312,
+    "total_tokens": 3905
+  },
+  "latency": 1741599611
+}

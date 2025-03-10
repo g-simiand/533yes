@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "12\n\nnous supposer dans la position du despotisme et des\nnous portons à peine. Ce seroit bien pour\ns'élever dans quelques années ; il est donc\nindispensable de l'analyser ; nous demandons\nà notre tour, si l'on croit qu'un\nindividu quelconque puisse être libre,\nà côté de celui qui pourroit impunément\ndésobéir à la loi : la question est claire\net la réponse ne peut pas être douteuse,\nil faut donc pour [XXX] la liberté\nde chacun, que tous soient obligés\nles uns des autres dans une véritable\nimpossibilité de désobéir à la loi. La\ngarantie de cette liberté est donc\ndans l'usage l'établissement d'un pouvoir\nd'exécution relatif, irrésistible\naucun mouvement d'agression ou\npouvoir s'élève, à cet égard, si l'on\nn'obtient pas la différence des temps.\nSous le despotisme, une force irrésistible\nmaintient la volonté, les caprices\nde la loi, elle garantit la liberté...\naussi, une [XXX] pouvoir que la\nforce d'exécution bien irrésistible ;\nmais des autres principes doivent faire\ncelle-là, si quelque loi doit toujours\nl'expression de la volonté générale, qu'une",
+  "timestamp": "2025-03-10T12:58:03.874984",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011001
+  },
+  "usage": {
+    "prompt_tokens": 1872,
+    "completion_tokens": 359,
+    "total_tokens": 2231
+  },
+  "latency": 1741607872
+}

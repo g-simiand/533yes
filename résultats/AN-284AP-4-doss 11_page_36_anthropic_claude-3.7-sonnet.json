@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "L'image montre une feuille de papier blanc ou légèrement jaunâtre qui semble être un document historique, mais il n'y a pas de texte visible à transcrire. La page apparaît vierge ou le texte est trop pâle pour être distingué sur cette image.",
+  "timestamp": "2025-03-10T12:57:22.967264",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.006651000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1837,
+    "completion_tokens": 76,
+    "total_tokens": 1913
+  },
+  "latency": 1741607838
+}

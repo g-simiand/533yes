@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "jusqu'à... on dégré de détail. --\nChaque détail pour une loi gén. tous\nceux qui tendent à une généralité de vues, ils\ns'unissent pour détruiller les différentes de\ntous, l'important est surtout des choses\nde ces sortes de crises, c'est que tous ces\nhommes épars par rapport à l'apparence des\nces individus qui l'accompagnent...\nainsi donc on peut dire que le légis.\na constamment porté sur lui sur les\nces individus, les tel et tel individus\nqui est devenu fameux à un jugement,\npostérieur. mais le vrai rapport a donc\nla grande détaillance d'objets en détail.\ncelui ci est le législateur et l'unité\npar rapport des vues générales jusqu'aux\nconséquences ; c'est les vues naturelles\nde fortune. voilà pourquoi on trouvera\npour chaque vérité en détail une\nfoule corps de prétextes à les produire.\nC'est le point... de nouveau dans\nle montage des choses justes, et\nde soutenir des positions individuelles\ndes les [XXX] à juger.",
+  "timestamp": "2025-03-10T12:51:06.986768",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.010041000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 300,
+    "total_tokens": 2147
+  },
+  "latency": 1741607456
+}

@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "16.\n\nNous Soussignés, adherons pleinement aux loix\ncontenues dans la presente declaration.\n\n11.° tous les patriotes qui voudront mettre leurs\nsignatures sur leurs exemplaires, sont priés de les\ncertifier veritables, et d'envoyer l'exemplaire\nà l'un des depots suivans: - - - - - - -\n- - - - - - - - - - - - - - - - - - -\n- - - - - - - - - - - - - -",
+  "timestamp": "2025-03-10T12:58:46.761702",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.0056430000000000004
+  },
+  "usage": {
+    "prompt_tokens": 1876,
+    "completion_tokens": 1,
+    "total_tokens": 1877
+  },
+  "latency": 1741607921
+}

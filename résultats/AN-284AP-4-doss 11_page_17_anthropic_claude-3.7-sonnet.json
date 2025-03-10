@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.7-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "+ voi'ci mes livres pour a devo-\ntion pour davantage d'hors d'hors calculer\nles effets de petite intrigue, de petits voyages\net des voyages importants, presagier l'avenir\nen un mot. voici nos regles la-dessus\nde l'astrologie, de cette profonde science des\nintrigues, des evenements qui se passent\nau theatre des incidens [XXX] des surprises\n[XXX]. Je voudrai les offrir aux\ninposible, il n'a point de cause, par ce qu'il\nn'a pas [XXX] quels sont executés les\n[XXX], l'intrigue, les mouvements un\npeu, ordinaire avec ignorance des regles\n\nJe croyons aujourd'hui de l'intrigue, mais reconnoitre\naussi des langages",
+  "timestamp": "2025-03-10T12:55:09.787934",
+  "model_info": {
+    "id": "anthropic/claude-3.7-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.008754000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 214,
+    "total_tokens": 2062
+  },
+  "latency": 1741607700
+}
