@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```\nnos roplages dans le ~~souffle~~ souffle d'un vent du nord\nnous porta à peu près à l'endroit même\nd'où nous étions partis. Je ne puis\nm'empêcher de vous avouer que je me\ntrouvais dans une disposition ~~très~~\nmélancolique. Je ne crois pas\nqu'individuellement nous eussions\naucun sujet de plainte, puisque nous\navions à bord tout ce qui nous\nétait nécessaire, mais l'incertitude\nde notre sort, la crainte de ne\njamais revoir nos amis, nos\nparents, notre patrie, en un\nmot tout ce que nous avions\nde plus cher au monde, tout\ncela nous accablait. L'espérance\nseule nous soutenait, et nous\nnous y attachions avec d'autant\nplus d'ardeur que c'était notre\ndernière ressource. Nous nous\nefforcions de nous persuader\nque nous ne pouvions manquer\nde rencontrer bientôt quelque\nnavire, et cette idée nous\nconsolait. Je vous avoue\nque je n'ai jamais éprouvé\nune impression plus vive\nque celle que je ressentis\nquand j'aperçus la terre.\nC'était le 29 juin, jour de\nla fête de St Pierre et St Paul.\n```",
+  "timestamp": "2025-03-06T18:05:56.681655",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.009008
+  },
+  "usage": {
+    "prompt_tokens": 3466,
+    "completion_tokens": 346,
+    "total_tokens": 3812
+  },
+  "latency": 1741280744
+}

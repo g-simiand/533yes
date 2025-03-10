@@ -1,0 +1,92 @@
+[
+  {
+    "id": "base",
+    "name": "Base",
+    "type": "libre"
+  },
+  {
+    "id": "best",
+    "name": "Best",
+    "type": "libre"
+  },
+  {
+    "id": "catmus-print-fondue-large",
+    "name": "Catmus Print Fondue Large",
+    "type": "libre"
+  },
+  {
+    "id": "fr",
+    "name": "Fr",
+    "type": "libre"
+  },
+  {
+    "id": "free",
+    "name": "Free",
+    "type": "libre"
+  },
+  {
+    "id": "ManuMcFondue",
+    "name": "Manumcfondue",
+    "type": "libre"
+  },
+  {
+    "id": "o1",
+    "name": "O1",
+    "type": "libre"
+  },
+  {
+    "id": "qvq-72b-preview",
+    "name": "Qvq 72b Preview",
+    "type": "libre"
+  },
+  {
+    "id": "qwen-2-vl-72b-instruct",
+    "name": "Qwen 2 Vl 72b Instruct",
+    "type": "libre"
+  },
+  {
+    "id": "qwen-2-vl-7b-instruct",
+    "name": "Qwen 2 Vl 7b Instruct",
+    "type": "libre"
+  },
+  {
+    "id": "V1",
+    "name": "V1",
+    "type": "libre"
+  },
+  {
+    "id": "gemini-2.0-flash-001",
+    "name": "Gemini 2.0 Flash 001",
+    "type": "propriétaire"
+  },
+  {
+    "id": "gpt-4.5-preview",
+    "name": "Gpt 4.5 Preview",
+    "type": "propriétaire"
+  },
+  {
+    "id": "gpt-4o-2024-11-20",
+    "name": "Gpt 4o 2024 11 20",
+    "type": "propriétaire"
+  },
+  {
+    "id": "gpt-4o-mini",
+    "name": "Gpt 4o Mini",
+    "type": "propriétaire"
+  },
+  {
+    "id": "grok-2-vision-1212",
+    "name": "Grok 2 Vision 1212",
+    "type": "propriétaire"
+  },
+  {
+    "id": "grok-vision-beta",
+    "name": "Grok Vision Beta",
+    "type": "propriétaire"
+  },
+  {
+    "id": "nova-lite-v1",
+    "name": "Nova Lite V1",
+    "type": "propriétaire"
+  }
+]

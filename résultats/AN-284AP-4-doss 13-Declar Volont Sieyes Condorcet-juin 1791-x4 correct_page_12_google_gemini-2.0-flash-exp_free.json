@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "16.\nNous Souſignés, adhetons pleinnem areplong\narticly dates préſent délaratan.\n\nN°. tous les patriotes qui Fauvron recun dey\nSignatures Sur leur exemplaire, tous priés de les\ncertifié veritabley, et d'envoyer l'exemplaire\nà l'un des dépôts Suivant:",
+  "timestamp": "2025-03-06T16:56:00.411894",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 79,
+    "total_tokens": 3666
+  },
+  "latency": 1741276556
+}

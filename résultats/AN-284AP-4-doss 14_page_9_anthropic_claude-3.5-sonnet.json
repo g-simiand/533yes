@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "2e reflexion\n\ndes principes seuls ne suffisent pas. on\npeut etre aristocrate et les avoir. les\nconsequences meme ne se ressentiront\npas dans telle ou telle bouche. -\nmaintenant considerons de pres pour\nla meilleure doctrine, et des principes\ntout ce qu'on voudra, à la condition\nsi le resultat de cette demarche,\npremier pas d'union chez l'homme,\nse rapprochant de sa propre force,\ndevient aussi la matiere, on se conçoit\ntrop facilement et de sa doctrine\net des principes de la veille.\n\n3e reflexion\n\nIl ne s'agit pas de principes, ni de\nconsequences, il est question de mettre\nune machine sociale capable de produire\n\n[Je transcris fidèlement le texte manuscrit tel qu'il apparaît, avec sa ponctuation et sa mise en page d'origine]",
+  "timestamp": "2025-03-06T18:10:36.117860",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.008904
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 224,
+    "total_tokens": 2072
+  },
+  "latency": 1741281027
+}

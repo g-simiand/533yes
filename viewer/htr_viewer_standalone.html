@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>533yes - Viewer HTR (Standalone)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .image-container {
+            max-height: 800px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 100%;
+        }
+        .transcription-container {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            white-space: pre-wrap;
+        }
+        .diff-highlight {
+            background-color: #ffcccc;
+        }
+        .model-selector {
+            margin-bottom: 20px;
+        }
+        .wer-badge {
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .reference-transcription {
+            background-color: #e6f7ff;
+        }
+        #imageSelector, #modelSelector {
+            margin-bottom: 20px;
+        }
+        .loading {
+            font-style: italic;
+            color: #666;
+        }
+        .error {
+            color: #dc3545;
+        }
+        #debugInfo {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="mb-4">533yes - Viewer de transcriptions HTR (Standalone)</h1>
+        
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="imageSelector" class="form-label">Sélectionner une image :</label>
+                <select id="imageSelector" class="form-select">
+                    <option value="">Sélectionnez une image</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-md-6">
+                <h3>Image source</h3>
+                <div class="image-container">
+                    <img id="sourceImage" src="" alt="Image source">
+                </div>
+            </div>
+            
+            <!-- Transcriptions Column -->
+            <div class="col-md-6">
+                <h3>Transcriptions</h3>
+                
+                <!-- Reference Transcription -->
+                <div class="mb-3">
+                    <h4>Transcription de référence</h4>
+                    <div id="referenceTranscription" class="transcription-container reference-transcription">
+                        <span class="loading">Sélectionnez une image pour afficher sa transcription de référence.</span>
+                    </div>
+                </div>
+                
+                <!-- Model Transcriptions -->
+                <div class="model-selector">
+                    <h4>Transcription du modèle</h4>
+                    <select id="modelSelector" class="form-select">
+                        <option value="">Sélectionnez un modèle</option>
+                    </select>
+                    
+                    <div id="modelTranscription" class="transcription-container mt-3">
+                        <span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>
+                    </div>
+                    
+                    <div id="werInfo" class="mt-2">
+                        <!-- WER info will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Debug Info -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <details>
+                    <summary>Informations de débogage</summary>
+                    <div id="debugInfo"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour ajouter des logs de débogage
+        function log(message) {
+            const debugInfo = document.getElementById('debugInfo');
+            const timestamp = new Date().toLocaleTimeString();
+            debugInfo.innerHTML += `<div>[${timestamp}] ${message}</div>`;
+            console.log(`[${timestamp}] ${message}`);
+        }
+        
+        // Configuration - À remplacer par des données réelles
+        const config = {
+            // Utiliser des chemins relatifs pour la compatibilité avec GitHub Pages
+            imagesPath: './images/',
+            referencePath: './transcriptions_de_référence/',
+            resultsPath: './résultats/'
+        };
+
+        // Données intégrées directement dans le HTML (au lieu de les charger via fetch)
+        const IMAGES_LIST = [
+            'AN-284AP-4-doss 14_page_27.png',
+            'AN-284AP-4-doss 11_page_39.png',
+            'AN-284AP-4-doss 11_page_36.png',
+            'AN-284AP-4-doss 10_page_30.png',
+            'AN-284AP-4-doss 11_page_29.png',
+            'AN-284AP-4-doss 11_page_28.png',
+            'AN-284AP-4-doss 14_page_9.png',
+            'AN-284AP-4-doss 10_page_20.png',
+            'AN-284AP-4-doss 11_page_17.png',
+            'AN-284AP-4-doss 10_page_18.png',
+            'AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png',
+            'AN-284AP-4-doss 11_page_12.png',
+            'AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png',
+            'AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png',
+            'AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png'
+        ];
+
+        const MODELS_LIST = [
+            { id: 'amazon_nova-lite-v1', name: 'Amazon Nova Lite', type: 'propriétaire' },
+            { id: 'McCATMuS_nfd_nofix_V1', name: 'McCATMuS', type: 'libre' },
+            { id: 'ManuMcFondue', name: 'ManuMcFondue', type: 'libre' },
+            { id: 'lectaurep_base', name: 'Lectaurep Base', type: 'libre' },
+            { id: 'Gallicorpora+_best', name: 'Gallicorpora+', type: 'libre' },
+            { id: 'FoNDUE-GD_v2_fr', name: 'FoNDUE-GD', type: 'libre' },
+            { id: 'catmus-print-fondue-large', name: 'CATMuS Print Fondue', type: 'libre' },
+            { id: 'openai_gpt-4o-mini', name: 'GPT-4o Mini', type: 'propriétaire' },
+            { id: 'openai_gpt-4o', name: 'GPT-4o', type: 'propriétaire' },
+            { id: 'anthropic_claude-3.5-sonnet', name: 'Claude 3.5 Sonnet', type: 'propriétaire' },
+            { id: 'anthropic_claude-3.7-sonnet', name: 'Claude 3.7 Sonnet', type: 'propriétaire' },
+            { id: 'google_gemini-2.0-flash-001', name: 'Gemini 2.0 Flash', type: 'propriétaire' },
+            { id: 'mistralai_pixtral-12b', name: 'Mistral Pixtral 12B', type: 'libre' },
+            { id: 'mistralai_pixtral-large-2411', name: 'Mistral Pixtral Large', type: 'libre' }
+        ];
+
+        // Fonction pour initialiser le sélecteur d'images
+        function initImageSelector() {
+            log("Initialisation du sélecteur d'images...");
+            const selector = document.getElementById('imageSelector');
+            
+            if (IMAGES_LIST.length === 0) {
+                log("Aucune image disponible");
+                selector.innerHTML = '<option value="">Aucune image disponible</option>';
+                return;
+            }
+            
+            log(`${IMAGES_LIST.length} images disponibles`);
+            selector.innerHTML = '<option value="">Sélectionnez une image</option>';
+            IMAGES_LIST.forEach(image => {
+                const option = document.createElement('option');
+                option.value = image;
+                option.textContent = image;
+                selector.appendChild(option);
+            });
+            
+            // Ajouter l'événement de changement
+            selector.addEventListener('change', (e) => {
+                if (e.target.value) {
+                    log(`Image sélectionnée: ${e.target.value}`);
+                    loadImage(e.target.value);
+                } else {
+                    // Réinitialiser l'affichage si aucune image n'est sélectionnée
+                    document.getElementById('sourceImage').src = '';
+                    document.getElementById('referenceTranscription').innerHTML = 
+                        '<span class="loading">Sélectionnez une image pour afficher sa transcription de référence.</span>';
+                    document.getElementById('modelTranscription').innerHTML = 
+                        '<span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>';
+                    document.getElementById('werInfo').innerHTML = '';
+                }
+            });
+        }
+
+        // Fonction pour initialiser le sélecteur de modèles
+        function initModelSelector() {
+            log("Initialisation du sélecteur de modèles...");
+            const selector = document.getElementById('modelSelector');
+            
+            if (MODELS_LIST.length === 0) {
+                log("Aucun modèle disponible");
+                selector.innerHTML = '<option value="">Aucun modèle disponible</option>';
+                return;
+            }
+            
+            log(`${MODELS_LIST.length} modèles disponibles`);
+            selector.innerHTML = '<option value="">Sélectionnez un modèle</option>';
+            
+            // Trier les modèles par type puis par nom
+            const sortedModels = [...MODELS_LIST].sort((a, b) => {
+                if (a.type !== b.type) {
+                    return a.type === 'libre' ? -1 : 1;
+                }
+                return a.name.localeCompare(b.name);
+            });
+            
+            // Créer des optgroups pour les types de modèles
+            const libreGroup = document.createElement('optgroup');
+            libreGroup.label = 'Modèles libres';
+            
+            const proprietaireGroup = document.createElement('optgroup');
+            proprietaireGroup.label = 'Modèles propriétaires';
+            
+            sortedModels.forEach(model => {
+                const option = document.createElement('option');
+                option.value = model.id;
+                option.textContent = model.name;
+                
+                if (model.type === 'libre') {
+                    libreGroup.appendChild(option);
+                } else {
+                    proprietaireGroup.appendChild(option);
+                }
+            });
+            
+            if (libreGroup.children.length > 0) {
+                selector.appendChild(libreGroup);
+            }
+            
+            if (proprietaireGroup.children.length > 0) {
+                selector.appendChild(proprietaireGroup);
+            }
+            
+            // Ajouter l'événement de changement
+            selector.addEventListener('change', (e) => {
+                if (e.target.value) {
+                    log(`Modèle sélectionné: ${e.target.value}`);
+                }
+                updateModelTranscription(e.target.value);
+            });
+        }
+
+        // Fonction pour charger une image et sa transcription de référence
+        function loadImage(imageName) {
+            log(`Chargement de l'image: ${imageName}`);
+            // Afficher l'image
+            const imageElement = document.getElementById('sourceImage');
+            imageElement.src = `${config.imagesPath}${imageName}`;
+            
+            // Charger la transcription de référence
+            const refName = imageName.replace('.png', '.md');
+            fetchReferenceTranscription(refName);
+            
+            // Mettre à jour la transcription du modèle si un modèle est sélectionné
+            const modelSelector = document.getElementById('modelSelector');
+            if (modelSelector.value) {
+                updateModelTranscription(modelSelector.value);
+            } else {
+                document.getElementById('modelTranscription').innerHTML = 
+                    '<span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>';
+                document.getElementById('werInfo').innerHTML = '';
+            }
+        }
+
+        // Fonction pour récupérer la transcription de référence
+        function fetchReferenceTranscription(refName) {
+            log(`Chargement de la transcription de référence: ${refName}`);
+            const refElement = document.getElementById('referenceTranscription');
+            refElement.innerHTML = `<span class="loading">Chargement de la transcription de référence...</span>`;
+            
+            fetch(`${config.referencePath}${refName}`)
+                .then(response => {
+                    log(`Statut de la réponse pour ${refName}: ${response.status}`);
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    log(`Transcription de référence chargée (${text.length} caractères)`);
+                    refElement.textContent = text;
+                })
+                .catch(error => {
+                    log(`Erreur lors du chargement de la transcription de référence: ${error.message}`);
+                    refElement.innerHTML = `<span class="error">Erreur lors du chargement de la transcription de référence: ${error.message}</span>`;
+                });
+        }
+
+        // Fonction pour mettre à jour la transcription du modèle
+        function updateModelTranscription(modelId) {
+            const transcriptionDiv = document.getElementById('modelTranscription');
+            const werInfoDiv = document.getElementById('werInfo');
+            
+            if (!modelId) {
+                transcriptionDiv.innerHTML = '<span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>';
+                werInfoDiv.innerHTML = '';
+                return;
+            }
+            
+            const selectedImage = document.getElementById('imageSelector').value;
+            if (!selectedImage) {
+                transcriptionDiv.innerHTML = '<span class="loading">Sélectionnez d\'abord une image.</span>';
+                werInfoDiv.innerHTML = '';
+                return;
+            }
+            
+            const baseImageName = selectedImage.replace('.png', '');
+            const jsonFileName = `${baseImageName}_${modelId}.json`;
+            
+            log(`Chargement de la transcription du modèle: ${jsonFileName}`);
+            transcriptionDiv.innerHTML = `<span class="loading">Chargement de la transcription...</span>`;
+            werInfoDiv.innerHTML = '';
+            
+            fetch(`${config.resultsPath}${jsonFileName}`)
+                .then(response => {
+                    log(`Statut de la réponse pour ${jsonFileName}: ${response.status}`);
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    log(`Transcription du modèle chargée (${data.result ? data.result.length : 0} caractères)`);
+                    transcriptionDiv.textContent = data.result;
+                    
+                    // Afficher les informations sur le WER si disponibles
+                    if (data.wer !== undefined) {
+                        const werValue = parseFloat(data.wer);
+                        let werClass = 'bg-danger';
+                        
+                        if (werValue < 0.1) {
+                            werClass = 'bg-success';
+                        } else if (werValue < 0.2) {
+                            werClass = 'bg-info';
+                        } else if (werValue < 0.3) {
+                            werClass = 'bg-primary';
+                        } else if (werValue < 0.5) {
+                            werClass = 'bg-warning';
+                        }
+                        
+                        werInfoDiv.innerHTML = `
+                            <span class="badge ${werClass}">WER: ${werValue.toFixed(3)}</span>
+                            <small class="text-muted ms-2">Plus le WER est bas, meilleure est la performance</small>
+                        `;
+                    } else {
+                        werInfoDiv.innerHTML = '<small class="text-muted">WER non disponible</small>';
+                    }
+                })
+                .catch(error => {
+                    log(`Erreur lors du chargement de la transcription: ${error.message}`);
+                    transcriptionDiv.innerHTML = `<span class="error">Erreur lors du chargement de la transcription: ${error.message}</span>`;
+                    werInfoDiv.innerHTML = '';
+                });
+        }
+
+        // Initialiser l'application
+        document.addEventListener('DOMContentLoaded', () => {
+            log("Initialisation de l'application...");
+            try {
+                initImageSelector();
+                initModelSelector();
+                log("Initialisation terminée");
+            } catch (error) {
+                log(`Erreur lors de l'initialisation: ${error.message}`);
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

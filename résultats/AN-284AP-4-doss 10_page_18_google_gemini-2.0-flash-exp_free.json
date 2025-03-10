@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "présida.. on lyu de détail.\ntoujours de lezer faire une loi juste : toujours\nCopyri qui tendour Serour preig de mon ello\na wwww pour détailles les diff. manières de\ntoes, l'imagination sie writer des chemins\nde as Sortes de Cring, Car sur oppr on\nSouverd yeur pour, 2, regis l'opposer des\nCon individuels qui le accompagner.\naisi doKN ou geur dies quale le lyr\na vontablemen. Querto lac boi sur les\ncos individuels, Our tel er tel vivemen\nqui est susisto puning a un jugement,\nqu'on estime. voir le and engoy a donner\nla que le détaille de Tbw ser détail.\n,\ncabi ci on le Supplemen er l'éventes\npour porttent les marchande jusquenn\nCrowowoten; wir be mend naturs\ndo foutair. enfin fournir un terminen\npour chagne vento en détail un\npatre cospor et Mistert über gargoyle\nGabe le jury. be reutars sour\nla contapont des Co innver\nda voisinage des gestions individuelles\nsur le jury à jger.",
+  "timestamp": "2025-03-06T15:38:56.867597",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 268,
+    "total_tokens": 3855
+  },
+  "latency": 1741271929
+}

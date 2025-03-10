@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "```markdown\nJeux d'apostres 1790.\n\nJ'y fais deux conditions uniquement par jeux ou\nsociété 1° que les jeux soient apportés dans les\nmaisons par sur et soumis à l'œil un tiers\npris parmi les jeux et parfait ordinairement un\ntiers parmi ceux du défendeur, et un 3e tiers,\n(pour surveiller une division trop partiale\nou recueillir les jeux,) pris parmi les jeux\nd'honnêtes hommes qui par leur commerce, leur\nloisirs les réunissent par jeux de tous les états\nd'ailleurs les traités de la société 2° Que leurs\nparoles, jeux, décisions, sa conviction, conscience\néclairée préjugée sur les différents rapports, se\nprononce ni dictée par idées de la faveur du\nsimple jeu, effets heureux et donnés du\ndroit du maintien civil, sa conscience et\njugée par ou intérêts fanatiques ou\npar préjugés pour pouvoirs, (je veux qu'ils\nsoient acquis à charge de\ntoutes les preuves, sur ces preuves ils reposent\nà décharge ; sur ces preuves ma conscience\nsous le joug de leur décision\nadhère non suivant un vœu et mais par toutes\nles preuves circonstances observations si\ndouleurs cadres, cadres mon jeu se déterminent\npar qu'il me plaisent ou qu'ils leurs veulent\ntous réduire à une forte conscience.\n```",
+  "timestamp": "2025-03-06T17:47:42.828828",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.12869999999999998
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 305,
+    "total_tokens": 1411
+  },
+  "latency": 1741279628
+}

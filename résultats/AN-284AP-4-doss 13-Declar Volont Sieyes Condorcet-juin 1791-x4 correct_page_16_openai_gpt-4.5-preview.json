@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "(6)\n\nsenter. Quelque pur qu’il fût, il entraîneroit trop d’explications, trop de discussion. Le signe auquel les vrais Patriotes vont se reconnoître, doit être à la fois sûr, facile & prompt à saisir.\n\nIl y a peu de temps encore qu’au seul nom de la liberté, la séparation auroit pu se faire des bons & des mauvais Citoyens. Aujourd’hui, tous veulent l’invoquer. Ceux qui la haïssent le plus affectent d’en parler avec amour. Il faut donc trouver ailleurs le caractère distinctif que nous cherchons. Il n’en est pas de plus marqué & de plus certain que le sentiment ou la haine de l’égalité. C’est à l’égalité qu’il faut s’attacher ; car, sur ce point, les tartufes de la révolution n’ont pas encore senti le besoin de se déguiser tout-à-fait. Quoi ! les entendre même, ce principe perd tous les jours ; il devient de plus en plus indécis. Quelle erreur ! & qu’il est nécessaire de la repousser !\n\nTous ces faux amis de la Patrie qui demandent pour elle une demi-liberté, & pour eux des prérogatives, sont tout aussi aisés à reconnoître au goût qu’ils ne peuvent dissimuler pour le système des deux Chambres, & pour je ne sais quel plan de contre-forces à l’angloise, qui n’est au fond qu’un système de corruption, un équilibre de cupidité & de servitude.\n\n(7)\n\nOn voit combien il importe au succès de la révolution & à l’établissement de la Constitution, que les Députés qui vont nous remplacer soient pris parmi les Citoyens seulement que nul soupçon ne peut atteindre sur ces deux points fondamentaux : égalité des droits ; unité de Chambre.\n\nOn propose donc à tous les Patriotes la signature volontaire d’une déclaration faite dans cet esprit, & qui puisse enfin nous éclairer sur ceux qui méritent notre confiance. Il est incontestable que tous ceux qui signeront volontairement cette déclaration, se sépareront par cet acte seul de tout parti opposé à la liberté & à l’égalité, & qu’ils ne pourroient se réunir ensuite à nos ennemis sans se déshonorer même parmi eux. Tel est l’avantage que les engagements libres doivent avoir sur les sermens forcés.\n\n[Annotation manuscrite en bas de la page 6 :]\n\n(1) qu'on ne dise donc pas que j'ai voulu\nborner la constitution à deux articles.\nil n'y a rien d'absolu, rien n'a été dicté,\nrien même proposé encore, quand on n'entendait\npas mes paroles.\n\n[Annotation manuscrite inversée en bas de la page 7 :]\n\nIl en restoit rien comme des programmes\nde faire mention de ce mémoire.",
+  "timestamp": "2025-03-06T17:54:17.871992",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.19372499999999998
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 598,
+    "total_tokens": 1985
+  },
+  "latency": 1741279967
+}

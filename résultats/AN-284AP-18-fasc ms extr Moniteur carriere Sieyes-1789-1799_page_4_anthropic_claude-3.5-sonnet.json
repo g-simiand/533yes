@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "1789\nEtats généraux\n\nSéance du 10 juin\n\nNoyant nommé Député de Paris.\n\nProjet\n\nIl craignoit annoncer une motion importante\nd'un membre de la Députation de Paris.\nC'est l'abbé Sieyes. = Il a demandé à faire\nun grand eclat de l'entendre. =\nSieyes critique la conduite excessive des deux\nordres privilégiés l'impossibilité de soumettre\nla vérification des pouvoirs à un autre juge-\n-ment que celui des représentants de la Nation;\ndont la réunion des trois ordres forme la\ncollection complette; l'inutilité de s'arrêter au\nplan de conciliation proposé la déliberation\npar laquelle la Noblesse en a eludé les\ndispositions; il propose en conséquence de\nprocéder, sans délai, à la vérification des\npouvoirs, et d'adresser aux deux ordres\nprivilégiés une dernière notification de\ncette résolution en les invitant à se réunir\nà la Salle commune. = Cette motion est\nvivement applaudie. = Sur les observations\nde trois membres, Noyant consent à\nsubstituer le mot invitation à celui de\nsommation =\n\nSuite de la Séance du\n10 juin (le soir)\n\nDiscussion et admission de premier\namendements à la motion de Sieyes,\npour la faire accompagner d'une adresse\nau Roi. = Nomination des 8 membres &c.",
+  "timestamp": "2025-03-06T18:07:32.181210",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011286000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1837,
+    "completion_tokens": 385,
+    "total_tokens": 2222
+  },
+  "latency": 1741280839
+}

@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "Convention Nationale\n1795. an III.\nFrachdor.\nSéance Du 2.\n19 9bre\nSéance Du 16.\n\nAn IV 1795.\nMoniteur Du 29.\nVendémiaire\nSéance Du 24.\n\nConseil des Anciens.\n10 Brumaire\nConseil des Cinq. cents\n11 Brumaire\n16 frimaire\nM. Du 23.\n\nSayes annonce que le Roi d'Espagne a ratifié le\nTraité de paix. – Applaudissements. interhon.\nSieyes fait lecture de l'acte de ratification donnée\nau traité de paix, par le Roi d'Espagne.\n\n~~C~~\nLareveilliere – Lepeaux fait l'éloge de Sieyes\nainsi que Louvet L. Conte. nue feuste. acclamation\nde la Kovère.\n\nCorps Législatif. –\nConseil Des Cinq-Cents.\nConseil Des Anciens.\n\n– Les membres élus pour le pouvoir exécutif\nsont : Lareveilliere – Lepeaux, Letourneur de la Manche\nRewbell, Sieyes, Barras.\n\nMessage portant que Sieyes a refusé la place\nDe membre du pouvoir exécutif. = Lettre de Sieyes\na ce sujet. – Il déclare qu'ayant été depuis le\nCommencement de la révolution, en butte à tous les\npartis, il ne croit pas devoir accepter une place\noù l'on doit pouvoir rallier toutes les confiances,\net qu'il reste au Conseil des Cinq-cents.\nCarnot Nielu pour remplacer Sieyes.\nSieyes au nom du Comité des Finances,\nprésente des observations, sur le plan contenu\nau Mémoire, envoyé par le Directoire relatif =\nvement. à un emprunt.",
+  "timestamp": "2025-03-06T15:38:41.691025",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 401,
+    "total_tokens": 3988
+  },
+  "latency": 1741271915
+}

@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "```\nJ'ay vu, ou lu, ou entendu dire\nplusieurs fois, pour ne pas dire tous\nceux qui ont écrit sur cette matière, que\nceux qui ont établi le suffrage des\nvoix, n'imaginèrent les assemblées des chambres\nde la Sainte et sainte Eglise, que pour des\nchoses qui par leur nature supposent des\nconventions entre plusieurs, ou qui ne peuvent\nêtre bien faites que par plusieurs réunis,\ncomme sont ou peuvent être les loix,\nles canons, les règles, les constitutions\necclésiastiques, les définitions de foi,\nles jugements des différends entre\nles églises, ou les évêques, ou les fidèles,\net autres choses semblables, qui ne peuvent\nêtre bien faites que par plusieurs réunis.\nMais pour ce qui est des autres\nchoses qui n'ont pas besoin d'être\nfaites par plusieurs, comme sont les\nélections des évêques, des prêtres, des\ndiacres, des sous-diacres, et autres\npareilles, ils n'ont point établi que\nces choses se fissent par plusieurs,\nmais ils les ont laissées à la disposition\nde ceux à qui elles appartiennent,\ncomme il est aisé à voir par les anciens\ncanons, et par les anciennes constitutions\nde l'Eglise, où il n'est point parlé de\nces sortes d'élections, et où il est\nau contraire défendu de les faire par\nplusieurs, comme on le voit dans le\ncanon de l'Eglise d'Afrique, qui dit\nque les évêques doivent être élus par\nle clergé et par le peuple de la ville\noù ils doivent être établis, et non\npar les évêques des autres villes.\n```",
+  "timestamp": "2025-03-06T18:02:46.243357",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.01015
+  },
+  "usage": {
+    "prompt_tokens": 3689,
+    "completion_tokens": 462,
+    "total_tokens": 4151
+  },
+  "latency": 1741280545
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "[XXX]",
+  "timestamp": "2025-03-06T17:51:33.124636",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.083775
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 4,
+    "total_tokens": 1113
+  },
+  "latency": 1741279880
+}

@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "Je vais transcrire ce manuscrit français du XVIIIe siècle en respectant sa mise en page et ses particularités :\n\nJ'y prends 21 pour une bonne application de la loi, 2° pour\nune bonne organisation des fs publics publics, qui\n~~pour dire de pouvoir indiquer~~ sont comme les\nfs publics conçus par lesquels la loi parvient aux individus\net aux chefs.\n\nla que ~~l'on pourrait~~ solution judiciaire, non seulement sur ce\nque vous en été avisés par votre conseil\nde 2e sur la ~~première~~ prétention, a plus la prétention de\nplus nous en votre constance, vous guides les importants\net que n'a été pas d'être d'apporter avec instruction\nprincipes qui ~~ont~~ pour objet que le perfectionnement de\nl'homme moral et physique, et qui en fondant\nde bonheur des touts fs habitants, le dispensent\nde la loi et des biens, vous disposez - - -\n\nMais fs en situation administrative, elle est inverse\ndes fs détails ; les travaux publics, les soins\ndes chantés, les surveillances des parents, enfin\ntout ce qui donnait à aider la catégorie des\nfs travaux, fs des fs principes, des fs intégrés,\nà répandre la paix, et à favoriser les cours - - -\n~~vous avez été fs~~ vous n'avez pas encore indiqué, à\nbeaucoup près tous les moyens auxquels vous employés\nl'action administrative, mais, vous avez exposé l'intention\net bien déjà une partie essentielle qui doit vos titres",
+  "timestamp": "2025-03-06T18:09:35.299090",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011919
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 425,
+    "total_tokens": 2273
+  },
+  "latency": 1741280959
+}

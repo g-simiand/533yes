@@ -3,20 +3,20 @@
   "editeur": "mistralai",
   "modele_type": "libre",
   "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
-  "result": "```markdown\nRévolution de l'esprit\nhumain, par un ~~XXX~~\nhomme de passion.\nVolume 2e.\n\nà Londres\nchez Du ~~XXX~~\n\n~~XXX~~ amour que le Roi ~~XXX~~ d'Angleterre, a laissé à\nsa fille, princesse ~~XXX~~ d'Écosse, victime victorieuse\nde la Révolution française. ~~XXX~~\n\nCe n'est qu'après l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de l'acte de",
-  "timestamp": "2025-02-21T14:05:20.483009",
+  "result": "```\nCeux qui ont été\nprésens à la\nrédaction de ce\nprocès verbal\nsont :\n\nM. de la\nRochefoucault\n\nDupont\n\nM. de la\nRochefoucault\n\nDupont\n\nIl a été arrêté que le procès verbal ~~d'aujourd'hui~~ de la\nséance d'aujourd'hui serait signé par tous les membres\nprésens, et qu'il serait envoyé à M. Necker, avec une\nlettre de M. de la Rochefoucault, pour l'inviter à se\nrendre à l'assemblée de demain.\n\nEn IVe feuille\n\nMessieurs les députés\nde demain\nséance du 26.\n\n~~Ceux qui ont été~~ Ceux qui seront présens à la séance de demain\nsigneront le procès verbal de la séance d'aujourd'hui.\n\nCopie certifiée\nConforme à l'original\n\nConseil des Cinq-Cents\n\nConseil des Anciens\n\nConseil des Cinq-Cents\n\nConseil des Anciens\n\nLe membre ~~élu~~ nommé pour la présidence a été ~~élu~~\nà l'unanimité\n\nConseil des Cinq-Cents\n\nM. Rewbell a été nommé\n\nConseil des Cinq-Cents\n\nM. Rewbell a été nommé\n\nIl a été arrêté que ~~chacun~~ chaque député se rendrait\nà son poste, et qu'il serait prêt à partir dès qu'il recevrait\nl'ordre de se rendre à l'assemblée.\n\nIl a été arrêté que les membres du Conseil des Cinq-Cents\nseraient avertis par un huissier, et qu'ils se rendraient\nimmédiatement à l'assemblée.\n\n16 fructidor\nan 5\n\nM. du 25\n\nParis, le 25 fructidor an 5 de la République française, une et\nindivisible. Par les citoyens soussignés, membres du Conseil\ndes Cinq-Cents, commissaires nommés par le Directoire exécutif\npour ~~la~~ l'examen des papiers saisis chez les citoyens\nBarras et Rewbell.\n```",
+  "timestamp": "2025-03-06T18:03:38.637165",
   "model_info": {
     "id": "mistralai/pixtral-large-2411",
     "pricing": [
       2e-06,
       6e-06
     ],
-    "total_cost": 0.00903
+    "total_cost": 0.01077
   },
   "usage": {
-    "prompt_tokens": 3561,
-    "completion_tokens": 318,
-    "total_tokens": 3879
+    "prompt_tokens": 3594,
+    "completion_tokens": 597,
+    "total_tokens": 4191
   },
-  "latency": 1740143106
+  "latency": 1741280598
 }

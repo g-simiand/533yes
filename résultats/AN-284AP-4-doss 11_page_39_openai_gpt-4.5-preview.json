@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "```markdown\n12\n\nnous replonger dans le gouffre du despotisme d'où\nnous sortons à peine en serait pour nous\nidéal dans quelques années, il est donc\nindispensable de l'anéantir ; nous donnons\nà notre tour, si l'on craint qu'un\nindividu quelconque puisse être libre\nà côté de celui que gouverner voudrait\nréduire à l'esclav. La question se clari-\nra la rigueur impose par des volontés\nil faut donc pour garantir la liberté\nde chacun, que tous suivent à l'égard\nles uns des autres dans une véritable\nimpossibilité de réduire à l'esclav. La\ngarantie de notre liberté ne peut\ndonc [XXX] l'établissement d'une force\ndisputée relative irrésistible\naucun mouvement disputant ne\npouvant s'élever à son égard, et l'un\nn'oubliera pas leur différence de trop\nsous le despotisme, une force irrésistible\nmaintient sa position, son régime\nde l'autre, elle garantit la liberté...\nainsi une [XXX] assuré par la\nforce disputée bien irrésistible,\nmais de quels principes doivent finir\ncelui-là, à quelle loi sera soumis\nl'oppression de la volonté facile, qui\n```",
+  "timestamp": "2025-03-06T17:52:26.615998",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.147225
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 288,
+    "total_tokens": 1675
+  },
+  "latency": 1741279894
+}

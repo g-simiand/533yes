@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "Vendémiaire an III.\nMoniteur et feuilles du jour\nSéance du 15.\n\nSéance du 15. Sieyès annonce que le Roi d'Espagne, a ratifié le\ntraité de paix - applaudissements universels et redoublés.\n\nSieyès a fait lecture de l'acte de ratification donné\nau traité de Paix par le Roi d'Espagne -\n\nan IV 1795.\nmoniteur du 29\net autres papiers\nséance du 24.\n\nLarévellière-Lépeaux fait l'éloge de Sieyès\nainsi que Louvet & Lesage une foule d'acclamation\nde Vive.\n\nCorps Législatif -\nConseil des Cinq-Cents.\nConseil des anciens.\n\nConseil des anciens - Les membres élus pour le pouvoir exécutif\n1er frimaire sont : Larévellière-Lépeaux, Letourneur de la Manche,\nRewbell, Sieyès, Barras.\n\nConseil des Cinq-cents\n11 frimaire Message portant que Sieyès a le juste les places\nde membre du pouvoir exécutif. = Lettr. de Sieyès\nà ce sujet - Il déclare qu'ayant été depuis le\ncommencement de la révolution, en butte à tous les\npartis, il ne croit pas devoir accepter une place\noù l'on doit pouvoir rallier toutes les confiances\net qu'il reste au Conseil des Cinq-cents.\nCarnot est élu pour remplacer Sieyès.\n\n16 frimaire Sieyès au nom du Comité des finances\nM. du 25 présente des observations sur le plan contenu\nau Mémoire, envoyé par le Directoire relati-\nvement à un emprunt -",
+  "timestamp": "2025-03-06T18:07:18.610826",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.012651
+  },
+  "usage": {
+    "prompt_tokens": 1837,
+    "completion_tokens": 476,
+    "total_tokens": 2313
+  },
+  "latency": 1741280819
+}

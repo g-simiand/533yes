@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "```\nTous les lois il y auroit un bon gouvernement de la loi, s'il étoit\nun bonne organisation de la part du prince, mais y en\na-t-il un seul qui ait jamais produit un bon gouvernement\nle grand remede pour les peuples de tous gouvernemens despotiques\nest de les affranchir de la tyrannie, mais pour cela il faut\nqu'ils soient en état de se gouverner eux mêmes, un tyran ne se\nrenverse pas sans danger pour ceux qui l'ont renversé, il faut\ndonc voir en eux la force propre à soutenir leur propre constitution\net c'est ce qui constitue, selon moi, toute la difficulté, il\nfaut voir en eux des administrateurs sages et vertueux\nprovignant de la classe des opprimés, en un mot en faisant\nd'hommes asservis des hommes libres, il faut les rendre\ncapables de se gouverner eux mêmes, sans cela on ne\nles affranchit que pour les livrer à de nouveaux tyrans\naussi faut il que le prince qui veut affranchir ses sujets\nle fasse peu à peu, et qu'il commence par leur donner des lois\nsages, et qu'il leur apprenne à les observer, qu'il leur donne\ndes juges intègres, des magistrats vertueux, en un mot\nqu'il leur donne une bonne administration, et qu'il leur\ndonne des lois, le travail public est le moyen\nle plus sûr pour détruire l'esprit de révolte, et pour\nle châtier, le travail des esclaves, est encore un\nmoyen de les dompter, et de les étouffer sous\ntout ce qui les écrase, et les empêche de respirer,\nil faut en un mot les gouverner de façon que le peuple\nsoit toujours heureux, et qu'il n'ait jamais sujet de murmurer\ncontre son souverain, mais pour cela il faut que le prince\nsoit un homme juste, et qu'il ait des ministres intègres\net des magistrats vertueux, et qu'il soit lui même un\nmodèle de vertu, et qu'il donne l'exemple de l'observation\ndes lois, et qu'il soit le premier à les observer, et\nqu'il punisse sévèrement ceux qui les enfreignent, et\nqu'il récompense ceux qui les observent, et qu'il soit\njuste et bon, et qu'il ait toujours en vue le bien\nde ses sujets, et qu'il les gouverne avec douceur\net avec fermeté, et qu'il soit toujours prêt à les écouter,\net à les secourir dans leurs besoins, et qu'il soit\nleur père et leur ami, et qu'il les aime comme\nses enfants, et qu'il les traite comme tels, et\nqu'il les gouverne avec justice et avec bonté, et\nqu'il les rende heureux, et qu'il les fasse vivre\ndans la paix et dans la tranquillité, et qu'il les\ngouverne avec sagesse et avec prudence, et qu'il les\nconduise à la vertu, et qu'il les éloigne du vice,\net qu'il les rende bons et vertueux, et qu'il les\ngouverne avec justice et avec équité, et qu'il les\nrende heureux, et qu'il les fasse vivre dans la\npaix et dans la tranquillité, et qu'il les gouverne\navec sagesse et avec prudence, et qu'il les conduise\nà la vertu, et qu'il les éloigne du vice, et qu'il les\ngouverne avec justice et avec équité, et qu'il les\nrende heureux, et qu'il les fasse vivre dans la\npaix et dans la tranquillité, et qu'il les gouverne\navec sagesse et avec prudence, et qu'il les conduise\nà la vertu, et qu'il les éloigne du vice, et qu'il les\n```",
+  "timestamp": "2025-03-06T18:05:36.546440",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.01358
+  },
+  "usage": {
+    "prompt_tokens": 3658,
+    "completion_tokens": 1044,
+    "total_tokens": 4702
+  },
+  "latency": 1741280707
+}

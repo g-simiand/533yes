@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "```\nen cela, je ne saurois être de votre avis\nou plutôt vous vous faites un tort trop\nabstraction de notre état actuel, et\nde saurois qui le maintien absolument\nparfait.\n\nL’expérience\n\nde principe qui, ne suffisent pas, on\npeut être tenté d’avoir à les avouer, de\nconvenir mais ne me référerions\npas tels qu’elles bouchent\nméchamment consilleroient de profiter\nde meilleurs doctrines et des promesses\ntant le bien voudra, à le voudra\net la frayeur de cette démonstration\npourvu être division chez l’homme\nse trouve toujours de se projeter tout\ndiviser ainsi le monde, ou il convient\ntrès bien en de de doctrines\net se promettre de la vérité.\n\nARCHIVES\nNATIONALES\n\nJ. R. Peyron\n\nIl ne s’agit pas de principes, mais de\nconvenir il ne s’agit pas de promesses\nvous voulez trouver capable de promettre\n```",
+  "timestamp": "2025-03-06T18:06:58.223402",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.009044
+  },
+  "usage": {
+    "prompt_tokens": 3658,
+    "completion_tokens": 288,
+    "total_tokens": 3946
+  },
+  "latency": 1741280804
+}

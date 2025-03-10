@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "2.\n\nmanif ou mesures ~~illisibles~~ de venger ses droits, grande \nmémoire des droits, ~~et~~ de la propriété des\nnouvelles acquisitions,\nmanif ou ~~choses~~ propositions voyages par échange,\nfeuilles séparées des que des rentes héritages, elle sera attachée\naprès, elle ~~contiendra~~ connaitra ses droits qui en seront séparés\n~~la session~~ ~~[XXX]~~ l'acquisition pour l'établissement d'une\n~~leur droit dans les~~ ~~[XXX]~~ nouvelle ~~[XXX]~~ aussi les préalables\n~~l'usage des contrats~~ des dites, qu'avaient pas été inventoriées\n~~directe notes nos~~ les limites\n~~- toutes declarations~~ accroissant à tour de rôle ~~[XXX]~~ ~~[XXX]~~\n~~[XXX]~~ plus droits fonciers ~~[XXX]~~ ~~[XXX]~~\naprès les montrer par droits d'enchère dans les [XXX] les\nétablir une constitution tout ceux qui sur les preuves, nouvelles,\nnouveau faire, pour les autres propres ; l'ordre régulier\ninfluence sur le tems en usage, en\npar elle, sur les destinations prononcées. #\nquelle sont les ~~[XXX]~~ ~~toutes~~ des droits\n# ~~[XXX]~~ les limites cette ordonnance, inventoriée, ou ~~[XXX]~~\n~~[XXX]~~ sont de votre visite ~~[XXX]~~ ~~[XXX]~~ des\nles faits des usines vient de pure harmonie.\nque la [XXX] régulière\n[XXX] : quelle.",
+  "timestamp": "2025-03-06T18:09:18.316878",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.012414000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 458,
+    "total_tokens": 2306
+  },
+  "latency": 1741280941
+}

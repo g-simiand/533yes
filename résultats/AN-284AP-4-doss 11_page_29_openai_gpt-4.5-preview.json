@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "7.  ~~que faut~~ il pour une bonne application de la loi ? il faut  \nune bonne organisation de la force p[XXX] publique, qui  \n~~puisse d'abord pouvoir judiciaire~~ serve comme bras  \nde grand courage par lesquels la loi poursuit ses individus  \nen un corps  \n~~dont l'action constante~~ puissant, un travail sévère  \n~~dont l'action~~ pour rester constant  \nafin que si il s'écartait, aussitôt la société  \ndont il est ~~le pouvoir~~ protectrice guide très importante  \n~~du pouvoir~~ constante arrive guider  \nafin vous de rester constante dans votre œuvre  \nce que j'entends par devoir s'attacher  \nprodigué qui vous par objet par l'affectionnement de  \nl'heure, un moment se refroidissait, manque un fameux  \nde bonheur dans toutes ses habitudes, de douceur  \nde conduite dans leurs, vous disposerez  \nbasez sur certaines administrations, elles ne seront  \ndonc pas atteintes ; les travaux publics, les secours  \nde charité, les surveillances réglementaires, enfin  \ntout ce qui demeure à côté de citoyen dans  \nses travaux, que vous fer puissances dans ses moyens  \nà apprendre, le guider ou à favoriser les essors ; je  \nvous assure, vous n'avez pas encore indiqué, je  \nbeaucoup par tous les moyens auquel vous employez  \nd'intérêt comme moi, afin vous aussi soyez l'histoire  \nen lui objet une partie affective pour devoir vos travaux",
+  "timestamp": "2025-03-06T17:51:19.501331",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.12855
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 304,
+    "total_tokens": 1410
+  },
+  "latency": 1741279833
+}

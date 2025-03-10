@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "16.\n\nPour Souffrir, adhésion pleinement aux deux\narticle de la présente déclaration.\n\nIl tous les patriotes qui auront reçu des\nSignatures sur leurs exemplaires, Sont priés de les\nCertifiés véritables, et d'envoyer l'exemplaire\nà l'un des dépôts Suivants :",
+  "timestamp": "2025-03-06T17:52:46.475754",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.114225
+  },
+  "usage": {
+    "prompt_tokens": 1387,
+    "completion_tokens": 68,
+    "total_tokens": 1455
+  },
+  "latency": 1741279947
+}

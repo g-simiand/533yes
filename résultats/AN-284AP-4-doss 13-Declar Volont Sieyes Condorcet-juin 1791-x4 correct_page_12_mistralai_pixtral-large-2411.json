@@ -3,20 +3,20 @@
   "editeur": "mistralai",
   "modele_type": "libre",
   "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
-  "result": "```\n16\n\nAvoir soupçon, adhérer à aucun assemblée\nséditieuse, ni avoir aucune intelligence\n\n------------------------------------------------\n\nIl est donc les patriciens qui favorisent ces idées de\nréformes, mais leur sympathie, sous prétexte de les\njustifier, les fables, et détruire les principaux\net un des droits suprêmes.\n```",
-  "timestamp": "2025-02-21T14:05:13.806782",
+  "result": "```\n16\n\nAvoir Soupçonné, ou avoir seulement conçu\nquelque soupçon, est déjà se porter à l'élévation.\n\nIl est donc les passions qui fournissent réellement\nles signatures. Sous leur empreinte, sous leurs degrés\nsuccessifs, on peut, en suivant toujours leurs empreintes,\net en les déployant toujours :\n```",
+  "timestamp": "2025-03-06T18:06:03.041968",
   "model_info": {
     "id": "mistralai/pixtral-large-2411",
     "pricing": [
       2e-06,
       6e-06
     ],
-    "total_cost": 0.0067280000000000005
+    "total_cost": 0.006769999999999999
   },
   "usage": {
-    "prompt_tokens": 3049,
-    "completion_tokens": 105,
-    "total_tokens": 3154
+    "prompt_tokens": 3082,
+    "completion_tokens": 101,
+    "total_tokens": 3183
   },
-  "latency": 1740143107
+  "latency": 1741280756
 }

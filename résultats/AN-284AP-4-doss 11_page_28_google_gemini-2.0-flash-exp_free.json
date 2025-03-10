@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "2.\nweng de moins, elle a venger de woy, guide\nvecounoit les droits, m. d. le proposer un\nnouvelle espérance,\nj'ignorent les droits, que\nmais, ou [XXX] propose d'avantage for [XXX]\ntendre for [XXX] qu'on d'un reculte le victoire, elle s'en attribue\nelle a conduit à connoitre for droits, l'on refuse\nà l'invasion, [XXX] les [XXX]\nmorte for la tete, les [XXX]\nles droits, mais des\nl'envoye d'une constitution\nDuval, matey, wei\nà l'intérêt de la [XXX]\npour l'autre [XXX]\noffres de se raconter par\nl'établissements d'une constitution\nwrainement sociale.\n\n# pour for leipo\nd'une imagination sans\nSur la suite des revers\nqu'on [XXX]\nà l'œuvre [XXX]\n[XXX]\n[XXX] : quelles.\nà lejoissans per l'établissement d'une\nconstitution, durables & ainsi les philosophes\non [XXX] pas à l'inutilement\non [XXX] les [XXX]\ngiusi & ainsi diges,\narroumante à leur tour de nous, les [XXX] privants, les\nl'histoire [XXX] dans les [XXX]\ndans [XXX] [XXX] savoir. [XXX]\ndepuis [XXX] [XXX] [XXX] [XXX]\n[XXX] [XXX] [XXX]\npour les autres peuples ? [XXX]\nl'influence sur le sort d'europe, et\npour elle, sur les destinées du monde. #\nquelles [XXX] des [XXX] des [XXX]\nautres [XXX] [XXX] ou [XXX]\nde votre volonté [XXX] [XXX]\nwraint [XXX] [XXX]",
+  "timestamp": "2025-03-06T15:39:36.667487",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 428,
+    "total_tokens": 4015
+  },
+  "latency": 1741271968
+}

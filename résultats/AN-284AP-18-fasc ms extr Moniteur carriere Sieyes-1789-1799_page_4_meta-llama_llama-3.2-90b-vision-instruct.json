@@ -3,20 +3,20 @@
   "editeur": "meta-llama",
   "modele_type": "libre",
   "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
-  "result": "Je suis désolé, mais je n'ai pas reçu l'image du manuscrit à transcrire. Pourriez-vous me fournir l'image du manuscrit du XVIIIe siècle en français que vous souhaitez que je transcrive ?",
-  "timestamp": "2025-02-21T14:09:01.301369",
+  "result": "**Transcription**\n\n1789\n\nEtats generaux\n\nSeance du 10 juin\n\nChayes monsieur. Depuis Paris.\n\nIl est arrivee un motiou - un certaine\n\nD'un membre De la Deputation de Paris.\n\nC'est l'abbe Sieyes. = 1. 4. Deputes ayant\n\nun grand nombre d'entree dans\n\nSieyes Etant le conducteur de cette\n\nordre de privilege, l'impossibilite d'y\n\nLa Deputation des paroisses d'un autre\n\nSiege = mais que celle de la Deputation\n\nDe la Nation\n\nDonc la Deputation De la Nation\n\nCollection complete d'institut. Le Caracter\n\nplan de constitution, d'apres la Declaration\n\npar lequel, la Nationelle sera elevee\n\nDeputations: il pretend en consequence\n\nDe proceder, tant qu'a la Verification\n\nDes pouvoirs, et d'apres aux moyens\n\nDe proceder une Deuxieme Notification\n\nDe Cette Deputation en les entitants de la\n\nDe la Nation commune. = Cette motion est\n\nDeuxieme Deputation. = Mais les observations\n\nDe leurs membres, sieyes est d'avis\n\nDe declarer le mot invitation en lieu\n\nDe nomination.\n\nPuis d'la seance Du. Admition Du\n\nDeuxieme Deputation. = La motion D.\n\nSieyes est pour le faire accompagner\n\nD'un a d'ordre au Roi. - Nomination Du\n\nDeputes Le.\n\n**Note**: The transcription is done according to the provided instructions, preserving the original spelling, punctuation, and line breaks. The text is written in a cursive script, and some words may be difficult to read due to the quality of the image.",
+  "timestamp": "2025-03-10T10:05:56.704333",
   "model_info": {
     "id": "meta-llama/llama-3.2-90b-vision-instruct",
     "pricing": [
       8e-07,
       1.6e-06
     ],
-    "total_cost": 0.005448000000000001
+    "total_cost": 0.0008511999999999999
   },
   "usage": {
-    "prompt_tokens": 6700,
-    "completion_tokens": 55,
-    "total_tokens": 351
+    "prompt_tokens": 304,
+    "completion_tokens": 380,
+    "total_tokens": 684
   },
-  "latency": 1740143337
+  "latency": 1741597547
 }

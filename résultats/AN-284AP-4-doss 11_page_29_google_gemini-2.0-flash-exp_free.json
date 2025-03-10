@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_29.png",
+  "result": "7. que l'on il pour non bonne application de la loi? il faut\nnon bonne organisation es Le grand pouvoir public, que\nl'on se dient : des graves injustices. Sous comar. les\nLe grand conary par lesquels la loi procure aux individus\nes une chose\n~~antingen lention~~ judiciaires, un travail sur un\ntout pr ~~a~~ le pouvoir\nofque vous en eté, boring par votre conduite\nde 2d sur le ~~l'entier~~ instruction, a vous le prester la\nplus ~~vous~~ de votre constitution, mais garder inportant\nde vous n'entor pour devoir s'attendre d'un instrument\nprodiging qui ~~and~~ pour oljer pour le perfectionnement de\nl'hom. non inesuel er employées, er que in fondant\nde bonne base dans touts for habetong, de disposer\nde la loi vous, bons, vous dispose\nLez 3e in l'ection administration, etr en ines\ndans for details ; les travaux publics, les des\nde choret, les dorarittany degerantes, sofir\ntout ce qui dennoch à ander le utoper des\nde tower, for des for joichtnern des for vorgeler\nà gegerdier la que, en à trouver la count...\n\nvous n'aurez pas ineur indigen, u\nbeemerge par tous les wigs wangent non employées\nl'ortion adomove vous, ~~des~~, vous avé orgensé l'istrumen\nne van partir efterbeiten pour drie à vos Hery",
+  "timestamp": "2025-03-06T16:55:44.406401",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 342,
+    "total_tokens": 3929
+  },
+  "latency": 1741276537
+}

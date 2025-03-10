@@ -1,8 +1,12 @@
-[XXX] [XXX] [XXX] [XXX] [XXX] qu'on a décri-
-[XXX] [XXX] pour [XXX] [XXX] [XXX] [XXX]
-[XXX] 1. petites intrigues, 2. petits voyages, [XXX]
-[XXX] [XXX] [XXX], pourquoy, pour [XXX]
-[XXX]
-[XXX]
-[XXX]
-et [XXX] a [XXX] d'intrig[XXX], u ils [XXX]
++ vainement les hommes [XXX] [XXX]
+J'espère [XXX] [XXX] [XXX] [XXX]
+les efforts & petite intrigues, & petits moyens
+ils leur  [XXX] [XXX] [XXX]
+en rester. Erreur! Vous ignorez [XXX] [XXX]
+ [XXX] [XXX] [XXX]
+ [XXX] [XXX] [XXX] à la fois
+ [XXX] [XXX] individus  [XXX]
+ [XXX]
+ [XXX]
+ [XXX] l'intrigue, [XXX] [XXX]
+ils croient au pouvoir de l'intrigue, et ils  [XXX]

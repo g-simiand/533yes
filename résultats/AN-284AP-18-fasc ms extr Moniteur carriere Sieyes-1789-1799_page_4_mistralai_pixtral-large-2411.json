@@ -3,20 +3,20 @@
   "editeur": "mistralai",
   "modele_type": "libre",
   "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
-  "result": "```\n1789\n\nÉtat général\n\nde la situation\n\nde l'abbaye royale de Notre Dame\n\nde la Trappe, année une mission ~~métallique~~\n\ndu mois de la Députation de la Trappe\n\nde l'abbé plagé, et de Dom de la Trappe\n\nM. l'abbé plagé, et le Dom de la Trappe\n\nont été chargés de l'exécution de l'arrêté du Conseil\n\ndu 14 juillet dernier, qui ordonne la vérification des\n\ntitres des maisons religieuses, et la confection d'un état\n\ndes revenus de chaque maison, avec l'indication des\n\ncharges, et des dépenses de la maison.\n\nEn conséquence, ils ont procédé à la vérification des\n\ntitres, et à l'arrêté du Conseil du 14 juillet dernier,\n\nils ont dressé une seconde vérification de\n\ncette situation, en les imputant en charges\n\nà la Maison, et réservant à l'abbé commendataire\n\nle revenu de ses bénéfices, ainsi que les observations\n\net remarques contenues dans la vérification et l'état\n\nde situation.\n\nCet état de situation et d'administration du revenu\n\nde la maison de la Trappe a été\n\nenvoyé à la Commission de la Maison de la Trappe\n\npour être transmis à MM. les Députés\n\nde la Réunion de Normandie et de Basse Loire.\n```",
-  "timestamp": "2025-02-21T14:05:25.771341",
+  "result": "```\n1789.\n\nEtat général\n\ndes biens en tout\ngenre, meubles, immeubles, dettes\nactives et passives, appartenant\nà la République de la Ville\nde la Rochelle, au 1er Janvier 1789.\n\nCet Etat a été dressé par MM. les Députés\nnommés par la République de la Ville\npour la rédaction du procès-verbal de\nl'assemblée des habitants de la dite Ville\nconvoqués au son de la cloche, le 20\ndu mois de Décembre 1788, conformément\nà l'arrêté du Conseil du 16 du dit mois,\npour procéder à la vérification des\npouvoirs des dits habitants, et à la\nrédaction du procès-verbal de l'assemblée\ntenue à cet effet.\n\nCet Etat a été dressé d'après les\ndocuments fournis par les membres\nde l'administration de la dite Ville,\net d'après les renseignements qu'ils\nont pu recueillir.\n\nIl a été arrêté par les dits Députés\nle 10 Janvier 1789, et signé par eux\nainsi que par M. le Maire de la dite\nVille, pour servir de base à la rédaction\ndu procès-verbal de l'assemblée des\nhabitants de la dite Ville.\n\nFait et arrêté à la Rochelle, le 10 Janvier 1789.\n\nSigné : [XXX]\n```",
+  "timestamp": "2025-03-06T18:03:55.223149",
   "model_info": {
     "id": "mistralai/pixtral-large-2411",
     "pricing": [
       2e-06,
       6e-06
     ],
-    "total_cost": 0.009375999999999999
+    "total_cost": 0.009531999999999999
   },
   "usage": {
-    "prompt_tokens": 3497,
-    "completion_tokens": 397,
-    "total_tokens": 3894
+    "prompt_tokens": 3530,
+    "completion_tokens": 412,
+    "total_tokens": 3942
   },
-  "latency": 1740143111
+  "latency": 1741280619
 }

@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "preambule\n\nImportance garantie nous même dans ces derniers nationaux,\nil faut avoir de voir tour à coup l'institution publique\nsur des grands points suivans ; il faudra que tous les citoyens de\nl'instruction, pour rendre transportables à ces travaux,\nà des parties particuliers, il leur faudra des travaux des\nbonnes poses, nouveaux médecins avec l'institution civile\net les faudra des bons faits, nécessaires pour effectuer l'exécution\nde la volonté nationale et la division des [XXX],\nsur ces citoyens à former, tous, sur tour de notre,\nles hommes nouveaux, et ils sont choisis, et tous les\nreprésentans publiques\nles hommes exécutés, il faut épurer les charges et défendre\nles agents militaires\navoir la police entière de l'autorité publique par force par\nreprésentans ; en telle que condition, pour défendre des\ngrands systèmes, il nous faut une force d'exécution, y\ncharger l'ordre par représentation, comme grands systèmes, qui\nce sont les citoyens qui formeront les deux corps d'hommes,\nils tiendront encore l'ordre entier à les entretiens\n~~de la théorie de programme de~~\nl'institution civile ~~faisible~~ la première en 1er\nl'institution militaire comme des 2e.\nce les tiendras plus particuliers dans l'origine",
+  "timestamp": "2025-03-06T18:08:48.730694",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.010914
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 358,
+    "total_tokens": 2206
+  },
+  "latency": 1741280914
+}

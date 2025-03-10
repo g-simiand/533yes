@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "~~Croissance~~\n\nIl y a d'ailleurs l'opinion\nqu'il est impossible d'établir\nune démocratie en France\nredevenue l'opinion\ndominante. Il y a là d'ailleurs\nla raison ~~même~~ reste exposée\nà une vague anarchie dont\nla diminution de la culture\net de l'économie, a\npar conséquent les moyens\net la dépopulation des campagnes\nla suite infaillible.",
+  "timestamp": "2025-03-06T17:54:40.681690",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.0969
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 93,
+    "total_tokens": 1199
+  },
+  "latency": 1741280058
+}

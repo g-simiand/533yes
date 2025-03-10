@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "[XXX] au sujet du detail\n\nChaque homme pour une loi juste : tous\nceux qui tiennent dans ce principe de morale\net veulent pour detruire les differentes de\ntous, l'importance s'en accroit. Les chances\nde ces sortes de crises, c'est une [XXX] de\nl'homme que par l'appui s'appuient des\nces individus qui l'accompagnent...\n\nainsi donc on peut dire que le sujet\na essentiellement parti sur lui des les\nces individus, des ses états personnels\nqui est devenu soumis a un jugement\nparticulier. mais le cas en [XXX] a donc\nla grande distinction d'après un detail.\n\ncelui ci est le supplement de l'autre,\npour porter les moindres jusques\nconvenables ; c'est la même nature\nde fortune. aussi faut-il en terminer\npour chaque autre un detail une\npetite cause de [XXX] des partages.\nc'est le [XXX]. de nouveau sous\nle montagne des causes justes, et\nde division des principes individuels\ndes les [XXX] à [XXX].",
+  "timestamp": "2025-03-06T18:07:48.034669",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.009756
+  },
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 281,
+    "total_tokens": 2128
+  },
+  "latency": 1741280854
+}

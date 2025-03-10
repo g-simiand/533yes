@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "+ vaincre les liens qui à deux-\njoignent pour devenir deux êtres calculant\nles effets de petites intrigues, de petites voyages\nde leur voyage amoureux, partagés pour\nen en sortir. Avoir ses regards toujours\nde bourgeois, de cette grosseur qui fait des\nintrigues, des coeurs agris à toujours\nse tromper de individus étrangers voyageant\nbannis. Le vrai de les effets est\nimpossible, il n'a point de coeur, pas ce qu'il\nn'a pas voulu qu'ils soient pour accueillir à\nnouveau, l'intrigue, les mouvements en\nlui, analogue avec la jeunesse des voyages\n\nils croyaient aujourd'hui de l'intrigue, en ils méconnaissent\nainsi de leur sagesse",
+  "timestamp": "2025-03-06T18:09:00.340174",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.008679000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 209,
+    "total_tokens": 2057
+  },
+  "latency": 1741280930
+}

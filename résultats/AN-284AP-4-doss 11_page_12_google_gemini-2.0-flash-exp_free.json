@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "2.\npréambule\n\nbuguadroph garantie noy men donner la mitier nationale\nici j'ai besoin de voir tour à coup d'établissement public\nnon ung gout pour servir ; il fationi ane bordes de\nl'éperation, pour pouvoir tranquilles à les travaux,\nà les pleins particuliers, il leur fationi dep forwarders de\nbonon posan, volane, maniden bor d'établissement\nil ber fationi des bons fory, in conbién pour esteer Aperation\nde la volonté veland-cision des 17,\nGor eng utoges à sorrow's tour, (our tour don de là,\nles bonons volane, il, ils von chésy, a soun bong -\nsponenten pobityes\nles bons opeenter, il foun qu'ils bs choisirjen, below\nles vistes mediters\neisi le prvice entes de socket-publique for fixer por\nspreintes; en tilt. son benderun, pour dr dediſen du\nyous. pratich, il von foun van soro d'épecution, 7\nCorpriz l'ormer for vesperentabon, conan son pratich.\nson des utoges qui Powaisher & dep closes d'homes,\nde livesour encor l'orgeon astres à les entretien\n\n~~listavi trein~~\nCicles facilita ber forrentes de 17\nl'istontion mittens cita es 27.\n\non des trever jus pestering devar l'orgeon\ne",
+  "timestamp": "2025-03-06T15:39:19.847080",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 345,
+    "total_tokens": 3932
+  },
+  "latency": 1741271953
+}

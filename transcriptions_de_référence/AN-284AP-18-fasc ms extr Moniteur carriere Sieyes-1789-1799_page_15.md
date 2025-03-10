@@ -1,43 +1,51 @@
-[XXX] Nationale [XXX] [XXX]
-[XXX] [XXX]
-[XXX] [XXX]
-[XXX] du [XXX]
+Convention Nationale
+1794 an III.
+[XXX] fructidor
+Séance du 2.
+19 aout
+Sieyes annonce que le roi d'Espagne a ratifié le
+traité de paix - Applaudissements  [XXX]
+séance du  [XXX]
+Sieyes fait lecture de l'acte de ratification donnée
+au traité de paix, par le roi d'Espagne.
 
-Auquel sommes que le [XXX] Tronqua da satisfait,
-charité, foy, ~~affirmation nouvelle~~ [XXX]
-L'objet d'a table lettre d'acte de rectification donnée
-au [XXX] de Scip. par le Roy d'Espagne.
 
-An IV 1796
-mercredi Le 29
+
+An IV 1795
+Moniteur du 29
 Vendémiaire
-Jean Den. [XXX]
+Séance double
 
-s'arexcellences-repeaux fait ~~le stang~~ le Siege I
-aussi que saver L. tendu. ma feuth secondation
-de [XXX] LeVe?
+Larevalliere-Lepeaux fait l'éloge de Sieyes I
+ainsi que Louvet & contre une fausse accusation
+de Ravère.
 
 Corps Législatif
 Conseil Des Cinq-Cents
 Conseil Des Anciens
 
-Ces membres élus pour le pouvoir exécutif
-son 1°. s'arexcellences-repeaux, 2°. [XXX] de la Mouthe,
-3°. Roswell, 4°. Sieyes, 5°. [XXX], [XXX] Seyes, France!
+Conseil des anciens
+10 brumaire
 
-Meilleurs Généraux que Sieyes a eté fait de pluse
-de membres du pouvoir exécutif = dette. de temps
-ac. sujét - Il déclara l'exemple de [XXX] [XXX]
-Commancement de la revolution, un belte a tout le
-partis, il ne voit pas raison acceder a place
-son Doi provisier rallier toutes les conficances
-et qu'il etté au Conseil [XXX] & Cam. c'est
-[XXX] meilleur pour Remplacer Sieyes
+Les membres élus pour le pouvoir exécutif
+sont Larevalliere-Lepeaux, Letourneux de la [XXX],
+Ressbell, Sieyes, Barras
 
-Sieyes au nom du Comite. de finances
-absolut. des observacions, [XXX] [XXX] contenant
-Au Memoire, derige? a la Directoire [XXX] [XXX],
-[XXX], un Surplu [XXX]
+Conseil des cinq-cents
+11 brumaire
+
+Message portant que Sieyes a refusé la place
+de membre du pouvoir exécutif = Lettre de Sieyes
+a ce sujet - Il déclare qu'ayant été depuis le
+commencement de la revolution, en butte a tous les
+partis, il ne croit pas devoir accepter une place
+sou l'on doit pouvoir rallier toutes les conficances
+et qu'il reste au Conseil des conq-cents.
+Carnot est élu pour remplacer Sieyes.
 
 16 frimaire
-M. Ju 23
+M. du 23
+Sieyes au nom du Comité des finances,
+présente des observations, sur le plan contenu
+qu Memoire, envoyé par le Directoire relati=
+vement à un emprunt -

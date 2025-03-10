@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "en cela, je n'aurois pas à voter, ainsi  \nor je croy que vous faites un peu trop  \nabstraction de notre état actuel, et  \ndu danger qui le menace de toutes  \nparts.\n\n2e réflexion\n\nLes principes seuls ne suffisent pas, on  \npeut être aristocrate et les avouer. Les  \nconséquences même ne m'effraieroient  \npas dans toute sa telle bouche.  \nmaintenant considérez si des promesses  \ndu meilleur docteur, sur des promesses  \ntoutes les mieux ~~venduës~~, ~~à la condition~~  \nSi la régularité de cette démocratie  \npouvoir être divisée chez l'heureux  \ndu raccourcissement de ses propres forces,  \ndiviser ainsi la matière, ou se croyant  \ntrop facilement un de ses docteurs  \nne seroit pas prompts de la veille.\n\n3e réflexion\n\nIl ne s'agit pas de principes, ni de  \nconséquences, il ne question du mauvais  \nou machine sociale laquelle se trouve",
+  "timestamp": "2025-03-06T17:55:16.136258",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.1152
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 215,
+    "total_tokens": 1321
+  },
+  "latency": 1741280082
+}

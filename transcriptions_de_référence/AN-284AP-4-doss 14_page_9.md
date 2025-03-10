@@ -1,27 +1,27 @@
-en Celai, j'ai Jamais [XXX] de votre amy
-ou j' croy que vous faites un par trop
-abstractions de notes s' intellectuel, de
-de dangers qui la menacent de toutes
-[XXX]
+en cela, je ne sauroy être de votre avy
+et je croy que vous faites un peu trop
+abstraction de notre état actuel, et
+des dangers qui le menacent de toutes
+parts
 
-N. Pepin
+2e réflexion
 
-de principes [XXX], je [XXX] pas, on
-peut être aristotate en les [XXX]. Ils
-[XXX] même ne me suffirroient
-~~[XXX] [XXX] [XXX] [XXX]~~
-maintenant [XXX] de [XXX], je des promets
-le meilleur docteurs, je des promets
-tous le [XXX], je [XXX] [XXX]
-Si la [XXX] de cette dimanche,
-pourriez [XXX] division des [XXX],
-en arrangement de [XXX] propos foy
-ou j' envoy la minutes, ou j' envoy
-tres facilement re de vos docteurs
-en [XXX] prompt de la veille:
+des principes seuls ne suffisent pas. On
+peut être aristotate et les [XXX]. Les
+conséquences même ne me rassureroient
+pas dans telle et telle bouche.
+Machiavel conseilleroit de professer
+la meilleure doctrine, et de promettre
+tout ce qu'on voudra, à la condition
+Si la [XXX] de cette démarche,
+pouvoir être division chez l'ennemi,
+et  [XXX] de ses propres forces.
+ [XXX] ainsi le  [XXX], ou  [XXX]
+ trop facilement et de la doctrine
+ et des promesses de la veille.
 
-N. Pepin
+3e réflexion
 
-il ne s'agit pas de principes, ni ils
-consignez, il ne [XXX] de marché
-ma machine Societé capable de pouvoir
+il ne s'agit pas de principes, ni de
+conséquences, il est question de  [XXX]
+une machine sociale capable de produire

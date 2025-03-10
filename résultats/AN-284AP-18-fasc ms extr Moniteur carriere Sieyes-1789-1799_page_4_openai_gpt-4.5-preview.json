@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\nExtrait du Moniteur\n\n1789.\n\nObjet\n\nEtats généraux\n\nSéance du 10 juin\n\nAroyat nommé député de Paris.\n\nA ce tableau annonce une motion importante d'un membre de la Députation de Paris. C'est l'Abbé Sieyes. L'Assemblée témoigne un grand désir de l'entendre.\n\nSieyes retrace la conduite passée des deux ordres privilégiés, l'impossibilité de s'entendre, la vérification des pouvoirs, à un autre sujet, ainsi que celui de la représentation de la Nation dont la réunion en seul corps forme la Collection complète, l'inutilité de suivre le plan de conciliation d'après la déclaration par laquelle la Noblesse a exclu ses Députations : il propose en conséquence de procéder, sans délai, à la vérification des pouvoirs, et d'adresser aux deux ordres privilégiés une dernière notification. Cette résolution en les invitant à se rendre à la salle commune. Cette motion est vivement applaudie. Sur les observations de trois membres, Sieyes consent à substituer le mot invitation à celui de sommation.\n\nSuite de la séance du\n10 juin (le soir)\n\nDélibération, et admission des peines, amendement à la motion de Sieyes et pour se faire accompagner d'une adresse au Roi. Nomination de [XXX]\n```",
+  "timestamp": "2025-03-06T17:46:38.704468",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.125025
+  },
+  "usage": {
+    "prompt_tokens": 1109,
+    "completion_tokens": 279,
+    "total_tokens": 1388
+  },
+  "latency": 1741279559
+}

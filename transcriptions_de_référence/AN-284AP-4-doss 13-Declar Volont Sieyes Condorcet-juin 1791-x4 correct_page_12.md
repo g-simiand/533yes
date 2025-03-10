@@ -1,5 +1,5 @@
-16.
+Nous soussignés, adhérons pleinement aux  [XXX]
+articles de la présente déclaration
 
-Apres [XXX], [XXX], [XXX] aplying [XXX] [XXX] pour [XXX] phil[XXX]ation
 
-N° tous les patriotes qui [XXX] recu [XXX] Signatures, Sur leurs reputations, [XXX] de la [XXX], [XXX] [XXX], [XXX] l'exemplaire à bien des [XXX] [XXX]:
+ [XXX] tous les patriotes qui auront reçu des signatures sur leur exemplaire, sont priés de les certifier véritables, et d'envoyer l'exemplaire à l'un des dépôts suivants :

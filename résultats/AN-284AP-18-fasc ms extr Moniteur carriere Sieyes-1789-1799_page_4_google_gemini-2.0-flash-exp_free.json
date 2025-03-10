@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png",
+  "result": "```markdown\n1789\nEtats generaux\nExtraits du Moniteur\n\nSeance du 10 juin\nSreyes nommé Deputé de Paris.\nSreyes.\nMirabeau-annonce une motion-im/portant\nd'un membre de la députation de Paris.\nC'est l'abbé-Sieyes. = l'Assemblée témoigne\nun grand desir de l'entendre. =\nSieyes retraça la conduite evasive des deux\nordres privilégiés, l'impossibilité de soumettre\nla Vérification des pouvoirs à un autre juge=\n=ment que celui des représentants de la Nation\nDont la réunion des trois ordres forma la\nCollection complete, l'inutilité de s'arrêter au\nplan d. conciliation, d'après la Déclaration\npar laquelle la Noblesse en a éludé l'effet\nDispositions: il propose en conséquence de\nproceder, sans délai, à la vérification des\npouvoirs, et d'adresser aux deux ordres\nprivilégiés une dernière Notification de\nCette résolution, en les invitant à se rendre\nà la salle commune. = Cette motion est\nvivement applaudie. = Sur les observations\nde trois membres, Sieyes consent à\nSubstituer le mot invitation à celui de\nSommation.\n\nSuite de la séance. Du Dissention, et admission du premier\n10 juin. (le soir) amendement à la Motion de Sieyes,\npour le faire accompagnées d'une adresse\nau Roi. - Nomination des députés Le-\n```",
+  "timestamp": "2025-03-06T15:38:48.374303",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 334,
+    "total_tokens": 3921
+  },
+  "latency": 1741271922
+}

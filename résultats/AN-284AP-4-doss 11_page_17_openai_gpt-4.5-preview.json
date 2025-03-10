@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "+ vainement les leurs [XXX] à décrir.\nJ'ay vu souvent leurs états calculer\nles effets de petites intrigues, de petits moyens\net les moyens même, amis, pourquoi pour\nun en sortir. avec une juste [XXX]\nanalogique, de cette petitesse d'effets\nintriguer sans croire qu'on intrigue\net triompher des individus chez vous en faisant\n[XXX]. Je voudrais tes offrir [XXX]\n[XXX] il n'a jamais cessé, parce qu'il\nn'a pas cettte fois, pour caractère de\ngagner l'intrigue, les moments que\nles oublient avoir éprouvé leur [XXX]\n\nils croyent [XXX] de l'intrigue, ni ils mieux [XXX]\ncelui [XXX]",
+  "timestamp": "2025-03-06T17:49:35.954525",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.10769999999999999
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 165,
+    "total_tokens": 1271
+  },
+  "latency": 1741279753
+}

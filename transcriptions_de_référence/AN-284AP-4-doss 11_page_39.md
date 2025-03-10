@@ -1,24 +1,30 @@
-```markdown
 12
 
-vous employez dans la [XXX] d’arguments [XXX] vos [XXX] à faire [XXX] de tout [XXX]  
-l’impossible l’analogie [XXX] [XXX] me [XXX] à toute [XXX] je crois qu’un [XXX]  
-reduire quelques [XXX] pour [XXX] livres  
-à côté de cela [XXX] [XXX] pouvoir imposer  
-[XXX] à [XXX] [XXX] clore  
-sur la grosse [XXX] pour [XXX] [XXX]  
-il faut donc pour [XXX] [XXX] d’habileté  
-à chacun [XXX] tous [XXX] à fond  
-les uns des autres [XXX] une invariable  
-impossibilité se [XXX] à celui [XXX]  
-[XXX] de notre liberté [XXX] dans [XXX] l’[XXX] d’un [XXX]  
-[XXX] ~~[XXX]~~ relatif ? [XXX] ? aristotet [XXX]  
-aucun mouvement [XXX] [XXX]  
-pouvoir [XXX] à ce [XXX] si l’on  
-voulait [XXX] lui [XXX] en affaires de trop  
-[XXX] douterons, un [XXX] invariable  
-maintenir la [XXX] des [XXX] [XXX]  
-[XXX], ma gravité d’habileté…  
-ainsi, un [XXX] me parut pour des [XXX]  
-[XXX] [XXX] ? [XXX] invariable  
-```
+vous employez dans le gouffre  [XXX] partisans d'où
+nous sortons à peine.Ce sentiment pour
+s'élever dans quelques  [XXX] [XXX]
+indispensable de l'analyser ? Nous demandons
+à notre tour, si l'on croira qu'un 
+individu quelconque puisse être libre,
+à côté de celui qui pourrait impunément
+désobéir à la loi. La justice  [XXX]
+ [XXX] ne peut pas être douteuse,
+il faut donc pour la liberté
+de chacun, que tous soient à l'égard
+les uns des autres dans une véritable
+impossibilité de désobéir à la loi. La
+garantie de notre liberté  [XXX]
+dans  [XXX] [XXX]
+d'exécution  [XXX] irrésistible
+aucun mouvement  [XXX] ne
+pourrait  [XXX], à cet égard, si l'on
+n'oubliait pas la différecne des temps.
+Sous le despotisme, une force irrésistible
+maintenait la  [XXX], sous l'égide
+de la loi,  [XXX] [XXX] la liberté...
+ainsi ,  [XXX] [XXX] que la
+force d'exécution soit irrésistible,
+mais deux autres principes doivent suivre
+celui là, 1o que la loi soit toujours
+l'expression de la volonté sociale, 2o que
+

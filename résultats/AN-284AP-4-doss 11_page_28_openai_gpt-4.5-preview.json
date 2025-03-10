@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "```markdown\n2.\n\n ~~mais je viens~~ ~~auprès~~ de venger des maux ~~qu'ils ont~~\n ~~recouvrer ses droits~~ ~~et de proposer une~~\n ~~nouvelle législature~~\n mais où alors puisement ses droits que\n ceux du genre humain propre à venger ses outrages\n ~~que~~ d'un recent fantome, et sur son autorité\n ~~à~~ consacrée par l'etablissement d'une\n majorité d'annees ~~par~~ et aussi les metaphisiques\n constitution sociales et intellectuelles\n du siècle consacrée par le maintenement\n ~~des lumières~~ ~~des opinions~~\n consacré à leur tour de leurs ~~opinions~~ lumières\n l'attention fixée sur ~~des~~ ~~opinions~~ ~~interets~~\n ~~d'opinions~~ ~~interets~~ ~~d'opinions~~ interets\n ~~pour les autres peuples~~ votre propre\n influence sur le sort de l'europe, et\n par elle sur les destinées du monde. Il\n faut que tous les cas ~~soient~~ ~~soumis~~ fournis des idées\n justes sur ce but immediat où doivent\n tendre vos volontés ~~exclusivement~~\n de votre volonté ~~seule~~ depend des\normais des gros humains.\n\nIl faut ~~être~~ ~~il est~~\n ~~votre~~ imputation sur\n sur les faits des erreurs\n ~~que~~ ~~vous avez~~ ~~commises~~\n ~~la gravité~~ ~~des faits~~\n ~~la gravité~~ ~~des faits~~\n ~~la vérité~~\n```",
+  "timestamp": "2025-03-06T17:50:31.470056",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.13305
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 334,
+    "total_tokens": 1440
+  },
+  "latency": 1741279777
+}

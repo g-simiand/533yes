@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_36.png",
+  "result": "Cette image montre une page blanche vide, sans aucun texte manuscrit à transcrire.",
+  "timestamp": "2025-03-06T18:09:40.568342",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.0059310000000000005
+  },
+  "usage": {
+    "prompt_tokens": 1837,
+    "completion_tokens": 28,
+    "total_tokens": 1865
+  },
+  "latency": 1741280976
+}

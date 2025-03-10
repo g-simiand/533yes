@@ -1,12 +1,12 @@
-~~Arangement~~  
-Fît à Dollons, l'opineur,  
-qu'il on imputés d'établir  
-une associaté en femme  
-redouant. L'opinion  
-Dominante: S'Il a la Dollés  
-la nature [XXX] reste exposée  
-à une longue anarchie. Dans  
-la Demolition De la culture  
-et [XXX] l'industrie, se  
-[XXX] la disproportion des canaux  
+S'il a le  [XXX], l'opinion 
+qu'il est impossible d'établir  
+une démocratie en France  
+redevient l'opinion  
+dominante. S'Il a le [XXX]  
+la nation reste exposée  
+à une longue anarchie. Donc  
+la  [XXX] de la culture  
+et [XXX] l'industrie, et
+par conséquence la [XXX]  
+de la depopulaion des  [XXX]  
 la suite infaillible.

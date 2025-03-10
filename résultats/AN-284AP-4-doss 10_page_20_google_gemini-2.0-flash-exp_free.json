@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "Juin Soppertin\n1790.\n\nIl faut deux conditions ver jugement par jury ou\njuries 1° que les jurés soient apposés dans les\nmontreurs que leur soit Soumise. 2° les un très\ngros gerni les geing en grosse bien demandeurs, un\ntrès gerni coup du défendeur, un un 3° très,\n(pour personnes respectées une division très travelles\nconcilier les esprits) puis parés par les yeux\nd’étude, honnête appri par leur commechans, en)\nboire les discussions les soins, de tous les états\ndetours les une tiếng de Val Sointe. 2° Il faut\ndecidere sia corrience, courciné\nqu’elles, jours\neclaircie presqu’en voir les supposons apposés, il\nque vous n’admettez pas l’idée de les borner aux\nSimple four, G. difficiles, Soumise et d’éviter des\nd’avoir les matières civile. ou courciné ou\ninspectés fomatiques, ou\nsignifie pas, ou inspirés\npour promptement toute personne (un gros qu’elles\ntoutes les personnes soient quelqu’un, à charge de\net décharge; tous les personnes ils jugeront\ndans le fond d’une courciné une cogarciance\nSouline en dreie of weis pour toutes\nocheitis non dealin\nCirca fortune. Phourn en dusere de\nles personnes certes, vous avez be Soulevèrent\ngach, or, il en pleisaur.\nlove rider à une porte d. courciné !",
+  "timestamp": "2025-03-06T15:39:05.785411",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 355,
+    "total_tokens": 3942
+  },
+  "latency": 1741271939
+}

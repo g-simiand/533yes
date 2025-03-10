@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png",
+  "result": "```markdown\nConvention Nationale\n1795 an III\nvendemiaire fructidor\nSéance Du 27\nSéance du 29.\n\nAN IV 1795.\nvendemiaire\nSéance Du 21.\n\nSoyez comme que le Roi d'Espagne a ratifié le\nTraité de paix - Applaudissemens universels -\n\nSoyez l'Acte authentique de l'acte de Ratification Donnée\nau traité de Paix par le Roi d'Espagne —\n\nLa reveillère-Lépeaux fait à long et Sieyes\nainsi que Louvet L. lecture d'un feuillet de résolution\nde Levée.\n\nCorps Législatif —\nConseil Des Cinq-Cents\nConseil Des Anciens.\n\nConseil des Anciens — Les membres élus pour la présidence Sécurité\n10 Brumaire sont : La reveillère-Lépeaux, Letourneur de la Manche,\nRewbell, Sieyes, Barras.\n\nConseil des Cinq-cents\n11 Brumaire — Melléot déclare que Sieyes a refusé la place\nde membre du pouvoir exécutif = Lettre de Sieyes\nà ce Sujet — Il déclare qu'ayant été de part le\nCommencement de la révolution en lutte contre les\npartis, il ne croit pas devoir accepter une place\nou son Doit pouvoir rallier toutes les confiances\net qu'il reste au Conseil des Cinq-cents —\nCarnot élu pour remplacer Sieyes —\n\n16 frimaire\nM. Du 23 — Sieyes au nom du Comité des finances\nprésente des observations sur le plan contenu\nau Mémoire envoyé par le Directoire relatif\nà l'emprunt en Emprunt —\n```",
+  "timestamp": "2025-03-06T17:45:57.620218",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.1374
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 363,
+    "total_tokens": 1469
+  },
+  "latency": 1741279504
+}

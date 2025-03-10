@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_28.png",
+  "result": "```\n2.\n\n~~voyant~~ ou devinant ~~dans~~ les veux de ~~ceux~~ qui\nreconnoissent les droits, ou qui les respectent,\nreconnoissent les droits, ou qui les respectent,\n\net qui par consequent sont prets a les defendre,\nopposent une resistance honteuse a toutes les\nattaque~~s~~ qu'on leur livre, et a tous les outrages\nqu'on ose leur prodiguer.\n\nL'experience de tous les siecles, et de tous les\npeuples, nous apprend que les hommes sont\nnaturellement enclins a mal faire, et que pour\nles en empecher, il faut leur opposer une\nforce capable de les reprimer. Cette force\nest celle de l'opinion. Mais pour que l'opinion\nait de l'empire, il faut qu'elle soit l'expression\nde la volonte generale, et que cette volonte\nsoit manifestee par des hommes libres, et\negalement interessez a la faire respecter.\n\nHors de la, point de morale, point de vertu,\npoint d'humanite, point de justice, point de\nsurete pour personne.\n\nLes loix, les magistrats, les armees, les\nsupplices, ne sont que des ressources\nimpuissantes contre le desordre, si l'opinion\nne les seconde, et si elle ne leur prete sa\nforce toute puissante.\n\nOr, cette opinion, d'ou depend le bonheur\ndes societez, comment peut-elle se former?\nComment peut-elle acquerir cette force\nqui la rend respectable? Par la communication\ndes lumieres.\n\nL'ignorance est la mere de tous les vices,\nde tous les crimes, de tous les malheurs.\n\nL'instruction au contraire est la source\nde toutes les vertus, de tous les bonheurs.\n\nC'est par elle que les hommes deviennent\nmeilleurs, et par consequent plus heureux.\n\nC'est par elle qu'ils apprennent a connaitre\net a remplir leurs devoirs, a respecter\nles droits d'autrui, a reclamer les leurs,\na defendre leur liberte, leur propriete,\nleur surete, leur vie.\n\nC'est par elle qu'ils acquierent cette\nforce morale, qui les rend redoutables\naux tyrans, invincibles a tous les ennemis\nde leur bonheur, de leur liberte, de leur\nexistence.\n\nC'est par elle enfin qu'ils parviennent\na cette egalite si desiree, et si necessaire\nau bonheur des societez, a cette egalite\nqui n'est point ~~la~~ destruction des\ntalens, des vertus, des richesses, mais qui\nconsiste dans l'egalite des droits, dans\nl'egalite des devoirs, dans l'egalite des\navantages sociaux.\n```",
+  "timestamp": "2025-03-06T18:05:02.976947",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.011866
+  },
+  "usage": {
+    "prompt_tokens": 3722,
+    "completion_tokens": 737,
+    "total_tokens": 4459
+  },
+  "latency": 1741280681
+}

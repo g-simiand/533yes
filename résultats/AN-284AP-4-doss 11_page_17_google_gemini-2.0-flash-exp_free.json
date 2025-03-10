@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_17.png",
+  "result": "+ veinemer les luns quan a deeer.\npresque presine du monde l'ours diter calenten\nles afterg d. petits intrigues, d. petits way?\nits bus wogen muy omis, presque bien\nen vertes. err. von ignes les hron\nalovcijon, d. utis presqu'amo espere S.7\nintezeu, dar comart wie in lehen\nle topbud de individen etay von or finie\nbever. Is vundir to after\njosible, it in greinde cause, pour agir\nwhy quis pour amounts in\ngofwars, d'intrige, le manewry\nlar, oubline avecs ignes les enfin\n\nils wogen amponois d'intrige, en its minewry\naler dela sayton",
+  "timestamp": "2025-03-06T15:39:26.063978",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 177,
+    "total_tokens": 3764
+  },
+  "latency": 1741271959
+}

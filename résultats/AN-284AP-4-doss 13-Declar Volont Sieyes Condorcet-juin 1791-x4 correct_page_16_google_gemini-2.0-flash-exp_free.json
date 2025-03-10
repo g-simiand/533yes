@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png",
+  "result": "```markdown\n( 6 )\nfenter. Quelque pur qu'il fût, il entraîneroit\ntrop d'explications, trop de diſcuſſion. Le ſigne\nauquel les vrais Patriotes vont ſe reconnoître,\ndoit être à la fois sûr, facile & prompt à faiſir.\nIl y a peu de temps encore qu'au ſeul nom de\nla liberté, la féparation auroit pu ſe faire des bons\n& des mauvais Citoyens. Aujourd'hui, tous\nveulent l'invoquer. Ceux qui la haïſſent le plus\naffectent d'en parler avec amour. Il faut donc\ntrouver ailleurs le caractère diſtinctif que nous\ncherchons. Il n'en eſt pas de plus marqué & de\nplus certain que le ſentiment ou la haine de\nl'egalité. C'eſt à l'égalité qu'il faut s'attacher ; car,\nſur ce point, les tartufes de la révolution n'ont\npas encore ſenti ! beſoin de ſe déguiſer tout-à fait.\nQuoi ! à les entendre même, ce principe perd tous\nles jours ; il devient de plus en plus indécis. Quelle\nerreur! & qu'il eſt néceſſaire de la repouſſer!\nTous ces faux amis de la Patrie qui demandent\npour elle une demi-liberté, & pour eux des pré-\nrogatives, font tout auſſi aiſés à reconnoître au\ngoûe qu'ils ne peuvent diſſimuler pour le ſyſtème\ndes deux Chambres, & pour je ne ſais quel plan\nde contre-fortes à l'angloiſe, qui n'eſt au fond\nqu'un ſyſtême de corruption, un équilibre de\ncupidité & de ſervitude.\n\n( 7 )\nOn voit combien il importe au ſuccès de la\nrévolution & à l'établiſſement de la Conſtitution,\nque les Députés qui vont nous remplacer ſoient\npris parmi les Citoyens ſeulement que nul ſoupçon\nne peut atteindre ſur ces deux points fondamen-\ntaux: égalité des droits; unité de Chambre.\n\nOn propoſe donc à tous les Patriotes la ſignature\nvolontaire d'une déclaration faite dans cet eſprit, &\nqui puiſſe enfin nous éclairer ſur ceux qui méritent\nnotre confiance. Il eſt incontestable que tous ceux\nqui ſigneront volontairement cette déclaration, ſe\nſépareront par cet acte ſeul de tout parti oppoſé\nà la liberté & à l'égalité, & qu'ils ne pourroient\nſe réunir enſuite à nos ennemis ſans ſe désho-\nnorer même parmi eux. Tel eſt l'avantage que\nles engagemens libres doivent avoir ſur les fer-\nmens forcés.\n\nARCHIVES\nNATIONALES\n\nH\nA 4\n\n(1) quere ne diſe done pas que j'ai voulen\nborner la constitution ! Joup articley.\nil ay, un vien d'abſurde, quon n'oſe dire,\ner quon on faſte croire, quand on eſt ſtabuthan\npak un parti.\n```",
+  "timestamp": "2025-03-06T16:56:08.957332",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 699,
+    "total_tokens": 4286
+  },
+  "latency": 1741276560
+}

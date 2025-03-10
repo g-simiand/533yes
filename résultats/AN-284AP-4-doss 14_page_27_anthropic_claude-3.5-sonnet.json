@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "S'il a le dessein, l'espérance\nqu'il soit impossible d'établir\nune démocratie en france\nrelevant l'aristocratie\ndominante : S'il a le dessein,\nla nation ~~[XXX]~~ reste exposée\nà une longue anarchie dont\nla diminution de la culture\net de l'industrie, en\npar conséquent la misère\net la dépopulation seront\nla suite infaillible.",
+  "timestamp": "2025-03-06T18:10:26.020315",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.007296
+  },
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 117,
+    "total_tokens": 1964
+  },
+  "latency": 1741281019
+}

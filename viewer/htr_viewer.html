@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>533yes - Viewer HTR</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .image-container {
+            max-height: 800px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 100%;
+        }
+        .transcription-container {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #f9f9f9;
+            white-space: pre-wrap;
+        }
+        .diff-highlight {
+            background-color: #ffcccc;
+        }
+        .model-selector {
+            margin-bottom: 20px;
+        }
+        .wer-badge {
+            font-size: 1rem;
+            margin-left: 10px;
+        }
+        .reference-transcription {
+            background-color: #e6f7ff;
+        }
+        #imageSelector, #modelSelector {
+            margin-bottom: 20px;
+        }
+        .loading {
+            font-style: italic;
+            color: #666;
+        }
+        .error {
+            color: #dc3545;
+        }
+        #debugInfo {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: 1px solid #ddd;
+            font-family: monospace;
+            font-size: 12px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+        .model-option {
+            display: flex;
+            justify-content: space-between;
+        }
+        .model-name {
+            flex-grow: 1;
+        }
+        .model-wer {
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        #modelSelector option {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="mb-4">533yes - Viewer de transcriptions HTR</h1>
+        
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label for="imageSelector" class="form-label">Sélectionner une image :</label>
+                <select id="imageSelector" class="form-select">
+                    <option value="">Chargement des images...</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Image Column -->
+            <div class="col-md-6">
+                <h3>Image source</h3>
+                <div class="image-container">
+                    <img id="sourceImage" src="" alt="Image source">
+                </div>
+            </div>
+            
+            <!-- Transcriptions Column -->
+            <div class="col-md-6">
+                <h3>Transcriptions</h3>
+                
+                <!-- Reference Transcription -->
+                <div class="mb-3">
+                    <h4>Transcription de référence</h4>
+                    <div id="referenceTranscription" class="transcription-container reference-transcription">
+                        <span class="loading">Sélectionnez une image pour afficher sa transcription de référence.</span>
+                    </div>
+                </div>
+                
+                <!-- Model Transcriptions -->
+                <div class="model-selector">
+                    <h4>Transcription du modèle</h4>
+                    <select id="modelSelector" class="form-select">
+                        <option value="">Sélectionnez un modèle</option>
+                    </select>
+                    
+                    <div id="modelTranscription" class="transcription-container mt-3">
+                        <span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>
+                    </div>
+                    
+                    <div id="werInfo" class="mt-2">
+                        <!-- WER info will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Debug Info -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <details>
+                    <summary>Informations de débogage</summary>
+                    <div id="debugInfo"></div>
+                </details>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Fonction pour ajouter des logs de débogage
+        function log(message) {
+            const debugInfo = document.getElementById('debugInfo');
+            const timestamp = new Date().toLocaleTimeString();
+            debugInfo.innerHTML += `<div>[${timestamp}] ${message}</div>`;
+            console.log(`[${timestamp}] ${message}`);
+        }
+        
+        // Configuration - À remplacer par des données réelles
+        const config = {
+            // Utiliser des chemins relatifs pour la compatibilité avec GitHub Pages
+            imagesPath: '/images/',
+            referencePath: '/transcriptions_de_référence/',
+            resultsPath: '/résultats/',
+            // Fichier JSON contenant la liste des images (à créer)
+            imagesListFile: '/images_list.json',
+            // Fichier JSON contenant la liste des modèles (à créer)
+            modelsListFile: '/models_list.json',
+            // Fichier JSON contenant la liste officielle des modèles à tester
+            modelsToTestFile: '/models_to_test.json',
+            // Fichier JSON contenant la liste des modèles Kraken
+            krakenModelsFile: '/kraken_models.json',
+            // Fichier JSON contenant les données WER
+            werDataFile: '/wer_data.json'
+        };
+
+        // Fonction pour charger la liste des images
+        async function loadImagesList() {
+            log("Chargement de la liste des images...");
+            try {
+                // Essayer d'abord de charger depuis le fichier JSON
+                const response = await fetch(config.imagesListFile);
+                log(`Statut de la réponse pour images_list.json: ${response.status}`);
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    log(`${data.length} images trouvées dans images_list.json`);
+                    return data;
+                } else {
+                    log(`Erreur lors du chargement de images_list.json: ${response.statusText}`);
+                }
+                
+                // Si le fichier n'existe pas, utiliser une liste statique
+                log("Utilisation de la liste statique d'images");
+                return [
+                    'AN-284AP-4-doss 14_page_27.png',
+                    'AN-284AP-4-doss 11_page_39.png',
+                    'AN-284AP-4-doss 11_page_36.png',
+                    'AN-284AP-4-doss 10_page_30.png',
+                    'AN-284AP-4-doss 11_page_29.png',
+                    'AN-284AP-4-doss 11_page_28.png',
+                    'AN-284AP-4-doss 14_page_9.png',
+                    'AN-284AP-4-doss 10_page_20.png',
+                    'AN-284AP-4-doss 11_page_17.png',
+                    'AN-284AP-4-doss 10_page_18.png',
+                    'AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16.png',
+                    'AN-284AP-4-doss 11_page_12.png',
+                    'AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png',
+                    'AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15.png',
+                    'AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png'
+                ];
+            } catch (error) {
+                log(`Erreur lors du chargement de la liste des images: ${error.message}`);
+                return [];
+            }
+        }
+
+        // Fonction pour charger la liste des modèles
+        async function loadModelsList() {
+            log("Chargement de la liste des modèles...");
+            let allModels = [];
+            
+            try {
+                // Essayer d'abord de charger les modèles IA depuis models_to_test.json
+                const iaResponse = await fetch(config.modelsToTestFile);
+                log(`Statut de la réponse pour models_to_test.json: ${iaResponse.status}`);
+                
+                if (iaResponse.ok) {
+                    const iaData = await iaResponse.json();
+                    log(`${iaData.length} modèles IA trouvés dans models_to_test.json`);
+                    
+                    // Convertir le format du fichier models_to_test.json en format utilisable
+                    const formattedIaModels = iaData.map(model => {
+                        const [id, licenseType] = model;
+                        // Extraire le nom du modèle à partir de l'ID
+                        const nameParts = id.split('/');
+                        const provider = nameParts[0];
+                        let modelName = nameParts[1];
+                        
+                        // Nettoyer le nom du modèle (enlever les suffixes comme :free)
+                        modelName = modelName.replace(/:.*$/, '');
+                        
+                        return {
+                            id: id,
+                            name: `${provider} ${modelName}`,
+                            type: 'ia',
+                            licenseType: licenseType
+                        };
+                    });
+                    
+                    log(`${formattedIaModels.length} modèles IA formatés`);
+                    allModels = [...formattedIaModels];
+                } else {
+                    log(`Erreur lors du chargement de models_to_test.json: ${iaResponse.statusText}`);
+                }
+                
+                // Ensuite, charger les modèles Kraken depuis kraken_models.json
+                const krakenResponse = await fetch(config.krakenModelsFile);
+                log(`Statut de la réponse pour kraken_models.json: ${krakenResponse.status}`);
+                
+                if (krakenResponse.ok) {
+                    const krakenData = await krakenResponse.json();
+                    log(`${krakenData.length} modèles Kraken trouvés dans kraken_models.json`);
+                    
+                    // Convertir le format du fichier kraken_models.json en format utilisable
+                    const formattedKrakenModels = krakenData.map(modelName => {
+                        // Créer un ID basé sur le nom du modèle
+                        let id = modelName;
+                        
+                        // Nettoyer le nom pour l'affichage
+                        let displayName = modelName;
+                        
+                        // Mapper les noms des modèles Kraken à leurs identifiants dans les fichiers de résultats
+                        const krakenModelMapping = {
+                            "FoNDUE-GD": "FoNDUE-GD_v2_fr",
+                            "McCATMuS": "McCATMuS_nfd_nofix_V1",
+                            "HTR-United - Manu Mc Fondue": "ManuMcFondue",
+                            "CATMuS-Print [Large]": "catmus-print-fondue-large",
+                            "Gallicorpora+": "Gallicorpora+_best",
+                            "LECTAUREP Contemporary French Model (Administration)": "lectaurep_base"
+                        };
+                        
+                        // Utiliser l'ID mappé si disponible
+                        const mappedId = krakenModelMapping[modelName] || id;
+                        
+                        return {
+                            id: mappedId,
+                            name: `Kraken ${displayName}`,
+                            type: 'ml',
+                            licenseType: 'open'
+                        };
+                    });
+                    
+                    log(`${formattedKrakenModels.length} modèles Kraken formatés`);
+                    allModels = [...allModels, ...formattedKrakenModels];
+                } else {
+                    log(`Erreur lors du chargement de kraken_models.json: ${krakenResponse.statusText}`);
+                }
+                
+                // Si aucun modèle n'a été chargé, utiliser une liste statique
+                if (allModels.length === 0) {
+                    log("Utilisation de la liste statique de modèles");
+                    allModels = [
+                        { id: 'amazon/nova-lite-v1', name: 'Amazon Nova Lite', type: 'ia', wer: 0.85 },
+                        { id: 'McCATMuS_nfd_nofix_V1', name: 'Kraken McCATMuS', type: 'ml', wer: 0.97 },
+                        { id: 'ManuMcFondue', name: 'Kraken Manu Mc Fondue', type: 'ml', wer: 1.00 },
+                        { id: 'lectaurep_base', name: 'Kraken LECTAUREP', type: 'ml', wer: 1.04 },
+                        { id: 'Gallicorpora+_best', name: 'Kraken Gallicorpora+', type: 'ml', wer: 1.27 },
+                        { id: 'FoNDUE-GD_v2_fr', name: 'Kraken FoNDUE-GD', type: 'ml', wer: 0.95 },
+                        { id: 'catmus-print-fondue-large', name: 'Kraken CATMuS-Print', type: 'ml', wer: 1.00 },
+                        { id: 'openai/gpt-4o-mini', name: 'OpenAI GPT-4o Mini', type: 'ia', wer: 0.86 },
+                        { id: 'openai/gpt-4o-2024-11-20', name: 'OpenAI GPT-4o', type: 'ia', wer: 0.83 },
+                        { id: 'google/gemini-2.0-flash-001', name: 'Google Gemini 2.0 Flash', type: 'ia', wer: 0.71 },
+                        { id: 'mistralai/pixtral-12b', name: 'Mistral Pixtral 12B', type: 'ia', wer: 1.00 },
+                        { id: 'mistralai/pixtral-large-2411', name: 'Mistral Pixtral Large', type: 'ia', wer: 0.93 },
+                        { id: 'qwen/qwen-2-vl-7b-instruct', name: 'Qwen 2 VL 7B', type: 'ia', wer: 1.00 },
+                        { id: 'openai/o1', name: 'OpenAI o1', type: 'ia', wer: 0.72 },
+                        { id: 'x-ai/grok-2-vision-1212', name: 'X.AI Grok 2 Vision', type: 'ia', wer: 1.42 }
+                    ];
+                }
+                
+                return allModels;
+            } catch (error) {
+                log(`Erreur lors du chargement de la liste des modèles: ${error.message}`);
+                return [];
+            }
+        }
+
+        // Fonction pour initialiser le sélecteur d'images
+        async function initImageSelector() {
+            log("Initialisation du sélecteur d'images...");
+            const selector = document.getElementById('imageSelector');
+            selector.innerHTML = '<option value="">Chargement des images...</option>';
+            
+            const images = await loadImagesList();
+            
+            if (images.length === 0) {
+                log("Aucune image disponible");
+                selector.innerHTML = '<option value="">Aucune image disponible</option>';
+                return;
+            }
+            
+            log(`${images.length} images disponibles`);
+            selector.innerHTML = '<option value="">Sélectionnez une image</option>';
+            images.forEach(image => {
+                const option = document.createElement('option');
+                option.value = image;
+                option.textContent = image;
+                selector.appendChild(option);
+            });
+            
+            // Ajouter l'événement de changement
+            selector.addEventListener('change', (e) => {
+                if (e.target.value) {
+                    log(`Image sélectionnée: ${e.target.value}`);
+                    loadImage(e.target.value);
+                } else {
+                    // Réinitialiser l'affichage si aucune image n'est sélectionnée
+                    document.getElementById('sourceImage').src = '';
+                    document.getElementById('referenceTranscription').innerHTML = 
+                        '<span class="loading">Sélectionnez une image pour afficher sa transcription de référence.</span>';
+                    document.getElementById('modelTranscription').innerHTML = 
+                        '<span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>';
+                    document.getElementById('werInfo').innerHTML = '';
+                }
+            });
+        }
+
+        // Fonction pour initialiser le sélecteur de modèles
+        async function initModelSelector() {
+            log("Initialisation du sélecteur de modèles...");
+            const selector = document.getElementById('modelSelector');
+            selector.innerHTML = '<option value="">Chargement des modèles...</option>';
+            
+            const models = await loadModelsList();
+            
+            if (models.length === 0) {
+                log("Aucun modèle disponible");
+                selector.innerHTML = '<option value="">Aucun modèle disponible</option>';
+                return;
+            }
+            
+            log(`${models.length} modèles disponibles`);
+            selector.innerHTML = '<option value="">Sélectionnez un modèle</option>';
+            
+            // Récupérer les données WER depuis le fichier wer_data.json si disponible
+            let werData = {};
+            try {
+                const werResponse = await fetch(config.werDataFile);
+                if (werResponse.ok) {
+                    werData = await werResponse.json();
+                    log(`Données WER chargées pour ${Object.keys(werData).length} modèles`);
+                }
+            } catch (error) {
+                log(`Erreur lors du chargement des données WER: ${error.message}`);
+            }
+            
+            // Enrichir les modèles avec les données WER
+            const enrichedModels = models.map(model => {
+                // Extraire l'ID du modèle sans le préfixe de l'éditeur si nécessaire
+                const fullId = model.id;
+                const shortId = fullId.includes('/') ? fullId.split('/')[1].replace(/:.*$/, '') : fullId;
+                
+                // Chercher les données WER pour ce modèle
+                if (werData[fullId]) {
+                    model.wer = werData[fullId].median_wer;
+                } else if (werData[shortId]) {
+                    model.wer = werData[shortId].median_wer;
+                }
+                
+                // Identifier les modèles d'apprentissage machine
+                const mlModels = ['McCATMuS_nfd_nofix_V1', 'ManuMcFondue', 'lectaurep_base', 
+                                 'Gallicorpora+_best', 'FoNDUE-GD_v2_fr', 'catmus-print-fondue-large'];
+                
+                if (mlModels.some(mlModel => fullId.includes(mlModel))) {
+                    model.type = 'ml';
+                }
+                
+                return model;
+            });
+            
+            // Trier les modèles par WER (du meilleur au pire)
+            const sortedModels = [...enrichedModels].sort((a, b) => {
+                // D'abord par type
+                if (a.type !== b.type) {
+                    return a.type === 'ia' ? -1 : 1;
+                }
+                // Ensuite par WER si disponible
+                if (a.wer !== undefined && b.wer !== undefined) {
+                    return a.wer - b.wer;
+                }
+                // Sinon par nom
+                return a.name.localeCompare(b.name);
+            });
+            
+            // Créer des optgroups pour les types de modèles
+            const iaGroup = document.createElement('optgroup');
+            iaGroup.label = 'Intelligence Artificielle (LLM)';
+            
+            const mlGroup = document.createElement('optgroup');
+            mlGroup.label = 'Apprentissage Machine (Kraken, Transkribus)';
+            
+            // Ajouter un style pour les valeurs WER en gras
+            const styleElement = document.createElement('style');
+            styleElement.textContent = `
+                .model-option {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .model-name {
+                    flex-grow: 1;
+                }
+                .model-wer {
+                    font-weight: bold;
+                    margin-left: 10px;
+                }
+                #modelSelector option {
+                    padding: 5px;
+                }
+            `;
+            document.head.appendChild(styleElement);
+            
+            sortedModels.forEach(model => {
+                const option = document.createElement('option');
+                option.value = model.id;
+                
+                // Ajouter le WER au nom du modèle si disponible
+                let displayName = model.name;
+                if (model.wer !== undefined) {
+                    // Stocker le WER comme attribut data
+                    option.dataset.wer = model.wer.toFixed(3);
+                    // Afficher le WER dans le texte de l'option
+                    displayName = `${model.name} - WER: ${model.wer.toFixed(3)}`;
+                }
+                
+                // Définir le texte de l'option
+                option.textContent = displayName;
+                
+                // Déterminer le groupe en fonction du type
+                if (model.type === 'ia') {
+                    iaGroup.appendChild(option);
+                } else {
+                    mlGroup.appendChild(option);
+                }
+            });
+            
+            if (iaGroup.children.length > 0) {
+                selector.appendChild(iaGroup);
+            }
+            
+            if (mlGroup.children.length > 0) {
+                selector.appendChild(mlGroup);
+            }
+            
+            // Ajouter l'événement de changement
+            selector.addEventListener('change', (e) => {
+                if (e.target.value) {
+                    log(`Modèle sélectionné: ${e.target.value}`);
+                }
+                updateModelTranscription(e.target.value);
+            });
+        }
+
+        // Fonction pour charger une image et sa transcription de référence
+        function loadImage(imageName) {
+            log(`Chargement de l'image: ${imageName}`);
+            // Afficher l'image
+            const imageElement = document.getElementById('sourceImage');
+            imageElement.src = `${config.imagesPath}${imageName}`;
+            
+            // Charger la transcription de référence
+            const refName = imageName.replace('.png', '.md');
+            fetchReferenceTranscription(refName);
+            
+            // Mettre à jour la transcription du modèle si un modèle est sélectionné
+            const modelSelector = document.getElementById('modelSelector');
+            if (modelSelector.value) {
+                updateModelTranscription(modelSelector.value);
+            } else {
+                document.getElementById('modelTranscription').innerHTML = 
+                    '<span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>';
+                document.getElementById('werInfo').innerHTML = '';
+            }
+        }
+
+        // Fonction pour récupérer la transcription de référence
+        function fetchReferenceTranscription(refName) {
+            log(`Chargement de la transcription de référence: ${refName}`);
+            const refElement = document.getElementById('referenceTranscription');
+            refElement.innerHTML = `<span class="loading">Chargement de la transcription de référence...</span>`;
+            
+            fetch(`${config.referencePath}${refName}`)
+                .then(response => {
+                    log(`Statut de la réponse pour ${refName}: ${response.status}`);
+                    if (!response.ok) {
+                        throw new Error(`Erreur HTTP ${response.status}`);
+                    }
+                    return response.text();
+                })
+                .then(text => {
+                    log(`Transcription de référence chargée (${text.length} caractères)`);
+                    refElement.textContent = text;
+                })
+                .catch(error => {
+                    log(`Erreur lors du chargement de la transcription de référence: ${error.message}`);
+                    refElement.innerHTML = `<span class="error">Erreur lors du chargement de la transcription de référence: ${error.message}</span>`;
+                });
+        }
+
+        // Fonction pour mettre à jour la transcription du modèle
+        function updateModelTranscription(modelId) {
+            const transcriptionDiv = document.getElementById('modelTranscription');
+            const werInfoDiv = document.getElementById('werInfo');
+            
+            if (!modelId) {
+                transcriptionDiv.innerHTML = '<span class="loading">Sélectionnez un modèle pour afficher sa transcription.</span>';
+                werInfoDiv.innerHTML = '';
+                return;
+            }
+            
+            const selectedImage = document.getElementById('imageSelector').value;
+            if (!selectedImage) {
+                transcriptionDiv.innerHTML = '<span class="loading">Sélectionnez d\'abord une image.</span>';
+                werInfoDiv.innerHTML = '';
+                return;
+            }
+            
+            const baseImageName = selectedImage.replace('.png', '');
+            
+            // Rechercher le fichier de résultat correspondant
+            log(`Recherche du fichier de résultat pour l'image ${baseImageName} et le modèle ${modelId}`);
+            
+            // Extraire le fournisseur et le nom du modèle à partir de l'ID
+            let provider = '';
+            let modelName = modelId;
+            
+            if (modelId.includes('/')) {
+                [provider, modelName] = modelId.split('/');
+                // Enlever les suffixes comme :free
+                modelName = modelName.replace(/:.*$/, '');
+            }
+            
+            // Essayer différentes combinaisons de noms de fichiers
+            const possibleFilenames = [];
+            
+            // Pour les modèles IA avec format provider/model
+            if (provider) {
+                // Format 1: baseImageName_provider_modelName.json (le plus courant)
+                possibleFilenames.push(`${baseImageName}_${provider}_${modelName}.json`);
+                
+                // Format 2: baseImageName_modelName.json (rare)
+                possibleFilenames.push(`${baseImageName}_${modelName}.json`);
+                
+                // Format 3: baseImageName_provider/modelName.json (peu probable mais possible)
+                possibleFilenames.push(`${baseImageName}_${modelId}.json`);
+            } 
+            // Pour les modèles Kraken
+            else {
+                // Format 1: baseImageName_modelId.json (le plus courant)
+                possibleFilenames.push(`${baseImageName}_${modelId}.json`);
+                
+                // Essayer avec des variantes connues pour les modèles Kraken
+                if (modelId === 'FoNDUE-GD_v2_fr') {
+                    possibleFilenames.push(`${baseImageName}_FoNDUE-GD_v2_fr.json`);
+                } else if (modelId === 'Gallicorpora+_best') {
+                    possibleFilenames.push(`${baseImageName}_Gallicorpora+_best.json`);
+                } else if (modelId === 'lectaurep_base') {
+                    possibleFilenames.push(`${baseImageName}_lectaurep_base.json`);
+                } else if (modelId === 'McCATMuS_nfd_nofix_V1') {
+                    possibleFilenames.push(`${baseImageName}_McCATMuS_nfd_nofix_V1.json`);
+                } else if (modelId === 'ManuMcFondue') {
+                    possibleFilenames.push(`${baseImageName}_ManuMcFondue.json`);
+                } else if (modelId === 'catmus-print-fondue-large') {
+                    possibleFilenames.push(`${baseImageName}_catmus-print-fondue-large.json`);
+                }
+            }
+            
+            log(`Tentative de chargement avec les noms de fichiers possibles: ${possibleFilenames.join(', ')}`);
+            
+            // Fonction pour essayer de charger un fichier
+            function tryLoadFile(index) {
+                if (index >= possibleFilenames.length) {
+                    // Tous les essais ont échoué
+                    log(`Aucun fichier de résultat trouvé pour ${baseImageName} et ${modelId}`);
+                    transcriptionDiv.innerHTML = `<span class="error">Aucun fichier de résultat trouvé pour ce modèle et cette image.</span>`;
+                    werInfoDiv.innerHTML = '';
+                    return;
+                }
+                
+                const filename = possibleFilenames[index];
+                log(`Essai avec le nom de fichier: ${filename}`);
+                
+                fetch(`${config.resultsPath}${filename}`)
+                    .then(response => {
+                        log(`Statut de la réponse pour ${filename}: ${response.status}`);
+                        if (!response.ok) {
+                            // Essayer le prochain nom de fichier
+                            throw new Error(`Fichier non trouvé: ${filename}`);
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        log(`Transcription du modèle chargée depuis ${filename} (${data.result ? data.result.length : 0} caractères)`);
+                        transcriptionDiv.textContent = data.result;
+                        
+                        // Afficher les informations sur le WER si disponibles
+                        if (data.wer !== undefined) {
+                            const werValue = parseFloat(data.wer);
+                            let werClass = 'bg-danger';
+                            
+                            if (werValue < 0.1) {
+                                werClass = 'bg-success';
+                            } else if (werValue < 0.2) {
+                                werClass = 'bg-info';
+                            } else if (werValue < 0.3) {
+                                werClass = 'bg-primary';
+                            } else if (werValue < 0.5) {
+                                werClass = 'bg-warning';
+                            }
+                            
+                            werInfoDiv.innerHTML = `
+                                <span class="badge ${werClass}">WER: ${werValue.toFixed(3)}</span>
+                                <small class="text-muted ms-2">Plus le WER est bas, meilleure est la performance</small>
+                            `;
+                        } else {
+                            werInfoDiv.innerHTML = '<small class="text-muted">WER non disponible</small>';
+                        }
+                    })
+                    .catch(error => {
+                        log(`Erreur avec ${filename}: ${error.message}`);
+                        // Essayer le prochain nom de fichier
+                        tryLoadFile(index + 1);
+                    });
+            }
+            
+            // Commencer avec le premier nom de fichier
+            tryLoadFile(0);
+        }
+
+        // Initialiser l'application
+        document.addEventListener('DOMContentLoaded', async () => {
+            log("Initialisation de l'application...");
+            try {
+                await Promise.all([
+                    initImageSelector(),
+                    initModelSelector()
+                ]);
+                log("Initialisation terminée");
+            } catch (error) {
+                log(`Erreur lors de l'initialisation: ${error.message}`);
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

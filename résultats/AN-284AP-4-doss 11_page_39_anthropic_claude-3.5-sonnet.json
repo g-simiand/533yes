@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "nous appliquer dans la graisse des doctrines où\nnous sortons à peine. Ce seroit bien pour\ns'élever dans quelques années ; il est donc\nindispensable de l'analyser ; nous demandons\nà notre tour, si l'on trouve qu'un\nindividu quelconque puisse être libre,\nà côté de celui qui pourroit impunément\ndésobéir à la loi : la question est claire\net la réponse ne peut pas être douteuse,\nil faut donc pour ~~garantir~~ la liberté\nde chacun, que tous soient à l'égard\nles uns des autres dans une véritable\nimpossibilité de désobéir à la loi. la\ngarantie de notre liberté ne vaut donc\ndans ~~[XXX]~~ l'établissement d'un frein\nd'exécution relative irrésistible\naucune nouveauté d'injustice ne\npourroit s'élever, à cet égard, si l'on\nn'oublioit pas la différence des temps.\nSous la despotisme, une force irrésistible\nmaintenoit la position, des sujets\nde la loi, elle garantit la liberté...\net voici une ~~[XXX]~~ preuve que la\nforce d'exécution bien irrésistible ;\nmais des autres principes doivent précéder\ncelui là, 1° que la loi soit toujours\nl'expression de la volonté sociale, 2° que",
+  "timestamp": "2025-03-06T18:09:59.700063",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011238
+  },
+  "usage": {
+    "prompt_tokens": 1871,
+    "completion_tokens": 375,
+    "total_tokens": 2246
+  },
+  "latency": 1741280981
+}

@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "## préambule\n\nAujourd'huy la garantie nécessaire donnée à la publicité rationnelle  \nici j'ai besoin de voir tenir à coup d'équilibre égale à  \nvous des yeux forts ouverts, il faut ~~tenir~~ en toutes ces  \ndispositions pour placer tranquillement à les travaux,  \nà leur plaisir particulier, il faut ~~placer~~ des fonctions des  \nbonnes graces, voulues, nécessaire à l'établissement  \nà la flatterie des bons pays nécessaires pour effacer l'opération  \nd'une volonté malencontreuse des [XXX]\n\nC'est aux citoyens à savoir tenir, car tenir sans tenir  \nles hommes veulent, ils vous choisir, vous leur  \nopération publique  \ndes bons spectateurs il faut joindre les citoyens, surtout  \nles objets militaires\n\nainsi la partie active des travaux publiques se fera par  \nopérations en telle sorte que les deux, pour les définir  \npourra opérer, il nous faut une force d'exécution,  \nagir, donner par représentation, comme vous rappelez  \nCe qui donne par représentation, comme vous rappelez,  \nà pouvoir étayer qui poursuivent les deux corps d'hommes,  \nde travaux encore toujours entrés à la substance  \n~~par la théorie de représentation~~  \nl'instruction civile facilite la formation en 1er  \nl'instruction militaire celle des 2d.  \nces deux travaux publics particuliers comme toujours",
+  "timestamp": "2025-03-06T17:49:11.295371",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.12569999999999998
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 285,
+    "total_tokens": 1391
+  },
+  "latency": 1741279708
+}

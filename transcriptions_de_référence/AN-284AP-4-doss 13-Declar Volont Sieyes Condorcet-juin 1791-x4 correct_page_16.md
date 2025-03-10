@@ -28,11 +28,11 @@ de contre-forces à l’angloise, qui n’est au fond
 qu’un système de corruption, un équilibre de  
 cupidité & de servitude.  
 
-(1) qu’on ne [XXX] deux que par j’ai voulu  
-corriger la constitution. Trop arbitraire,  
-il me [XXX] j’ay [XXX] ded  
-quand on restab[XXX]  
-pour un patri[XXX]  
+(1) qu’on ne dise donc pas que j’ai voulu  
+borner la constitution à deux articles. 
+il n'y a rien d'absurde qu'on n'ose dire,
+et qu'on ne fasse croire, quand on est soutenu
+par un parti
 
 (7)  
 On voit combien il importe au succès de la  
@@ -53,6 +53,3 @@ se réunir ensuite à nos ennemis sans les désho-
 norer même parmi eux. Tel est l’avantage que  
 les engagemens libres doivent avoir sur les ser-  
 ments forcés.  
-
-[XXX] compar[XXX] [XXX] nous [XXX] [XXX]  
-et [XXX] [XXX] se [XXX]  

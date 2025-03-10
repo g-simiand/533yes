@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "Messieurse,\n\nLe moyen le plus Sür de maintenir Union entre les quatre vingt\ntrois parties de l'Empire Français, d'alimenter Sans cesse leur patriotisme,\nd'empêcher qu'aucuns ne s'écartent et du pacte qu'elles viennent de jurer\net des devoirs que la constitution lens impose, d'entretenir le zèle des Gardes\nNationales et la fraternité des troupes de ligne, est évidemment de renouveller\nChaque ermee au 14. Juillet les partes fédératif\nCe renouvellement annuel d'une fédération generale me parait dans\nle Sistème politique de l'empire Français une des loix Constitutionnelles\nles plus indispensables. je vous conjure de bien la reflechir, d'en bien\nSaisir les immenses avantages, et de Vous y attacher comme au moyen\nle plus Sür de rendre inattaquable à jamais notre constitution et notre\nliberté.\n\nL'utilité, je dis plus, la necessité de ce projet une fois accordée, il\nfaudrait qu'on presentat des obstacles insurmontables pour qu'il ne fut\npas adopté.\nQuels pourraient être ces obstacles?\nJe n'en connais qu'une. la depente.\nPremierement, Messieurs, Serait ce une consideration Suffisante\npour empêcher l'acte le plus important pour l'union et la",
+  "timestamp": "2025-03-06T15:39:12.221869",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 296,
+    "total_tokens": 3883
+  },
+  "latency": 1741271946
+}

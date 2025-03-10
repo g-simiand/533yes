@@ -1,34 +1,24 @@
 2.
-~~[XXX] [XXX] [XXX] [XXX] [XXX]~~
-[XXX] rencontres [XXX] [XXX]
-nouvelle [XXX]
-~~[XXX] [XXX] [XXX] [XXX] [XXX]~~
-[XXX] où alors [XXX]
-[XXX] [XXX] de secrets [XXX] tout [XXX] [XXX] [XXX]
-opts, et [XXX] [XXX]
-a reconoistre, [XXX]
-[XXX] pour [XXX]
-par l’establissement [XXX] [XXX] [XXX]
-Constitution [XXX] [XXX] par [XXX]
-[XXX] d’[XXX] [XXX] [XXX]
-[XXX] [XXX] [XXX]
-accamar [XXX] [XXX] [XXX]
-l’industrie [XXX] [XXX] [XXX]
-[XXX] [XXX] [XXX] [XXX]
-stabilité [XXX] constitution [XXX] [XXX] foix
+[XXX] [XXX] [XXX] [XXX] [XXX]
+ [XXX] des droits [XXX]
+nouvelle  [XXX]
+ [XXX] où  [XXX] les droits  [XXX]
+  [XXX] elle s'est attribuée
+  à connaître les droits  [XXX] d'un [XXX]
+  les jouissances  [XXX] d'une
+  constitution  [XXX]
+   [XXX] inutilement
+accumule  [XXX] à leur tour  [XXX]
+l'histoire  [XXX]
+ [XXX]
+  [XXX]
+  pour les autres peuples ?  [XXX]
+   [XXX]
+   poru elle, sur les  [XXX]
+   quelle  [XXX]
+    [XXX]
+    de votre  [XXX]
+     [XXX] humain
 
-Pour les autrs [XXX] [XXX] [XXX] [XXX]
-[XXX] la [XXX] [XXX] [XXX] [XXX]
-inflans [XXX] la [XXX] [XXX]
-par [XXX], sur les [XXX] [XXX] [XXX]
-pour [XXX] [XXX] doctrines [XXX] [XXX]
-quels [XXX] [XXX] [XXX] [XXX] [XXX]
-H [XXX] [XXX] [XXX] [XXX]
-Il pour [XXX] lire [XXX] [XXX]
-cette inquisition [XXX] [XXX] [XXX]
-sur les fruits [XXX] [XXX] [XXX]
-[XXX] [XXX] [XXX] [XXX] [XXX]
-d’[XXX] [XXX] [XXX] [XXX] [XXX]
-[XXX] [XXX] [XXX] [XXX] [XXX] [XXX]
-[XXX] [XXX] [XXX] [XXX] [XXX]
-vous [XXX] [XXX] [XXX] [XXX]
+l'établissement d'une constitution
+vraiment  [XXX]

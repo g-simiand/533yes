@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_27.png",
+  "result": "Grassmen\nS'il a le dollons, l'oponcor\nqu'il est impossible d'établir.\nune dacociatie en france\nredevrane l'opincom\ndominante. S'il a le delhis\nlanation reste exposée\nà une longue anarchie Dont\nla diminellon de la culture.\net de l'andartie, en\npas contagions la mesme\net la depopulation des censen\nla sorte infaillible.",
+  "timestamp": "2025-03-06T16:56:16.687908",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 106,
+    "total_tokens": 3693
+  },
+  "latency": 1741276572
+}

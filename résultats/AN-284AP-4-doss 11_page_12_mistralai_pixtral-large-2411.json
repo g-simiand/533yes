@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 11_page_12.png",
+  "result": "```\n2.\n\n~~Préambule~~\n\nL'hypothèse générale que nous nous donnons est l'existence naturelle\nde la loi de la gravitation universelle.\nCe principe général pour tous les corps, et pour toutes les\ndistances, est le fondement de la mécanique céleste.\n\nLa loi de la gravitation universelle est une loi fondamentale\nde la physique, qui décrit l'attraction entre deux corps.\nElle stipule que la force d'attraction entre deux corps est\nproportionnelle au produit de leurs masses et inversement\nproportionnelle au carré de la distance qui les sépare.\n\nCette loi a été formulée par Isaac Newton et publiée en 1687\ndans son ouvrage Philosophiæ Naturalis Principia Mathematica.\nElle a permis d'expliquer de nombreux phénomènes célestes,\ncomme les orbites des planètes, les marées, et la trajectoire\ndes comètes.\n\nLa loi de la gravitation universelle est une loi fondamentale\nde la physique, qui décrit l'attraction entre deux corps.\nElle stipule que la force d'attraction entre deux corps est\nproportionnelle au produit de leurs masses et inversement\nproportionnelle au carré de la distance qui les sépare.\n\nARCHIVES\nNATIONALES\n```",
+  "timestamp": "2025-03-06T18:04:34.431239",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.00941
+  },
+  "usage": {
+    "prompt_tokens": 3658,
+    "completion_tokens": 349,
+    "total_tokens": 4007
+  },
+  "latency": 1741280661
+}

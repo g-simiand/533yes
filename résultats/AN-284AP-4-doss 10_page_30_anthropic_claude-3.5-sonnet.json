@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "Monsieur,\n\nLe moyen le plus sûr de maintenir l'union entre les quatre-vingt\ntrois parties de l'Empire François, d'alimenter sans cesse leur patriotisme,\nd'empêcher qu'aucune ne s'écartent et du pacte qu'elles viennent de jurer\net des devoirs que la constitution leur impose, d'entretenir le zele des Gardes\nNationales et la fraternité des troupes de ligne, est evidemment de renouveller\nchaque année au 14e Juillet le pacte federatif.\n\nCe renouvellement annuel d'une federation generale me parait dans\nle Sisteme politique de l'empire François une des loix Constitutionnelles\nles plus indispensables. je vous conjure de bien la reflechir d'en bien\nsaisir les immenses avantages, et de vous y attacher comme au moyen\nle plus sûr de rendre inattaquable a jamais votre constitution et votre\nliberté.\n\nL'utilité, je dis plus, la necessité de ce projet une fois accordée, il\nfaudrait qu'on presentât des obstacles insurmontables pour qu'il ne fut\npas adopté.\n\nQuels pourraient être ces obstacles ?\nJe n'en connais qu'un : la depense.\n\nPremierement, Messieurs, serait ce une consideration suffisante\npour empêcher l'acte le plus important pour l'union et la",
+  "timestamp": "2025-03-06T18:08:32.790591",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.010974000000000001
+  },
+  "usage": {
+    "prompt_tokens": 1848,
+    "completion_tokens": 362,
+    "total_tokens": 2210
+  },
+  "latency": 1741280893
+}

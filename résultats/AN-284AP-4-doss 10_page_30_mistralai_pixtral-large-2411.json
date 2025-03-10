@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_30.png",
+  "result": "```\nMessieurs\n\nLa mesure le plus ~~par~~ de maintenir l'union entre les ~~XXX~~\ntrois parties de l'Empire Français, d'alimenter sans cesse leur patriotisme,\nd'empêcher qu'aucun ne ~~XXX~~ et de mettre qu'elles viennent ~~XXX~~\net ne ~~XXX~~ que la constitution leur impose, d'entretenir le zèle des Gardes\nNationales et la fidélité des troupes de ligne, est ~~XXX~~ de renouveller\nchaque année au 14 Juillet les ~~XXX~~ fédératif.\n\nCe renouvellement annuel d'une fédération générale ~~XXX~~ parait aux\nyeux politiques de l'Empire Français une des loix Constitutionnelles\nles plus ~~XXX~~, je vous conjure de bien la ~~XXX~~. Dans tous\nles ~~XXX~~ avantages, et de vous y attacher comme au moyen\nle plus sûr de rendre inattaquable jamais notre constitution et notre\nliberté.\n\nL'utilité, je ~~XXX~~ la nécessité de ce projet me fait ~~XXX~~, il\nfaudrait qu'on ~~XXX~~ des obstacles insurmontables pour qu'il ne fût\npas adopté.\n\nQuels pourraient être ces obstacles?\n\nJe n'en connais qu'un : la ~~XXX~~.\n\n~~XXX~~ Messieurs, ~~XXX~~ une considération ~~XXX~~\npour ~~XXX~~ : ~~XXX~~ le plus important pour l'union et la\n```",
+  "timestamp": "2025-03-06T18:04:17.386455",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.009692
+  },
+  "usage": {
+    "prompt_tokens": 3658,
+    "completion_tokens": 396,
+    "total_tokens": 4054
+  },
+  "latency": 1741280640
+}

@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 11_page_39.png",
+  "result": "12\n\nwos replager dan le goofte des despotimen dou\nnos fortoon è pein. (– Toute bonne [XXX]\nS'élever dan quelques ann il n'y doun\nindispensable de l'analyser; nos duradon\nà wote tour, di for woin gümn\nindividu quelconque puisse être libre\nà côté de cebre qui poumin ingran\ndrobir à la loi :. bangustion on clon-\nen la rposse erpur pos ons duites,\nil faun donc pour pour touy tablibest\nd. chawn, que tous doine à l'god\nde vos des autos dans une véritable\nimpossibilité de drobien à la loi. bu\ngaranten de voter liberté san doun\ndans touy l'établiffemen d'une forme\ndéperation velatio? irosisstible\naucun mouvement d'ingénieux un\npouvoir Sébar, à en egard, si l'un\nv'oublie in gos la différence de tops.\nsous le despotisme, une force irosisstible\nmainten là pousted, dos linggirn\nd. la loi, elle ~~g~~ garantit la libert...\nainsi: bien un peu penser que la\nforce déperation Guir irosisstible,\nmais d'ay autos principes doivent faire\nCebui là, 1° que la loi doir tonjol\ns'appuyer sur la volonté sociale, 2° que",
+  "timestamp": "2025-03-06T16:55:56.334233",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 324,
+    "total_tokens": 3911
+  },
+  "latency": 1741276548
+}

@@ -1,0 +1,22 @@
+{
+  "model": "google/gemini-2.0-flash-exp:free",
+  "editeur": "google",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 14_page_9.png",
+  "result": "en Calas, je ar Jauroy stos de votar avy\nor je croy you vous faites un pentrop\nabtraction de vots éter actual et\nday damson qui le nenacem et touts\nparty.\n\n2.e reflexion\n\ndy principes seuls, vo soffiseva pos. on\njove etos aristocrato et bos avount. by\nConsequenes wine ne me reffurerum\npos dass telles tette bouche.\nmachiavel conseilleraie de profiter\ndo meillera doctrino se do prometer\ntowe le qu'on ~~vandre~~, à be condation\nSi la Trattor de cette dinor che\npouvoir etra division chez l'ennemi,\nenröchſerne do se prepen foros.\ndivian ainsi le events, ou S. envoy\ntrop facilement eu de for doctrin\ner das por promesses de la veille.\n\n3.e reflexion\n\nit un sapje pes de principes, m' de\nConsequenes, it ur grostion de males\nvon machine Forials capable de produir-",
+  "timestamp": "2025-03-06T16:56:23.850621",
+  "model_info": {
+    "id": "google/gemini-2.0-flash-exp:free",
+    "pricing": [
+      0.0,
+      0.0
+    ],
+    "total_cost": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 3587,
+    "completion_tokens": 234,
+    "total_tokens": 3821
+  },
+  "latency": 1741276576
+}

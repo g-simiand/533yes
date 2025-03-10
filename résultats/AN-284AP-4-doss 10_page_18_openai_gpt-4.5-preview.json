@@ -1,0 +1,22 @@
+{
+  "model": "openai/gpt-4.5-preview",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_18.png",
+  "result": "j'ai dit : au sujet du calcul  \nLorsque la loy fixe une loi juste sur  \nceux qui touchent beaucoup, et moins, elle  \na réuni par détails les différens, et  \npour s'imaginer les mettre sur chacun  \nde ces sorts de biens, car on [XXX]  \nchacun d'une part, mais rapporté à  \nces individus qui composent les  \nainsi nous ne pouvons plus les  \na exactement porté sur lui, sur les  \nces individus, par tel sorte personne  \nqui est ensuite soumis au moyenement  \nparticulier mais le [XXX] a donné  \nla possibilité d'utiliser [XXX] ces détails  \ncelui ci est absolument [XXX]  \npour porter la marche la plus  \nConvenante ; c'est la même nature  \nde fortune aussi faudroit exactement  \npour chaque sorte en détail une  \nforte loy de fixer les partages  \ndes biens, les revenus, sous  \nl'avantage des communs (corps), ou  \ndu voisinage des portions individuelles  \ndes biens à (voir)",
+  "timestamp": "2025-03-06T17:47:06.889951",
+  "model_info": {
+    "id": "openai/gpt-4.5-preview",
+    "pricing": [
+      7.5e-05,
+      0.00015
+    ],
+    "total_cost": 0.11549999999999999
+  },
+  "usage": {
+    "prompt_tokens": 1106,
+    "completion_tokens": 217,
+    "total_tokens": 1323
+  },
+  "latency": 1741279600
+}

@@ -1,0 +1,22 @@
+{
+  "model": "anthropic/claude-3.5-sonnet",
+  "editeur": "anthropic",
+  "modele_type": "propriétaire",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "1790\n\nIl faut deux conditions au payement par jurez, ou\njurés 1° que les jurés soient appelés dans les\nmatières qui leur est soumise. Il la est temps\nqu'il paroit des jurés en profession administrative, en\ntemps parmi ceux du défendeur, et en ces lieux,\n(pour ~~pouvoir~~ appeller une division des tribunaux\net concilier les esprits) qu'il paroit des gens\ndévoués, heureux qui par leurs connoissances ont\ndéjà été considérés sur jurés, et tous les états\nd'alors les unités de la société. 2° Il faut\nque les jurés divisent en conscience, conscience\néclairée puisque vous les supposez experts, et\nque vous n'adoptez pas l'idée de les borner aux\nsimples faits, si difficile souvent de séparer des\ndroits en matière civile. La conscience ne\ns'exerce pas en rapports fanatiques, ou\npour quelquefois faire pencher une que\ntoutes les preuves soient acquises ce change et\nce décharge ; lors ces preuves ils jugent\ndans le fond de leur conscience une conscience\néclairée non seulement en droit mais pour toutes\nles preuves d'un factum. L'homme de droit si\nd'ailleurs éclairé conçoit vous que la bienveillance\nqu'il est plaisant de voir des hommes vouloir\nêtre réduits à une sorte de conscience.",
+  "timestamp": "2025-03-06T18:08:10.845531",
+  "model_info": {
+    "id": "anthropic/claude-3.5-sonnet",
+    "pricing": [
+      3e-06,
+      1.5e-05
+    ],
+    "total_cost": 0.011165999999999999
+  },
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 375,
+    "total_tokens": 2222
+  },
+  "latency": 1741280870
+}

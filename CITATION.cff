@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Si vous utilisez ce logiciel, veuillez le citer comme suit."
+authors:
+- family-names: "Simiand"
+  given-names: "Guillaume"
+title: "533yes: Benchmark et évaluation comparative de modèles d'IA et d'apprentissage machine pour la reconnaissance d'écriture manuscrite (HTR) sur des manuscrits relatifs à Sieyès"
+version: 0.1.0
+date-released: 2025-03-06
+url: "https://github.com/g-simiand/533yes"

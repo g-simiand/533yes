@@ -1,0 +1,22 @@
+{
+  "model": "mistralai/pixtral-large-2411",
+  "editeur": "mistralai",
+  "modele_type": "libre",
+  "image": "images\\AN-284AP-4-doss 10_page_20.png",
+  "result": "```\njuin 1790\n\nIl faut des conditions bien rigoureuses pour parvenir à\njurer de garder le plus profond silence surtout dans des\nmatières qui touchent si sensiblement à la vie\nprivée comme le mariage, un professeur de médecine ne\npeut passer son temps à défendre un système\nqui n'est pas le sien, un médecin très habile\n(comme monsieur XXX) ne s'avise pas facilement\nde contredire un confrère, il faut pour y parvenir\nêtre bien convaincu que le malade dont on a le soin\nde la santé est en danger de la vie, et que le système\nqu'on veut défendre est le seul qui puisse le sauver.\n\nC'est ce qui m'a engagé à prendre la plume, et à\nécrire contre un ouvrage qui a fait beaucoup de\nbruit, qui a été approuvé par des hommes de l'art\ntrès estimés, et qui a été adopté par un grand nombre\nde médecins et de chirurgiens. Cet ouvrage est\nintitulé : Traité des maladies vénériennes, ou\nnouvelle méthode pour guérir les maladies vénériennes\nsans mercure, par M. G. J. Astruc, docteur en médecine\nde la faculté de Montpellier, et médecin consultant\ndu Roi.\n\nJe ne prétends pas ici faire une critique de cet ouvrage,\nje veux seulement examiner s'il est vrai que l'on puisse\nguérir les maladies vénériennes sans mercure, et s'il est\nprudent de s'en servir.\n\nARCHIVES\nNATIONALES\n```",
+  "timestamp": "2025-03-06T18:03:04.794861",
+  "model_info": {
+    "id": "mistralai/pixtral-large-2411",
+    "pricing": [
+      2e-06,
+      6e-06
+    ],
+    "total_cost": 0.009961999999999999
+  },
+  "usage": {
+    "prompt_tokens": 3625,
+    "completion_tokens": 452,
+    "total_tokens": 4077
+  },
+  "latency": 1741280567
+}
