@@ -39,4 +39,9 @@ Benchmark HTR/OCR sur manuscrits de Sieyes -- evaluation systematique des modele
 
 > Nettoyer `utils.py` (717 lignes) : découper en modules, supprimer code mort
 
+## Skills
+
+- python-project
+- ocr-htr
+
 *Derniere mise a jour : 2026-02-22*
