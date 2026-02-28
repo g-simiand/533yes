@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "aule": {
+      "command": "python3",
+      "args": [
+        "/app/src/mcp_bridge.py"
+      ],
+      "env": {
+        "AULE_API_URL": "http://localhost:9000",
+        "AULE_WORKER_PROJECT": "533y\u00e8s"
+      }
+    }
+  }
+}
