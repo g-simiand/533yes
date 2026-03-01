@@ -1,3 +1,4 @@
+```markdown
 # 533yès
 
 ## Overview
@@ -30,3 +31,4 @@ Après chaque session de travail qui complète une tâche :
 2. Mettre à jour la "Prochaine action (GTD)" si elle a été complétée
 3. Mettre à jour la date `*Dernière mise à jour*` en bas du fichier
 4. Inclure les changements ROADMAP dans le même commit
+```
