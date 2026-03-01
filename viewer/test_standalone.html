@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Viewer Standalone</title>
+</head>
+<body>
+    <h1>Test du Viewer Standalone</h1>
+    <p>Ce fichier teste l'accès aux ressources locales sans serveur.</p>
+    
+    <h2>Tests d'accès aux fichiers :</h2>
+    
+    <h3>1. Test accès image :</h3>
+    <img src="../images/AN-284AP-4-doss 14_page_27.png" width="200" alt="Test image" onerror="this.alt='ERREUR: Image non accessible'">
+    
+    <h3>2. Test accès fichier de données :</h3>
+    <div id="test-data">Chargement...</div>
+    
+    <h3>3. Lien vers le viewer complet :</h3>
+    <a href="htr_viewer_standalone.html">Ouvrir le viewer HTR standalone</a>
+    
+    <script>
+        // Test de chargement des données JSON
+        fetch('../data/images_list.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('test-data').innerHTML = 
+                    `✓ Données chargées : ${data.length} images trouvées`;
+            })
+            .catch(error => {
+                document.getElementById('test-data').innerHTML = 
+                    `✗ ERREUR: Impossible de charger les données (CORS policy)`;
+            });
+    </script>
+</body>
+</html>

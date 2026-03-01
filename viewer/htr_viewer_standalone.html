@@ -67,6 +67,13 @@
     <div class="container-fluid">
         <h1 class="mb-4">533yes - Viewer de transcriptions HTR (Standalone)</h1>
         
+        <!-- Avertissement CORS -->
+        <div id="corsWarning" class="alert alert-warning alert-dismissible fade show" role="alert" style="display: none;">
+            <strong>Limitation CORS détectée !</strong> Le chargement des fichiers locaux est bloqué par votre navigateur.
+            <br>Pour une expérience complète, utilisez un serveur local : <code>python -m http.server 8000</code>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        
         <div class="row mb-3">
             <div class="col-md-6">
                 <label for="imageSelector" class="form-label">Sélectionner une image :</label>
@@ -135,16 +142,21 @@
             console.log(`[${timestamp}] ${message}`);
         }
         
-        // Configuration - À remplacer par des données réelles
+        // Configuration avec chemins relatifs corrects depuis le dossier viewer/
         const config = {
-            // Utiliser des chemins relatifs pour la compatibilité avec GitHub Pages
-            imagesPath: './images/',
-            referencePath: './transcriptions_de_référence/',
-            resultsPath: './résultats/'
+            // Chemins relatifs vers les dossiers à la racine du projet
+            imagesPath: '../images/',
+            referencePath: '../transcriptions_de_référence/',
+            resultsPath: '../résultats/'
         };
 
-        // Données intégrées directement dans le HTML (au lieu de les charger via fetch)
-        const IMAGES_LIST = [
+        // Variables globales pour stocker les données
+        let IMAGES_LIST = [];
+        let MODELS_LIST = [];
+        let corsError = false;
+        
+        // Données de fallback intégrées (utilisées si le chargement externe échoue)
+        const FALLBACK_IMAGES_LIST = [
             'AN-284AP-4-doss 14_page_27.png',
             'AN-284AP-4-doss 11_page_39.png',
             'AN-284AP-4-doss 11_page_36.png',
@@ -162,7 +174,7 @@
             'AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4.png'
         ];
 
-        const MODELS_LIST = [
+        const FALLBACK_MODELS_LIST = [
             { id: 'amazon_nova-lite-v1', name: 'Amazon Nova Lite', type: 'propriétaire' },
             { id: 'McCATMuS_nfd_nofix_V1', name: 'McCATMuS', type: 'libre' },
             { id: 'ManuMcFondue', name: 'ManuMcFondue', type: 'libre' },
@@ -179,6 +191,57 @@
             { id: 'mistralai_pixtral-large-2411', name: 'Mistral Pixtral Large', type: 'libre' }
         ];
 
+        // Fonction pour charger les données externes
+        async function loadExternalData() {
+            log("Tentative de chargement des données externes...");
+            
+            try {
+                // Essayer de charger la liste des images
+                const imagesResponse = await fetch('../data/images_list.json');
+                if (imagesResponse.ok) {
+                    IMAGES_LIST = await imagesResponse.json();
+                    log(`Images chargées depuis le fichier externe: ${IMAGES_LIST.length} images`);
+                }
+            } catch (error) {
+                log(`Erreur CORS pour images_list.json: ${error.message}`);
+                corsError = true;
+            }
+            
+            try {
+                // Essayer de charger la liste des modèles
+                const modelsResponse = await fetch('../data/models_list.json');
+                if (modelsResponse.ok) {
+                    const modelsData = await modelsResponse.json();
+                    // Transformer le format si nécessaire
+                    MODELS_LIST = modelsData.map(model => ({
+                        id: model.id,
+                        name: model.name || model.id,
+                        type: model.type || 'libre'
+                    }));
+                    log(`Modèles chargés depuis le fichier externe: ${MODELS_LIST.length} modèles`);
+                }
+            } catch (error) {
+                log(`Erreur CORS pour models_list.json: ${error.message}`);
+                corsError = true;
+            }
+            
+            // Si le chargement externe a échoué, utiliser les données de fallback
+            if (IMAGES_LIST.length === 0) {
+                IMAGES_LIST = FALLBACK_IMAGES_LIST;
+                log("Utilisation des données d'images intégrées (fallback)");
+            }
+            
+            if (MODELS_LIST.length === 0) {
+                MODELS_LIST = FALLBACK_MODELS_LIST;
+                log("Utilisation des données de modèles intégrées (fallback)");
+            }
+            
+            // Afficher l'avertissement CORS si nécessaire
+            if (corsError) {
+                document.getElementById('corsWarning').style.display = 'block';
+            }
+        }
+        
         // Fonction pour initialiser le sélecteur d'images
         function initImageSelector() {
             log("Initialisation du sélecteur d'images...");
@@ -388,9 +451,13 @@
         }
 
         // Initialiser l'application
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', async () => {
             log("Initialisation de l'application...");
             try {
+                // Charger les données externes en premier
+                await loadExternalData();
+                
+                // Puis initialiser les sélecteurs
                 initImageSelector();
                 initModelSelector();
                 log("Initialisation terminée");
