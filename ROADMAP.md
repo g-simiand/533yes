@@ -1,11 +1,13 @@
-# ROADMAP — 533yès
+# Roadmap - 533yès
 
 ## Vision
 
 Benchmark HTR/OCR sur manuscrits de Sieyes -- evaluation systematique des modeles de reconnaissance d'ecriture manuscrite sur les brouillons de Sieyes (GTR, ajout modeles).
 
 **Statut : ACTIF**
-**Dernière mise à jour : 2026-02-16**
+
+## Deadline
+Pas de deadline externe
 
 ## Prochaine action (GTD)
 
@@ -46,4 +48,4 @@ Benchmark HTR/OCR sur manuscrits de Sieyes -- evaluation systematique des modele
 - python-project
 - ocr-htr
 
-*Derniere mise a jour : 2026-02-22*
+*Derniere mise a jour : 2026-03-02*
