@@ -1,0 +1,8 @@
+{
+  "results_dir": "résultats",
+  "reference_dir": "transcriptions_de_référence",
+  "images_dir": "images",
+  "models_file": "models_to_test.json",
+  "force_rerun": false,
+  "verbose": false
+}
