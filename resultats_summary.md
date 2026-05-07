@@ -1,4 +1,4 @@
-# Résultats de transcription - Généré le 10/03/2025 13:04:16
+# Résultats de transcription - Généré le 07/05/2026 11:49:29
 
 | Modèle | Éditeur | Type de modèle | Nombre d'images | Coût total ($) | Coût moyen ($) | WER min | WER médian | WER max |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
@@ -14,10 +14,10 @@
 | openai/gpt-4o-mini | openai | propriétaire | 15 | 0.029498 | 0.001967 | 0.000 | 0.858 | 55.512 |
 | FoNDUE-GD_v2_fr | kraken | libre | 15 | 0.000000 | 0.000000 | 0.000 | 0.953 | 4.952 |
 | McCATMuS_nfd_nofix_V1 | kraken | libre | 15 | 0.000000 | 0.000000 | 0.000 | 0.969 | 5.238 |
-| catmus-print-fondue-large | kraken | libre | 15 | 0.000000 | 0.000000 | 0.000 | 1.000 | 4.048 |
+| qwen/qwen-2-vl-7b-instruct | qwen | libre | 15 | 0.002665 | 0.000178 | 0.000 | 1.000 | 1.000 |
 | ManuMcFondue | kraken | libre | 15 | 0.000000 | 0.000000 | 0.000 | 1.000 | 5.143 |
 | qwen/qwen-2-vl-72b-instruct | qwen | libre | 15 | 0.006013 | 0.000401 | 0.229 | 1.000 | 26.182 |
-| qwen/qwen-2-vl-7b-instruct | qwen | libre | 15 | 0.002665 | 0.000178 | 0.000 | 1.000 | 1.000 |
+| catmus-print-fondue-large | kraken | libre | 15 | 0.000000 | 0.000000 | 0.000 | 1.000 | 4.048 |
 | lectaurep_base | kraken | libre | 15 | 0.000000 | 0.000000 | 0.000 | 1.044 | 5.262 |
 | amazon/nova-lite-v1 | amazon | propriétaire | 15 | 0.006260 | 0.000417 | 0.000 | 1.083 | 40.881 |
 | mistralai/pixtral-large-2411 | mistralai | libre | 13 | 0.129090 | 0.009930 | 0.244 | 1.116 | 8.238 |
