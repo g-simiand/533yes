@@ -33,6 +33,7 @@ Ta tâche est de produire une transcription fidèle et précise, sans interprét
 # Define a list of known valid model IDs for OpenRouter
 VALID_OPENROUTER_MODELS = [
     "google/gemini-2.0-flash-001",
+    "google/gemini-3-flash",
     "qwen/qwen-vl-plus:free",
     "qwen/qwen2.5-vl-72b-instruct:free",
     "google/gemini-2.0-flash-thinking-exp:free",
