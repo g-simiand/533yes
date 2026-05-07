@@ -44,5 +44,6 @@ env/
 .vscode/
 *.swp
 *.swo 
-# Backup files
-backup_before_cleanup/
+
+# Claude MCP config (auto-added by Aule)
+.mcp.json
