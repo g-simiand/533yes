@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "total_models": 26,
+    "total_files_processed": 372,
+    "total_manuscripts": 5,
+    "total_pages_tested": 14,
+    "libre_models": 14,
+    "proprietary_models": 12
+  },
+  "manuscripts": [
+    "AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799",
+    "AN-284AP-4-doss 10",
+    "AN-284AP-4-doss 11",
+    "AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct",
+    "AN-284AP-4-doss 14"
+  ],
+  "pages_tested": [
+    "AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15",
+    "AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_4",
+    "AN-284AP-4-doss 10_page_18",
+    "AN-284AP-4-doss 10_page_20",
+    "AN-284AP-4-doss 10_page_30",
+    "AN-284AP-4-doss 11_page_12",
+    "AN-284AP-4-doss 11_page_17",
+    "AN-284AP-4-doss 11_page_28",
+    "AN-284AP-4-doss 11_page_29",
+    "AN-284AP-4-doss 11_page_39",
+    "AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12",
+    "AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16",
+    "AN-284AP-4-doss 14_page_27",
+    "AN-284AP-4-doss 14_page_9"
+  ],
+  "models": [
+    {
+      "model": "openai/gpt-4.5-preview",
+      "editeur": "openai",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.223,
+        "max": 3.571,
+        "mean": 1.111,
+        "median": 0.572
+      },
+      "cost": {
+        "total": 1.87597,
+        "mean": 0.12506
+      },
+      "pricing": [
+        7.5e-05,
+        0.00015
+      ]
+    },
+    {
+      "model": "anthropic/claude-3.5-sonnet",
+      "editeur": "anthropic",
+      "type": "propriétaire",
+      "images_tested": 14,
+      "wer_valid_count": 13,
+      "wer": {
+        "min": 0.269,
+        "max": 3.667,
+        "mean": 1.262,
+        "median": 0.694
+      },
+      "cost": {
+        "total": 0.14038,
+        "mean": 0.01003
+      },
+      "pricing": [
+        3e-06,
+        1.5e-05
+      ]
+    },
+    {
+      "model": "google/gemini-2.0-flash-001",
+      "editeur": "google",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.257,
+        "max": 3.024,
+        "mean": 1.167,
+        "median": 0.711
+      },
+      "cost": {
+        "total": 0.0071,
+        "mean": 0.00047
+      },
+      "pricing": [
+        1e-07,
+        4e-07
+      ]
+    },
+    {
+      "model": "google/gemini-2.0-flash-thinking-exp:free",
+      "editeur": "google",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.194,
+        "max": 5.071,
+        "mean": 1.339,
+        "median": 0.711
+      },
+      "cost": null,
+      "pricing": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "anthropic/claude-3.7-sonnet",
+      "editeur": "anthropic",
+      "type": "propriétaire",
+      "images_tested": 14,
+      "wer_valid_count": 13,
+      "wer": {
+        "min": 0.189,
+        "max": 2.952,
+        "mean": 1.129,
+        "median": 0.715
+      },
+      "cost": {
+        "total": 0.1366,
+        "mean": 0.00976
+      },
+      "pricing": [
+        3e-06,
+        1.5e-05
+      ]
+    },
+    {
+      "model": "google/gemini-2.0-flash-exp:free",
+      "editeur": "google",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.257,
+        "max": 3.381,
+        "mean": 1.196,
+        "median": 0.729
+      },
+      "cost": null,
+      "pricing": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "openai/o1",
+      "editeur": "openai",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.074,
+        "max": 1.299,
+        "mean": 0.718,
+        "median": 0.736
+      },
+      "cost": {
+        "total": 4.57502,
+        "mean": 0.305
+      },
+      "pricing": [
+        1.5e-05,
+        6e-05
+      ]
+    },
+    {
+      "model": "qwen/qwen2.5-vl-72b-instruct:free",
+      "editeur": "qwen",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.309,
+        "max": 50.303,
+        "mean": 6.863,
+        "median": 0.788
+      },
+      "cost": null,
+      "pricing": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "openai/gpt-4o-2024-11-20",
+      "editeur": "openai",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.191,
+        "max": 41.203,
+        "mean": 4.017,
+        "median": 0.817
+      },
+      "cost": {
+        "total": 0.07582,
+        "mean": 0.00542
+      },
+      "pricing": [
+        2.5e-06,
+        1e-05
+      ]
+    },
+    {
+      "model": "FoNDUE-GD_v2_fr",
+      "editeur": "kraken",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.411,
+        "max": 4.952,
+        "mean": 1.491,
+        "median": 0.97
+      },
+      "cost": null,
+      "pricing": null
+    },
+    {
+      "model": "qwen/qwen-2-vl-7b-instruct",
+      "editeur": "qwen",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0
+      },
+      "cost": {
+        "total": 0.00267,
+        "mean": 0.00018
+      },
+      "pricing": [
+        1e-07,
+        1e-07
+      ]
+    },
+    {
+      "model": "qwen/qwen-2-vl-72b-instruct",
+      "editeur": "qwen",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.229,
+        "max": 26.182,
+        "mean": 6.509,
+        "median": 1.0
+      },
+      "cost": {
+        "total": 0.00601,
+        "mean": 0.0004
+      },
+      "pricing": [
+        4e-07,
+        4e-07
+      ]
+    },
+    {
+      "model": "McCATMuS_nfd_nofix_V1",
+      "editeur": "kraken",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.434,
+        "max": 5.238,
+        "mean": 1.632,
+        "median": 1.012
+      },
+      "cost": null,
+      "pricing": null
+    },
+    {
+      "model": "catmus-print-fondue-large",
+      "editeur": "kraken",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.913,
+        "max": 4.048,
+        "mean": 1.49,
+        "median": 1.026
+      },
+      "cost": null,
+      "pricing": null
+    },
+    {
+      "model": "ManuMcFondue",
+      "editeur": "kraken",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.52,
+        "max": 5.143,
+        "mean": 1.595,
+        "median": 1.03
+      },
+      "cost": null,
+      "pricing": null
+    },
+    {
+      "model": "lectaurep_base",
+      "editeur": "kraken",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.651,
+        "max": 5.262,
+        "mean": 1.707,
+        "median": 1.07
+      },
+      "cost": null,
+      "pricing": null
+    },
+    {
+      "model": "amazon/nova-lite-v1",
+      "editeur": "amazon",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.328,
+        "max": 40.881,
+        "mean": 5.084,
+        "median": 1.088
+      },
+      "cost": {
+        "total": 0.00626,
+        "mean": 0.00042
+      },
+      "pricing": [
+        6e-08,
+        2.4e-07
+      ]
+    },
+    {
+      "model": "mistralai/pixtral-large-2411",
+      "editeur": "mistralai",
+      "type": "libre",
+      "images_tested": 13,
+      "wer_valid_count": 13,
+      "wer": {
+        "min": 0.244,
+        "max": 8.238,
+        "mean": 2.108,
+        "median": 1.116
+      },
+      "cost": {
+        "total": 0.12909,
+        "mean": 0.00993
+      },
+      "pricing": [
+        2e-06,
+        6e-06
+      ]
+    },
+    {
+      "model": "Gallicorpora+_best",
+      "editeur": "kraken",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.959,
+        "max": 5.81,
+        "mean": 1.91,
+        "median": 1.316
+      },
+      "cost": null,
+      "pricing": null
+    },
+    {
+      "model": "x-ai/grok-2-vision-1212",
+      "editeur": "x-ai",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.867,
+        "max": 89.687,
+        "mean": 19.799,
+        "median": 1.447
+      },
+      "cost": {
+        "total": 0.30778,
+        "mean": 0.02052
+      },
+      "pricing": [
+        2e-06,
+        1e-05
+      ]
+    },
+    {
+      "model": "openai/gpt-4o-mini",
+      "editeur": "openai",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.239,
+        "max": 55.512,
+        "mean": 11.283,
+        "median": 1.584
+      },
+      "cost": {
+        "total": 0.0295,
+        "mean": 0.00197
+      },
+      "pricing": [
+        1.5e-07,
+        6e-07
+      ]
+    },
+    {
+      "model": "x-ai/grok-vision-beta",
+      "editeur": "x-ai",
+      "type": "propriétaire",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.925,
+        "max": 51.358,
+        "mean": 12.56,
+        "median": 2.992
+      },
+      "cost": {
+        "total": 0.57965,
+        "mean": 0.03864
+      },
+      "pricing": [
+        5e-06,
+        1.5e-05
+      ]
+    },
+    {
+      "model": "qwen/qwen-vl-plus:free",
+      "editeur": "qwen",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.211,
+        "max": 31.697,
+        "mean": 7.326,
+        "median": 3.798
+      },
+      "cost": null,
+      "pricing": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "model": "mistralai/pixtral-12b",
+      "editeur": "mistralai",
+      "type": "libre",
+      "images_tested": 13,
+      "wer_valid_count": 12,
+      "wer": {
+        "min": 0.514,
+        "max": 32.515,
+        "mean": 7.637,
+        "median": 5.203
+      },
+      "cost": {
+        "total": 0.00601,
+        "mean": 0.00046
+      },
+      "pricing": [
+        1e-07,
+        1e-07
+      ]
+    },
+    {
+      "model": "qwen/qvq-72b-preview",
+      "editeur": "qwen",
+      "type": "libre",
+      "images_tested": 15,
+      "wer_valid_count": 14,
+      "wer": {
+        "min": 0.643,
+        "max": 42.091,
+        "mean": 14.204,
+        "median": 6.949
+      },
+      "cost": {
+        "total": 0.0775,
+        "mean": 0.00517
+      },
+      "pricing": [
+        2.5e-07,
+        5e-07
+      ]
+    },
+    {
+      "model": "meta-llama/llama-3.2-90b-vision-instruct",
+      "editeur": "meta-llama",
+      "type": "libre",
+      "images_tested": 3,
+      "wer_valid_count": 3,
+      "wer": {
+        "min": 1.017,
+        "max": 163.241,
+        "mean": 88.28,
+        "median": 100.582
+      },
+      "cost": {
+        "total": 0.07284,
+        "mean": 0.02428
+      },
+      "pricing": [
+        8e-07,
+        1.6e-06
+      ]
+    }
+  ],
+  "statistics": {
+    "by_type": {
+      "libre": {
+        "count": 14,
+        "wer_median_stats": {
+          "min": 0.788,
+          "max": 100.582,
+          "mean": 9.061
+        }
+      },
+      "propriétaire": {
+        "count": 12,
+        "wer_median_stats": {
+          "min": 0.572,
+          "max": 2.992,
+          "mean": 1.066
+        }
+      }
+    },
+    "costs_by_editor": {
+      "openai": {
+        "total": 6.55631,
+        "count": 4
+      },
+      "anthropic": {
+        "total": 0.27698,
+        "count": 2
+      },
+      "google": {
+        "total": 0.0071,
+        "count": 1
+      },
+      "qwen": {
+        "total": 0.08618,
+        "count": 3
+      },
+      "amazon": {
+        "total": 0.00626,
+        "count": 1
+      },
+      "mistralai": {
+        "total": 0.1351,
+        "count": 2
+      },
+      "x-ai": {
+        "total": 0.88743,
+        "count": 2
+      },
+      "meta-llama": {
+        "total": 0.07284,
+        "count": 1
+      }
+    }
+  }
+}

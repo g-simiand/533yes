@@ -7,7 +7,7 @@
       ],
       "env": {
         "AULE_API_URL": "http://localhost:9000",
-        "AULE_WORKER_PROJECT": "533y\u00e8s"
+        "AULE_WORKER_PROJECT": "533yes"
       }
     }
   }
