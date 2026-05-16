@@ -20,5 +20,10 @@
     ["anthropic/claude-3.7-sonnet", "proprietary"],
     ["transkribus/CITlab_HTR+", "proprietary"],
     ["transkribus/PyLaia", "proprietary"],
-    ["transkribus/French_18th_Century", "proprietary"]
+    ["transkribus/French_18th_Century", "proprietary"],
+    ["anthropic/claude-3-haiku", "proprietary"],
+    ["anthropic/claude-3-opus", "proprietary"],
+    ["meta-llama/llama-3.2-11b-vision-instruct", "open"],
+    ["google/gemini-1.5-pro", "proprietary"],
+    ["google/gemini-1.5-flash", "proprietary"]
 ]

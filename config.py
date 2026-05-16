@@ -53,6 +53,11 @@ VALID_OPENROUTER_MODELS = [
     "openai/gpt-4-vision",
     "openai/gpt-4.5-preview",
     "anthropic/claude-3.7-sonnet",
+    "anthropic/claude-3-haiku",
+    "anthropic/claude-3-opus",
+    "meta-llama/llama-3.2-11b-vision-instruct",
+    "google/gemini-1.5-pro",
+    "google/gemini-1.5-flash",
     # Add more valid models as needed
 ]
 
