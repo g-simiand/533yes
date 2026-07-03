@@ -281,6 +281,10 @@
     "rank": 2,
     "total_models": 22,
     "percentile": 90.9090909090909,
+    "expected_wer": 0.694,
+    "actual_wer": 0.7109375,
+    "wer_difference": 0.01693750000000005,
+    "wer_difference_percent": 2.440561959654186,
     "better_models": [
       {
         "model": "google_gemini-2.0-flash-thinking-exp_free",
@@ -316,6 +320,18 @@
       }
     ],
     "similar_models": [
+      {
+        "model": "openai_o1",
+        "median": 0.7215189873417721,
+        "mean": 0.6702108633015054
+      }
+    ],
+    "models_near_expected": [
+      {
+        "model": "google_gemini-2.0-flash-001",
+        "median": 0.7109375,
+        "mean": 1.0892097124982498
+      },
       {
         "model": "openai_o1",
         "median": 0.7215189873417721,

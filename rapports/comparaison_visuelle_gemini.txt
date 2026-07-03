@@ -6,13 +6,17 @@ TABLEAU COMPARATIF DES PERFORMANCES HTR/OCR
 Comparaison avec le WER attendu de 0.694 pour Gemini 2.0 Flash:
 - WER médian RÉEL : 0.711
 - WER médian ATTENDU : 0.694
-- Différence : +0.017 (légèrement plus élevé)
+- Différence absolue : +0.017
+- Différence relative : +2.4%
+- Interprétation : Performance légèrement inférieure aux attentes
 
 ----------------------------------------------------------------------
 Graphique de performance (WER médian - plus bas = meilleur)
 ----------------------------------------------------------------------
+                                      ──────│← WER ATTENDU (0.694)
+
 google_gemini-2.0-flash-thinki [0.600] ██████
-google_gemini-2.0-flash-001    [0.711] ███████ ← GEMINI 2.0 FLASH
+google_gemini-2.0-flash-001    [0.711] ███████ ← GEMINI 2.0 FLASH (Δ=+0.017)
 openai_o1                      [0.722] ███████
 openai_gpt-4o-2024-11-20       [0.834] ████████
 qwen_qwen2.5-vl-72b-instruct_f [0.858] ████████
