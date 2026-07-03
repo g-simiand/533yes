@@ -1,12 +1,26 @@
 # Viewer HTR Standalone
 
+## Versions disponibles
+
+Le projet propose **trois versions du viewer** pour différents cas d'usage :
+
+1. **`htr_viewer.html`** - Version originale nécessitant un serveur
+2. **`htr_viewer_standalone.html`** - Version avec fallback pour mode standalone 
+3. **`htr_viewer_fully_standalone.html`** - Version 100% autonome avec données intégrées ✨
+
 ## Utilisation
 
-Le viewer HTR peut être utilisé de deux manières :
+### Option 1 : Version 100% Standalone (RECOMMANDÉ pour usage sans serveur)
 
-### 1. Avec un serveur local (recommandé)
+Ouvrez directement **`htr_viewer_fully_standalone.html`** dans votre navigateur :
+- ✅ Fonctionne sans aucun serveur
+- ✅ Toutes les données sont intégrées dans le HTML
+- ✅ Aucune restriction CORS
+- ℹ️ Les transcriptions sont simulées pour la démonstration
 
-Cette méthode permet de charger dynamiquement toutes les données :
+### Option 2 : Avec un serveur local (pour données réelles)
+
+Cette méthode permet de charger dynamiquement toutes les données réelles :
 
 ```bash
 # Depuis le dossier viewer/
@@ -17,18 +31,19 @@ python3 -m http.server 8000
 
 Puis ouvrir http://localhost:8000/htr_viewer_standalone.html
 
-### 2. Sans serveur (standalone)
+### Option 3 : Mode standalone avec contournement CORS
 
 **⚠️ Limitations importantes :**
 - Les navigateurs modernes appliquent une politique CORS qui empêche le chargement de fichiers locaux via JavaScript
 - L'affichage des images fonctionne, mais le chargement des transcriptions et résultats JSON peut être bloqué
-- Pour contourner cette limitation sur Chrome : lancer avec `--allow-file-access-from-files`
-- Sur Firefox : taper `about:config` et mettre `security.fileuri.strict_origin_policy` à false (non recommandé)
 
-Pour ouvrir directement le fichier :
-1. Ouvrir `viewer/htr_viewer_standalone.html` dans votre navigateur
-2. Les images devraient s'afficher correctement
-3. Les transcriptions peuvent ne pas se charger à cause des restrictions CORS
+Pour contourner ces limitations :
+- **Chrome** : lancer avec `--allow-file-access-from-files`
+- **Firefox** : dans `about:config`, mettre `security.fileuri.strict_origin_policy` à false (non recommandé)
+
+## Test de compatibilité
+
+Ouvrez **`test_standalone_validation.html`** pour vérifier la compatibilité de votre navigateur avec le mode standalone.
 
 ## Structure des fichiers
 
