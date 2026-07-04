@@ -4,7 +4,9 @@
 
 **Modèle analysé** : google/gemini-2.0-flash-001
 
-- **WER médian** : 0.711
+- **WER médian réel** : 0.711
+- **WER médian attendu** : 0.694
+- **Différence** : +0.017 (+2.4%)
 - **WER moyen** : 1.089
 - **Écart-type** : 0.920
 - **Min/Max** : 0.000 / 3.024
@@ -15,6 +17,21 @@
 
 - **Rang** : 2 / 22
 - **Percentile** : Top 9.1%
+
+## Analyse de la différence avec le WER attendu (0.694)
+
+Le modèle présente un WER légèrement **supérieur** au WER attendu (+0.017).
+Cette différence de 2.4% peut s'expliquer par :
+- Variabilité naturelle des performances sur différents manuscrits
+- Différences dans les conditions d'évaluation
+- Évolution du modèle entre les versions
+
+## Modèles proches du WER attendu (0.694 ±5%)
+
+| Modèle | WER médian | Différence avec 0.694 |
+|--------|------------|---------------------|
+| google_gemini-2.0-flash-001 | 0.711 | +0.017 |
+| openai_o1 | 0.722 | +0.028 |
 
 ## Top 5 des modèles plus performants
 
