@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation du mode Standalone - 533yes HTR Viewer</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 10px;
+        }
+        .test-section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .test-item {
+            padding: 10px;
+            margin: 10px 0;
+            border-left: 4px solid #ddd;
+        }
+        .test-pass {
+            border-left-color: #28a745;
+            background: #d4edda;
+        }
+        .test-fail {
+            border-left-color: #dc3545;
+            background: #f8d7da;
+        }
+        .test-warning {
+            border-left-color: #ffc107;
+            background: #fff3cd;
+        }
+        .status {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .code {
+            background: #f8f9fa;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 0.9em;
+        }
+        .recommendations {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        #results-summary {
+            font-size: 1.2em;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .summary-pass {
+            background: #d4edda;
+            color: #155724;
+        }
+        .summary-fail {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .summary-partial {
+            background: #fff3cd;
+            color: #856404;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 Validation du mode Standalone - HTR Viewer</h1>
+    
+    <div class="test-section">
+        <h2>Tests automatiques</h2>
+        <button onclick="runTests()">Lancer les tests</button>
+        
+        <div id="test-results"></div>
+    </div>
+    
+    <div id="results-summary" style="display: none;"></div>
+    
+    <div class="test-section">
+        <h2>Versions du viewer disponibles</h2>
+        <ul>
+            <li>
+                <a href="htr_viewer.html" target="_blank">htr_viewer.html</a> - Version originale (nécessite serveur)
+            </li>
+            <li>
+                <a href="htr_viewer_standalone.html" target="_blank">htr_viewer_standalone.html</a> - Version standalone avec fallback
+            </li>
+            <li>
+                <a href="htr_viewer_fully_standalone.html" target="_blank">htr_viewer_fully_standalone.html</a> - Version 100% autonome avec données intégrées
+            </li>
+        </ul>
+    </div>
+    
+    <div class="recommendations">
+        <h3>📋 Recommandations</h3>
+        <p><strong>Pour un fonctionnement optimal sans serveur :</strong></p>
+        <ol>
+            <li>Utilisez <span class="code">htr_viewer_fully_standalone.html</span> qui intègre toutes les données</li>
+            <li>Pour Chrome : lancez avec <span class="code">--allow-file-access-from-files</span> pour permettre l'accès aux fichiers locaux</li>
+            <li>Pour Firefox : modifiez <span class="code">security.fileuri.strict_origin_policy</span> dans about:config (non recommandé)</li>
+            <li>Solution recommandée : utilisez un serveur local simple avec <span class="code">python -m http.server 8000</span></li>
+        </ol>
+    </div>
+
+    <script>
+        const tests = [
+            {
+                name: "Chargement des dépendances CDN",
+                test: async () => {
+                    try {
+                        const response = await fetch('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css', {method: 'HEAD'});
+                        return response.ok ? 'pass' : 'fail';
+                    } catch {
+                        return 'fail';
+                    }
+                }
+            },
+            {
+                name: "Accès aux images locales",
+                test: async () => {
+                    return new Promise(resolve => {
+                        const img = new Image();
+                        img.onload = () => resolve('pass');
+                        img.onerror = () => resolve('warning');
+                        img.src = '../images/AN-284AP-4-doss 14_page_27.png';
+                        setTimeout(() => resolve('warning'), 2000);
+                    });
+                }
+            },
+            {
+                name: "Chargement des données JSON (images_list.json)",
+                test: async () => {
+                    try {
+                        const response = await fetch('../data/images_list.json');
+                        const data = await response.json();
+                        return data.length > 0 ? 'pass' : 'fail';
+                    } catch (error) {
+                        return 'fail';
+                    }
+                }
+            },
+            {
+                name: "Chargement des données JSON (models_list.json)",
+                test: async () => {
+                    try {
+                        const response = await fetch('../data/models_list.json');
+                        const data = await response.json();
+                        return data.length > 0 ? 'pass' : 'fail';
+                    } catch (error) {
+                        return 'fail';
+                    }
+                }
+            },
+            {
+                name: "Accès aux transcriptions de référence",
+                test: async () => {
+                    try {
+                        const response = await fetch('../transcriptions_de_référence/AN-284AP-4-doss 14_page_27.md');
+                        return response.ok ? 'pass' : 'fail';
+                    } catch {
+                        return 'fail';
+                    }
+                }
+            },
+            {
+                name: "Accès aux résultats des modèles",
+                test: async () => {
+                    try {
+                        const response = await fetch('../résultats/AN-284AP-4-doss 14_page_27_openai_gpt-4o.json');
+                        return response.ok ? 'pass' : 'fail';
+                    } catch {
+                        return 'fail';
+                    }
+                }
+            },
+            {
+                name: "Support du localStorage",
+                test: async () => {
+                    try {
+                        localStorage.setItem('test', 'value');
+                        localStorage.removeItem('test');
+                        return 'pass';
+                    } catch {
+                        return 'fail';
+                    }
+                }
+            },
+            {
+                name: "Détection du protocole file://",
+                test: async () => {
+                    return window.location.protocol === 'file:' ? 'warning' : 'pass';
+                }
+            }
+        ];
+
+        async function runTests() {
+            const resultsDiv = document.getElementById('test-results');
+            resultsDiv.innerHTML = '<p>Tests en cours...</p>';
+            
+            let passCount = 0;
+            let failCount = 0;
+            let warningCount = 0;
+            let html = '';
+            
+            for (const testItem of tests) {
+                const result = await testItem.test();
+                
+                let statusText = '';
+                let className = '';
+                
+                if (result === 'pass') {
+                    statusText = '✅ SUCCÈS';
+                    className = 'test-pass';
+                    passCount++;
+                } else if (result === 'warning') {
+                    statusText = '⚠️ ATTENTION';
+                    className = 'test-warning';
+                    warningCount++;
+                } else {
+                    statusText = '❌ ÉCHEC';
+                    className = 'test-fail';
+                    failCount++;
+                }
+                
+                html += `
+                    <div class="test-item ${className}">
+                        <span class="status">${statusText}</span>
+                        ${testItem.name}
+                    </div>
+                `;
+            }
+            
+            resultsDiv.innerHTML = html;
+            
+            // Afficher le résumé
+            const summaryDiv = document.getElementById('results-summary');
+            let summaryClass = 'summary-partial';
+            let summaryText = '';
+            
+            if (failCount === 0 && warningCount === 0) {
+                summaryClass = 'summary-pass';
+                summaryText = '🎉 Tous les tests sont passés ! Le viewer fonctionne parfaitement.';
+            } else if (failCount > 3) {
+                summaryClass = 'summary-fail';
+                summaryText = `❌ ${failCount} tests ont échoué. Mode standalone limité - utilisez la version fully_standalone ou un serveur local.`;
+            } else {
+                summaryClass = 'summary-partial';
+                summaryText = `⚠️ ${passCount} succès, ${warningCount} avertissements, ${failCount} échecs. Fonctionnement partiel en mode standalone.`;
+            }
+            
+            summaryDiv.className = summaryClass;
+            summaryDiv.innerHTML = summaryText;
+            summaryDiv.style.display = 'block';
+            
+            // Log des résultats
+            console.log('Tests terminés:', {
+                pass: passCount,
+                warning: warningCount,
+                fail: failCount,
+                protocol: window.location.protocol
+            });
+        }
+        
+        // Auto-run tests si ouvert en local
+        if (window.location.protocol === 'file:') {
+            window.addEventListener('load', () => {
+                setTimeout(runTests, 1000);
+            });
+        }
+    </script>
+</body>
+</html>
