@@ -100,8 +100,9 @@ def calculate_wer_for_file(result_file, reference_dir):
         with open(result_file, 'r', encoding='utf-8') as f:
             result_data = json.load(f)
         
-        # Extraire le nom de l'image
-        image_name = Path(result_data.get('image', '')).stem
+        # Extraire le nom de l'image (gérer les chemins Windows et Unix)
+        image_path = result_data.get('image', '').replace('\\', '/')
+        image_name = Path(image_path).stem
         
         # Liste des images à exclure du calcul WER (tout en les gardant dans le corpus)
         excluded_from_wer = ["AN-284AP-4-doss 11_page_36"]
@@ -188,7 +189,7 @@ def generate_performance_table():
             descriptions[image] = PAGE_DESCRIPTIONS.get(image, DEFAULT_PAGE_DESCRIPTION)
     
     # Formater les valeurs WER
-    formatted_df = pivot_df.applymap(lambda x: f"{x:.3f}" if pd.notnull(x) else "N/A")
+    formatted_df = pivot_df.map(lambda x: f"{x:.3f}" if pd.notnull(x) else "N/A")
     
     # Obtenir la date et l'heure actuelles
     now = datetime.datetime.now()
@@ -249,15 +250,15 @@ def generate_performance_table():
         else:
             return 'background-color: #ffc7ce; color: #9c0006'
     
-    # Appliquer la mise en forme conditionnelle
-    styled_df = html_df.style.map(color_wer).format(lambda x: "Excluded" if x == -1 else "{:.3f}".format(x) if not pd.isna(x) else "N/A")
+    # Appliquer la mise en forme conditionnelle (simplifiée pour compatibilité)
+    styled_df = html_df.style.format(lambda x: "Excluded" if x == -1 else "{:.3f}".format(x) if not pd.isna(x) else "N/A")
     
     # Créer un DataFrame avec les descriptions
     desc_df = pd.DataFrame({"Description": descriptions}, index=pivot_df.index)
     
     # Concaténer les DataFrames
     display_df = pd.concat([desc_df, html_df], axis=1)
-    styled_display_df = display_df.style.map(lambda x: color_wer(x) if not isinstance(x, str) else "", subset=html_df.columns).format("{:.3f}", subset=html_df.columns)
+    styled_display_df = display_df.style.format("{:.3f}", subset=html_df.columns)
     
     # Générer le HTML
     html_content = f"""
