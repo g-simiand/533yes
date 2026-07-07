@@ -58,6 +58,7 @@ VALID_OPENROUTER_MODELS = [
     "meta-llama/llama-3.2-11b-vision-instruct",
     "google/gemini-1.5-pro",
     "google/gemini-1.5-flash",
+    "google/gemini-3-flash",
     # Add more valid models as needed
 ]
 
