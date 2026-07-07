@@ -47,3 +47,6 @@ env/
 
 # Claude MCP config (auto-added by Aule)
 .mcp.json
+
+# Aule result file
+.aule/

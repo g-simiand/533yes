@@ -17,7 +17,9 @@ from typing import List, Dict, Tuple, Optional, Any
 import pandas as pd
 from tqdm import tqdm
 
-from utils import query_model, system_prompt, generate_results_md_table
+from api_clients import query_model
+from config import system_prompt
+from reporting import generate_results_md_table
 
 
 class HTRBenchmark:
