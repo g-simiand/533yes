@@ -49,3 +49,6 @@ backup_before_cleanup/
 
 # Claude MCP config (auto-added by Aule)
 .mcp.json
+
+# Sauvegardes horodatees du gold diplomatique (editeur)
+viewer/gold_diplomatique.csv.*.bak

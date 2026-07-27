@@ -37,6 +37,14 @@ Pas de deadline externe
 - [ ] Comparer avec les résultats Gemini 2.0 Flash existants (WER médian: 0.694)
 - [ ] Mettre à jour `resultats_summary.md` et les rapports
 
+### V1.3 — Gold diplomatique (EN COURS)
+
+- [x] Éditeur de transcription diplomatique (`viewer/diplomatic_editor.html`) :
+      image zoomable + saisie, préchargement du meilleur modèle exploitable,
+      autosauvegarde localStorage + export/écriture CSV au format Bench_HTR
+- [ ] Saisir les 17 pages du gold diplomatique
+- [ ] Relancer le run sol/terra/luna sur le nouveau gold et refaire le DIAGNOSTIC
+
 ### Backlog
 
 - [ ] Tester d'autres modèles récents (Claude 4.5, GPT-5, Llama 4, etc.)
@@ -48,4 +56,4 @@ Pas de deadline externe
 - python-project
 - ocr-htr
 
-*Derniere mise a jour : 2026-03-02*
+*Derniere mise a jour : 2026-07-27*
