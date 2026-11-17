@@ -133,9 +133,9 @@ def generate_wer_data():
     import sys
     from pathlib import Path
     
-    # Add the parent directory to sys.path to import utils
+    # Add the parent directory to sys.path to import modules
     sys.path.append(str(Path(__file__).parent.parent))
-    from utils import calculate_wer
+    from metrics import calculate_wer
     
     # Vérifier si le dossier des transcriptions de référence existe
     reference_dir = Path("./transcriptions_de_référence")
