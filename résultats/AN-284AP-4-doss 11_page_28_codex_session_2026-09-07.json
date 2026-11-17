@@ -1,0 +1,29 @@
+{
+  "model": "codex/session-2026-09-07",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images/AN-284AP-4-doss 11_page_28.png",
+  "result": "2.\n\n~~[XXX], au moins~~ pressés ~~[XXX] de venger les [XXX], [XXX]\nrecouvrer les droits, [XXX] et de se préparer une\nnouvelle existence,~~\n\n~~mais~~, où ~~[XXX]~~ plus pressée de recouvrer ses droits que\nde venger ses injures\n~~que d'en [XXX] le [XXX]~~, elle s'est attachée\nà connoître ses droits ~~[XXX]~~ et s'en assurer\nla jouissance par l'établissement d'une\nConstitution durable. ⊕ aussi la philosophie\ndu siècle, n'aura pas ~~[XXX]~~ inutilement\naccumulé les lumières à l'entour de nous, ~~[XXX]~~ ⊕ ainsi\nl'histoire [XXX] plus dans les générations suivantes le\n~~[XXX] notre peuple~~\n[XXX] d'un bien [XXX] les\n~~[XXX]~~ [XXX] ~~[XXX]~~ [XXX], ~~[XXX]~~\npour les autres peuples ? ; [XXX] notre exemple\ninfluera sur le sort de l'Europe, et\npar elle, sur les destinées du monde. #\nquelle [XXX] pour le nom françois\n~~dans la suite des siècles~~\nCette révolution immortelle où l'ascendant\nde votre vertu ~~[XXX]~~ brillera comme l'époque du\nréveil du genre humain.\n\n---\n\n~~[XXX]~~\ndroits, elle ~~a [XXX]~~ s'est [XXX]\n~~à~~ la raison, ~~[XXX]~~\n~~[XXX]~~\n~~[XXX] avoir des~~\n~~[XXX] d'une Constitution~~\n~~durable, [XXX]~~\nà la tête de la [XXX]\npour [XXX] pour [XXX],\nen lui demandant de\noffrir les avantages par\nl'établissᵗ d'une constitution\nvraiment sociale.\n\n---\n\n\\# ~~[XXX]~~ [XXX] laissez\n~~[XXX]~~ imagination errer\nsur la suite des événemens\n[XXX] le présent ~~[XXX]~~\n[XXX] l'avenir [XXX]\n~~[XXX]~~ [XXX]\n[XXX] : quelle…\n",
+  "timestamp": "2026-09-07T05:53:35.387885+00:00",
+  "model_info": {
+    "method": "Lecture visuelle directe de la page et de trois agrandissements dans la session Codex ; aucun appel API au benchmark.",
+    "model_version": "Non exposée de manière vérifiable par la session.",
+    "reference_consulted_before_transcription": false,
+    "image_sha256": "d2f12161bae11f95333f0b23ee1f62554be9e00751d16b5b2bacd9463923c527",
+    "status": "Première passe partielle, sans validation humaine.",
+    "reading_order": "Corps principal, marge gauche supérieure, marge gauche inférieure ; séparateurs Markdown éditoriaux. Les ajouts interlinéaires sont intégrés près de leur point de lecture estimé.",
+    "uncertainty_marker": "[XXX]",
+    "uncertainty_marker_count": 44
+  },
+  "usage": null,
+  "latency": null,
+  "evaluation": {
+    "reference": "transcriptions_de_référence/AN-284AP-4-doss 11_page_28.md",
+    "metric": "metrics.calculate_wer",
+    "wer": 4.214285714285714,
+    "reference_words_cleaned": 42,
+    "hypothesis_words_cleaned": 203,
+    "reference_uncertainty_marker_count": 30,
+    "limitation": "Référence très lacunaire : la suppression des [XXX] transforme de nombreuses lectures supplémentaires en insertions. La métrique conserve aussi les marques de rature et les séparateurs éditoriaux. Ce WER ne permet pas de juger la justesse de ces lectures."
+  }
+}

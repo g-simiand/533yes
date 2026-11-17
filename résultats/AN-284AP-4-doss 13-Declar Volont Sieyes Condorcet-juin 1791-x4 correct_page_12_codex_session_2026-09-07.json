@@ -1,0 +1,24 @@
+{
+  "model": "codex/session-2026-09-07",
+  "editeur": "openai",
+  "modele_type": "propriétaire",
+  "image": "images/AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.png",
+  "result": "16\n\nNous Soussignés, adhérons pleinement aux cinq\narticles de la présente déclaration\n\nN°. tous les patriotes qui auront reçu des\nSignatures sur leur exemplaire, sont priés de les\ncertifier véritables, et d'envoyer l'exemplaire\nà l'un des dépôts Suivants :\n",
+  "timestamp": "2026-09-07T05:48:53.957177+00:00",
+  "model_info": {
+    "method": "Lecture visuelle directe dans la session Codex ; aucun appel au pipeline API du benchmark.",
+    "model_version": "Non exposée de manière vérifiable par la session.",
+    "reference_consulted_before_transcription": false,
+    "image_sha256": "8db179814aba3aa01e7ef25360fe0c881f53d61a1cd0a7007ec1f9e01bf1dfc3",
+    "status": "Première passe, sans validation humaine."
+  },
+  "usage": null,
+  "latency": null,
+  "evaluation": {
+    "reference": "transcriptions_de_référence/AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12.md",
+    "metric": "metrics.calculate_wer",
+    "wer": 0.16666666666666666,
+    "reference_words_cleaned": 36,
+    "hypothesis_words_cleaned": 39
+  }
+}

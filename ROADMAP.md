@@ -47,6 +47,8 @@ Pas de deadline externe
 
 ### Backlog
 
+- [x] Effectuer une passe HTR sur une page difficile : dossier 11, page 28 (7 septembre 2026) ; transcription partielle et limites de l'évaluation dans `rapports/passe_htr_difficile_2026-09-07.md`
+- [x] Effectuer une passe HTR visuelle sur la page 12 du dossier 13 (7 septembre 2026) ; transcription et évaluation dans `rapports/passe_htr_2026-09-07.md`
 - [ ] Tester d'autres modèles récents (Claude 4.5, GPT-5, Llama 4, etc.)
 - [ ] Automatiser le pipeline (script CLI au lieu de notebook)
 - [ ] Intégrer les résultats dans Bench_HTR (framework réutilisable sur D:)
@@ -56,4 +58,4 @@ Pas de deadline externe
 - python-project
 - ocr-htr
 
-*Derniere mise a jour : 2026-07-27*
+*Derniere mise a jour : 2026-09-07*
