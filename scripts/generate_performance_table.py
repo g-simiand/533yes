@@ -15,6 +15,7 @@ import pandas as pd
 import numpy as np
 import datetime
 import sys
+import argparse
 
 # Add the parent directory to sys.path to import modules
 sys.path.append(str(Path(__file__).parent.parent))
@@ -49,6 +50,9 @@ PAGE_DESCRIPTIONS = {
     "AN-284AP-18-fasc ms extr Moniteur carriere Sieyes-1789-1799_page_15": "Extrait du Moniteur, belle écriture, deux colonnes, un § centré",
     "AN-284AP-4-doss 10_page_30": "Lettre, écriture nette",
 }
+
+# Images exclues du calcul WER (tout en les gardant dans le corpus)
+EXCLUDED_FROM_WER = ["AN-284AP-4-doss 11_page_36"]
 
 # Description par défaut pour les pages sans description spécifique
 DEFAULT_PAGE_DESCRIPTION = "Document d'archives historiques"
@@ -100,14 +104,12 @@ def calculate_wer_for_file(result_file, reference_dir):
         with open(result_file, 'r', encoding='utf-8') as f:
             result_data = json.load(f)
         
-        # Extraire le nom de l'image
-        image_name = Path(result_data.get('image', '')).stem
-        
-        # Liste des images à exclure du calcul WER (tout en les gardant dans le corpus)
-        excluded_from_wer = ["AN-284AP-4-doss 11_page_36"]
+        # Extraire le nom de l'image (gérer les chemins Windows et Unix)
+        image_path = result_data.get('image', '').replace('\\', '/')
+        image_name = Path(image_path).stem
         
         # Si l'image est dans la liste des exclusions, on retourne -1 comme valeur WER spéciale
-        if image_name in excluded_from_wer:
+        if image_name in EXCLUDED_FROM_WER:
             return {
                 'image': image_name,
                 'model': Path(result_file).stem.replace(f"{image_name}_", ""),
@@ -142,23 +144,44 @@ def calculate_wer_for_file(result_file, reference_dir):
         print(f"Erreur lors du traitement de {result_file}: {str(e)}")
         return None
 
-def generate_performance_table():
+def load_results_from_wer_data(wer_data_file):
+    """
+    Construit la liste de résultats à partir d'un fichier data/wer_data.json
+    ({image: {modèle: wer}}), en appliquant les mêmes exclusions que
+    calculate_wer_for_file (WER = -1 pour les images de EXCLUDED_FROM_WER).
+    """
+    with open(wer_data_file, 'r', encoding='utf-8') as f:
+        wer_data = json.load(f)
+    results = []
+    for image_name, models in wer_data.items():
+        for model, wer in models.items():
+            if image_name in EXCLUDED_FROM_WER:
+                wer = -1
+            results.append({'image': image_name, 'model': model, 'wer': wer})
+    return results
+
+def generate_performance_table(wer_data_file=None):
     """
     Génère un tableau comparatif des performances des modèles par page.
+    Si wer_data_file est fourni, les WER sont lus dans ce fichier au lieu
+    d'être recalculés depuis le dossier 'résultats'.
     """
-    # Collecter tous les fichiers de résultats
-    result_files = list(RESULTS_DIR.glob("*.json"))
-    
-    if not result_files:
-        print("Aucun fichier de résultat trouvé.")
-        return
-    
-    # Calculer le WER pour chaque fichier
-    results = []
-    for result_file in result_files:
-        result = calculate_wer_for_file(result_file, REFERENCE_DIR)
-        if result:
-            results.append(result)
+    if wer_data_file:
+        results = load_results_from_wer_data(wer_data_file)
+    else:
+        # Collecter tous les fichiers de résultats
+        result_files = list(RESULTS_DIR.glob("*.json"))
+
+        if not result_files:
+            print("Aucun fichier de résultat trouvé.")
+            return
+
+        # Calculer le WER pour chaque fichier
+        results = []
+        for result_file in result_files:
+            result = calculate_wer_for_file(result_file, REFERENCE_DIR)
+            if result:
+                results.append(result)
     
     if not results:
         print("Aucun résultat valide trouvé.")
@@ -188,7 +211,7 @@ def generate_performance_table():
             descriptions[image] = PAGE_DESCRIPTIONS.get(image, DEFAULT_PAGE_DESCRIPTION)
     
     # Formater les valeurs WER
-    formatted_df = pivot_df.applymap(lambda x: f"{x:.3f}" if pd.notnull(x) else "N/A")
+    formatted_df = pivot_df.map(lambda x: f"{x:.3f}" if pd.notnull(x) else "N/A")
     
     # Obtenir la date et l'heure actuelles
     now = datetime.datetime.now()
@@ -249,15 +272,15 @@ def generate_performance_table():
         else:
             return 'background-color: #ffc7ce; color: #9c0006'
     
-    # Appliquer la mise en forme conditionnelle
-    styled_df = html_df.style.map(color_wer).format(lambda x: "Excluded" if x == -1 else "{:.3f}".format(x) if not pd.isna(x) else "N/A")
+    # Appliquer la mise en forme conditionnelle (simplifiée pour compatibilité)
+    styled_df = html_df.style.format(lambda x: "Excluded" if x == -1 else "{:.3f}".format(x) if not pd.isna(x) else "N/A")
     
     # Créer un DataFrame avec les descriptions
     desc_df = pd.DataFrame({"Description": descriptions}, index=pivot_df.index)
     
     # Concaténer les DataFrames
     display_df = pd.concat([desc_df, html_df], axis=1)
-    styled_display_df = display_df.style.map(lambda x: color_wer(x) if not isinstance(x, str) else "", subset=html_df.columns).format("{:.3f}", subset=html_df.columns)
+    styled_display_df = display_df.style.format("{:.3f}", subset=html_df.columns)
     
     # Générer le HTML
     html_content = f"""
@@ -326,4 +349,11 @@ def generate_performance_table():
     return pivot_df
 
 if __name__ == "__main__":
-    generate_performance_table() 
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--wer-data", help="Fichier JSON {image: {modèle: wer}} (ex. data/wer_data.json) à utiliser au lieu de recalculer depuis 'résultats'")
+    parser.add_argument("--output-dir", help="Dossier de sortie (défaut : ./rapports)")
+    args = parser.parse_args()
+    if args.output_dir:
+        OUTPUT_DIR = Path(args.output_dir)
+        OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    generate_performance_table(args.wer_data) 

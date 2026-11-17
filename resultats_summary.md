@@ -1,4 +1,4 @@
-# Résultats de transcription - Généré le 07/05/2026 11:49:29
+# Résultats de transcription - Généré le 03/07/2026 19:25:27
 
 | Modèle | Éditeur | Type de modèle | Nombre d'images | Coût total ($) | Coût moyen ($) | WER min | WER médian | WER max |
 | --- | --- | --- | --- | ---: | ---: | ---: | ---: | ---: |
