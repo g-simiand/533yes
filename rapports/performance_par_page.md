@@ -1,4 +1,4 @@
-# Performance des modèles HTR par page (WER) - Généré le 17/11/2026 15:39:28
+# Performance des modèles HTR par page (WER) - Généré le 17/11/2026 15:58:44
 
 Plus le WER est bas, meilleure est la performance.
 
@@ -13,13 +13,13 @@ Plus le WER est bas, meilleure est la performance.
 | AN-284AP-4-doss 11_page_17 | Brouillon, écriture rapide | 0.909 | N/A | 1.000 | 1.000 | 1.000 | 2.636 | 2.455 | 2.091 | 2.697 | 2.727 | 2.939 | 2.818 | 3.091 | 2.727 | 2.515 | 26.182 | 50.303 | 31.697 | 3.727 | 3.545 | 42.091 | 2.515 |
 | AN-284AP-4-doss 11_page_28 | Brouillon, deux colonnes, page barrée | 1.095 | N/A | 1.000 | 1.310 | 1.000 | 3.024 | 5.071 | 4.048 | 4.952 | 5.143 | 5.238 | 5.262 | 5.810 | 3.095 | 40.881 | 20.405 | 8.119 | 19.762 | 2.310 | 19.286 | 38.929 | 79.286 |
 | AN-284AP-4-doss 11_page_29 | Brouillon, des rayures | 0.722 | N/A | 1.000 | 1.025 | 1.000 | 2.089 | 1.924 | 2.165 | 2.342 | 2.367 | 2.481 | 2.506 | 2.696 | 41.203 | 2.405 | 15.038 | 3.329 | 14.025 | 12.405 | 1.797 | 4.848 | 65.139 |
-| AN-284AP-4-doss 11_page_36 | Page blanche | 0.000 | N/A | 0.000 | 1.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 1.000 | 0.000 | 1.000 | 1.000 | 0.000 | 0.000 | 1.000 | 1.000 | 0.000 |
+| AN-284AP-4-doss 11_page_36 | Page blanche | Excluded | N/A | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded | Excluded |
 | AN-284AP-4-doss 11_page_39 | Document d'archives historiques | 0.797 | N/A | 1.000 | 0.973 | 1.000 | 0.622 | 0.595 | 0.993 | 0.953 | 1.061 | 1.054 | 1.095 | 1.176 | 0.743 | 1.034 | 1.000 | 0.858 | 5.291 | 0.858 | 2.439 | 5.642 | 1.000 |
 | AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_12 | Brouillon, barre verticale, deux § distincts | 0.750 | 1.028 | 1.000 | 0.972 | 1.000 | 0.583 | 0.694 | 1.000 | 0.667 | 1.000 | 0.917 | 1.028 | 1.139 | 0.778 | 1.083 | 1.000 | 0.639 | 0.528 | 0.750 | 0.944 | 18.667 | 1.000 |
 | AN-284AP-4-doss 13-Declar Volont Sieyes Condorcet-juin 1791-x4 correct_page_16 | Double page imprimée, annotations manuscrites en bas de page | 0.074 | 0.234 | 1.000 | 0.987 | 1.000 | 0.328 | 0.580 | 0.913 | 0.987 | 0.982 | 0.969 | 0.990 | 0.959 | 0.191 | 0.328 | 0.242 | 0.333 | 0.524 | 0.239 | 9.206 | 7.618 | 0.898 |
 | AN-284AP-4-doss 14_page_27 | Ecriture dans le seul quart Ne, écriture rapide | 0.556 | 0.756 | 1.000 | 0.978 | 1.000 | 0.711 | 0.600 | 1.089 | 0.778 | 0.956 | 0.911 | 1.044 | 1.400 | 0.800 | 0.956 | 1.000 | 0.444 | 0.511 | 0.689 | 1.133 | 14.533 | 0.867 |
 | AN-284AP-4-doss 14_page_9 | Brouillon, biffure, paragraphes et titres | 0.664 | N/A | 1.000 | 0.969 | 1.000 | 0.711 | 0.422 | 1.000 | 0.617 | 0.867 | 0.852 | 0.969 | 1.062 | 0.656 | 0.938 | 0.625 | 0.719 | 0.531 | 0.773 | 0.930 | 35.219 | 1.562 |
-| Moyenne |  | 0.670 | 0.781 | 0.933 | 1.002 | 1.016 | 1.089 | 1.240 | 1.390 | 1.391 | 1.489 | 1.523 | 1.593 | 1.782 | 3.816 | 4.745 | 6.141 | 6.472 | 6.838 | 10.530 | 11.789 | 14.695 | 18.479 |
+| Moyenne |  | 0.718 | 0.781 | 1.000 | 1.002 | 1.089 | 1.167 | 1.329 | 1.490 | 1.491 | 1.595 | 1.632 | 1.707 | 1.910 | 4.017 | 5.084 | 6.509 | 6.863 | 7.326 | 11.283 | 12.560 | 15.673 | 19.799 |
 
 ## Note
 
