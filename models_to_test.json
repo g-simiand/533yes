@@ -26,5 +26,5 @@
     ["meta-llama/llama-3.2-11b-vision-instruct", "open"],
     ["google/gemini-1.5-pro", "proprietary"],
     ["google/gemini-1.5-flash", "proprietary"],
-    ["google/gemini-3-flash", "proprietary"]
+    ["google/gemini-3-flash-preview", "proprietary"]
 ]

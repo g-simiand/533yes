@@ -33,7 +33,7 @@ Pas de deadline externe
 ### V1.2 — Benchmark Gemini 3 via OpenRouter (À FAIRE)
 
 - [ ] Ajouter `google/gemini-3-pro` au benchmark via OpenRouter
-- [ ] Ajouter `google/gemini-3-flash` au benchmark via OpenRouter
+- [ ] Ajouter `google/gemini-3-flash-preview` au benchmark via OpenRouter
 - [ ] Comparer avec les résultats Gemini 2.0 Flash existants (WER médian: 0.694)
 - [ ] Mettre à jour `resultats_summary.md` et les rapports
 
