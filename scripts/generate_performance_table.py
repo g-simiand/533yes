@@ -16,9 +16,9 @@ import numpy as np
 import datetime
 import sys
 
-# Add the parent directory to sys.path to import utils
+# Add the parent directory to sys.path to import modules
 sys.path.append(str(Path(__file__).parent.parent))
-from utils import calculate_wer
+from metrics import calculate_wer
 
 # Chemins des dossiers
 RESULTS_DIR = Path("./résultats")
